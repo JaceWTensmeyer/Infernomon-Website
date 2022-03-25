@@ -2,7 +2,7 @@
     {
         "id": 1,
         "attackCategory": "Auto",
-        "damageCategory": "Random",
+        "damageCategory": "",
         "name": "Poisonous Bite",
         "description":  "3x stacking Toxic damage over time",
         "castType": "target",
@@ -19,7 +19,7 @@
     {
         "id": 2,
         "attackCategory": "Natural",
-        "damageCategory": "Physical",
+        "damageCategory": "",
         "name": "Sticky Web",
         "description": "Aimed circular AOE that slows enemies and does damage over time.",
         "castType": "aimCircle",
@@ -37,7 +37,7 @@
     {
         "id": 3,
         "attackCategory": "Natural",
-        "damageCategory": "Physical",
+        "damageCategory": "",
         "name": "Toxic Fang",
         "description": "Single target attack that does instant damage plus damage over time.",
         "castType": "target",
@@ -54,7 +54,7 @@
     {
         "id": 4,
         "attackCategory": "Auto",
-        "damageCategory": "Random",
+        "damageCategory": "",
         "name": "Aqua Daze",
         "description":  "Small stun every 3rd hit",
         "castType": "target",
@@ -71,7 +71,7 @@
     {
         "id": 5,
         "attackCategory": "Natural",
-        "damageCategory": "Physical",
+        "damageCategory": "",
         "name": "Bubble Shield",
         "description":  "Gain a shield, absorbing X amount of Damage",
         "castType": "self",
@@ -88,7 +88,7 @@
     {
         "id": 6,
         "attackCategory": "Natural",
-        "damageCategory": "Physical",
+        "damageCategory": "",
         "name": "Fish Slap",
         "description":  "Stun the target and also does a lot of damage",
         "castType": "target",
