@@ -1,0 +1,27 @@
+.container {
+  width: 60%;
+  display: inline-block;
+  border-radius: 25px;
+  margin-top: 20px;
+  height: 80vh;
+  overflow: auto;
+}
+
+.section {
+  background-color: #7133ff;
+  width: 90%;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.sectionHeader {
+  font-size: 25px;
+  text-align: left;
+}
+
+.sectionText {
+  text-align: left;
+}
