@@ -1,1 +1,0 @@
-export {default as Majors } from './Majors.jsx'
