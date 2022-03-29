@@ -99,7 +99,7 @@
 		"attackCategory": "Natural",
 		"damageCategory": "",
 		"drCategory": "Stun",
-		"name": "Fish Slap",
+		"name": "Swamp Slap",
 		"description": "Stun the target and also does a lot of damage",
 		"castType": "target",
 		"type": "Water",
