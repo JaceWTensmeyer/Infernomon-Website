@@ -5,15 +5,14 @@ import { InfernomonCard } from '../InfernomonCard';
 
 import './Infernomon.scss';
 
-function Infernomon() {
+const Infernomon = () => {
 	return (
 		<div className='infernomonContainer'>
-			{console.log(InfernomonJSON)}
 			{InfernomonJSON.map((inf) => (
-				<InfernomonCard />
+				<InfernomonCard infernomon={inf} />
 			))}
 		</div>
 	);
-}
+};
 
 export default Infernomon;

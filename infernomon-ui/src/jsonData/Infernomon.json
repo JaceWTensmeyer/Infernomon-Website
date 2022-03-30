@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Num 1",
+		"imageName": "Num1.png",
 		"number": 1,
 		"description": "Spider that is a fast, hard hitting attacker. First evolution in family.",
 		"rarity": "Rare",
@@ -61,6 +62,7 @@
 	},
 	{
 		"name": "Num 4",
+		"imageName": "Num4.png",
 		"number": 4,
 		"description": "Bi-pedal toad",
 		"rarity": "Rare",
@@ -121,6 +123,7 @@
 	},
 	{
 		"name": "Num 7",
+		"imageName": "Num7.png",
 		"number": 7,
 		"description": "Fiery Bat",
 		"rarity": "Rare",
