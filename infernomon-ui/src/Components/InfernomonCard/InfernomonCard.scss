@@ -1,21 +1,43 @@
 .infernomonCardContainer {
-	text-align: center;
-	margin: 10px;
-	background-color: #1c4c4b;
-	width: 500px;
-	height: 600px;
-	float: left;
+  text-align: center;
+  margin: 10px;
+  background-color: #1c4c4b;
+  width: 500px;
+  height: 600px;
+  float: left;
+  border-radius: 20px;
 }
 
 .name {
-	font-size: 30px;
+  font-size: 30px;
+  margin: 5px;
 }
 
 .infernomonImg {
-	background-color: #1b313e;
-	border-radius: 15px;
+  background-color: #1b313e;
+  border-radius: 15px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.type {
+  width: 25%;
+  float: left;
+  text-align: left;
 }
 
 .stats {
-	width: 200px;
+  margin-top: 15px;
+  width: 25%;
+  float: left;
+  > div {
+    text-align: left;
+  }
+}
+
+.statBars {
+  margin-top: 15px;
+  width: 25%;
+  float: left;
 }
