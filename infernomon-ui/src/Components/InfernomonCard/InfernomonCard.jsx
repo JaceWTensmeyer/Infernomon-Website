@@ -19,9 +19,9 @@ const getTypeColor = (type) => {
 		case 'Blight':
 			return 'green';
 		case 'Electric':
-			return 'yellow';
+			return 'gold';
 		case 'Wind':
-			return 'lightBlue';
+			return 'cornflowerBlue';
 		case 'Earth':
 			return 'goldenrod';
 		case 'Arcane':
