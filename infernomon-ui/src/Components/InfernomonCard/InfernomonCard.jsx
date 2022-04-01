@@ -3,10 +3,10 @@ import React from 'react';
 import './InfernomonCard.scss';
 
 const getStatColor = (stat) => {
-	if (stat < 45) return 'crimson';
-	if (stat < 70) return 'orange';
-	if (stat < 100) return 'yellow';
-	if (stat < 130) return 'green';
+	if (stat < 40) return 'crimson';
+	if (stat < 65) return 'orange';
+	if (stat < 90) return 'yellow';
+	if (stat < 115) return 'green';
 	return 'teal';
 };
 
@@ -164,7 +164,6 @@ const InfernomonCard = ({ infernomon }) => {
 						float: 'left',
 						textAlign: 'left',
 						paddingLeft: '10px',
-						paddingRight: '10px',
 						width: '20%',
 					}}
 				>
@@ -189,7 +188,6 @@ const InfernomonCard = ({ infernomon }) => {
 					style={{
 						float: 'left',
 						paddingLeft: '10px',
-						paddingRight: '10px',
 						textAlign: 'left',
 						width: '20%',
 					}}

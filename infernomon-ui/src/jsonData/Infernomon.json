@@ -18,12 +18,14 @@
 		"defense": 50,
 		"spAttack": 40,
 		"spDefense": 45,
-		"speed": 70
+		"speed": 70,
+		"height": 2,
+		"weight": 22
 	},
 	{
 		"name": "Num 2",
 		"number": 2,
-		"description": "Spider that is a fast, hard hitting attacker. Second evolution in family.",
+		"description": "The 2nd evolution in the spider starter family.  Has quick movement and has a strong venomous bite.",
 		"rarity": "Rare",
 		"role": "Melee Assassin",
 		"type1": "Blight",
@@ -38,12 +40,14 @@
 		"defense": 65,
 		"spAttack": 60,
 		"spDefense": 60,
-		"speed": 85
+		"speed": 85,
+		"height": 3.2,
+		"weight": 45
 	},
 	{
 		"name": "Num 3",
 		"number": 3,
-		"description": "Spider that is a fast, hard hitting attacker. Second evolution in family.",
+		"description": "The 3rd and final evolution in the spider starter family.  Very fast with hard hitting Toxic bites and can shoot Blight webs across the ground that slow enemies down.",
 		"rarity": "Rare",
 		"role": "Melee Assassin",
 		"type1": "Blight",
@@ -58,13 +62,14 @@
 		"defense": 85,
 		"spAttack": 75,
 		"spDefense": 80,
-		"speed": 110
+		"speed": 110,
+		"height": 4.7
 	},
 	{
 		"name": "Num 4",
 		"imageName": "Num4.png",
 		"number": 4,
-		"description": "Bi-pedal toad",
+		"description": "A Water type frog that is friendly and makes a great companion for new trainers.",
 		"rarity": "Rare",
 		"role": "Melee Utility",
 		"type1": "Water",
@@ -79,12 +84,14 @@
 		"defense": 65,
 		"spAttack": 40,
 		"spDefense": 50,
-		"speed": 45
+		"speed": 45,
+		"height": 2.5,
+		"weight": 24
 	},
 	{
 		"name": "Num 5",
 		"number": 5,
-		"description": "Bi-pedal toad",
+		"description": "The 2nd evolution in the frog starter family.  Has good defensive skill and a balanced offense.",
 		"rarity": "Rare",
 		"role": "Melee Utility",
 		"type1": "Water",
@@ -99,12 +106,14 @@
 		"defense": 80,
 		"spAttack": 55,
 		"spDefense": 65,
-		"speed": 60
+		"speed": 60,
+		"height": 3.4,
+		"weight": 60
 	},
 	{
 		"name": "Num 6",
 		"number": 6,
-		"description": "Bi-pedal toad",
+		"description": "The 3rd and final evolution of the frog starter family.  It now walks on 2 feet with a huncher over posture and is known for using a defensive bubble and stunning its opponents by slapping them with its big hands.",
 		"rarity": "Rare",
 		"role": "Melee Utility",
 		"type1": "Water",
@@ -119,13 +128,15 @@
 		"defense": 85,
 		"spAttack": 80,
 		"spDefense": 100,
-		"speed": 75
+		"speed": 75,
+		"height": 5.7,
+		"weight": 180
 	},
 	{
 		"name": "Num 7",
 		"imageName": "Num7.png",
 		"number": 7,
-		"description": "Fiery Bat",
+		"description": "A Fire/Wind type bat that is friendly and makes a great companion for new trainers.",
 		"rarity": "Rare",
 		"role": "Ranged Assassin",
 		"type1": "Fire",
@@ -140,12 +151,14 @@
 		"defense": 40,
 		"spAttack": 70,
 		"spDefense": 45,
-		"speed": 70
+		"speed": 70,
+		"height": 2.2,
+		"weight": 18
 	},
 	{
 		"name": "Num 8",
 		"number": 8,
-		"description": "Fiery Bat",
+		"description": "The 2nd evolution in the bat starter family.  A fast flyier that hits had from a distance.",
 		"rarity": "Rare",
 		"role": "Ranged Assassin",
 		"type1": "Fire",
@@ -160,12 +173,14 @@
 		"defense": 55,
 		"spAttack": 85,
 		"spDefense": 65,
-		"speed": 80
+		"speed": 80,
+		"height": 3.6,
+		"weight": 40
 	},
 	{
 		"name": "Num 9",
 		"number": 9,
-		"description": "Fiery Bat",
+		"description": "The 3rd and final evolution in the bat starter family.  It is known for burning its opponents with sonic flames and hot wind.",
 		"rarity": "Rare",
 		"role": "Ranged Assassin",
 		"type1": "Fire",
@@ -180,12 +195,14 @@
 		"defense": 80,
 		"spAttack": 110,
 		"spDefense": 85,
-		"speed": 100
+		"speed": 100,
+		"height": 5.0,
+		"weight": 90
 	},
 	{
 		"name": "Num 10",
 		"number": 10,
-		"description": "Small, sneaky goblin like creature",
+		"description": "Small, sneaky, goblin-like creature with sharp claws and evolves into #10",
 		"rarity": "Common",
 		"role": "Melee Assassin",
 		"type1": "Normal",
@@ -200,12 +217,14 @@
 		"defense": 60,
 		"spAttack": 50,
 		"spDefense": 50,
-		"speed": 70
+		"speed": 70,
+		"height": 2.2,
+		"weight": 20
 	},
 	{
 		"name": "Num 11",
 		"number": 11,
-		"description": "Small, sneaky goblin like creature",
+		"description": "A sneaky, goblin-like creature know for attacking unsuspecting victims with its large claws",
 		"rarity": "Common",
 		"role": "Melee Assassin",
 		"type1": "Normal",
@@ -220,12 +239,14 @@
 		"defense": 70,
 		"spAttack": 55,
 		"spDefense": 55,
-		"speed": 90
+		"speed": 90,
+		"height": 4.7,
+		"weight": 75
 	},
 	{
 		"name": "Num 12",
 		"number": 12,
-		"description": "Land bird that does good at finding the opponents weak spots",
+		"description": "A small, cute ostrich that like to scratch things with it talons.  Evolves into #13",
 		"rarity": "Common",
 		"role": "Melee Assassin",
 		"type1": "Wind",
@@ -240,12 +261,14 @@
 		"defense": 50,
 		"spAttack": 45,
 		"spDefense": 45,
-		"speed": 55
+		"speed": 55,
+		"height": 2.8,
+		"weight": 24
 	},
 	{
 		"name": "Num 13",
 		"number": 13,
-		"description": "Land bird that does good at finding the opponents weak spots",
+		"description": "A growing ostrich that is beginning to use its talons for attacking.  Evolves into #14",
 		"rarity": "Common",
 		"role": "Melee Assassin",
 		"type1": "Wind",
@@ -260,12 +283,14 @@
 		"defense": 65,
 		"spAttack": 55,
 		"spDefense": 65,
-		"speed": 70
+		"speed": 70,
+		"height": 3.7,
+		"weight": 55
 	},
 	{
 		"name": "Num 14",
 		"number": 14,
-		"description": "Land bird that does good at finding the opponents weak spots",
+		"description": "A final-evolution ostrich that punishes enemies with percision using its extremely sharp talons.",
 		"rarity": "Common",
 		"role": "Melee Assassin",
 		"type1": "Wind",
@@ -280,12 +305,14 @@
 		"defense": 80,
 		"spAttack": 60,
 		"spDefense": 75,
-		"speed": 90
+		"speed": 90,
+		"height": 5.6,
+		"weight": 90
 	},
 	{
 		"name": "Num 15",
 		"number": 15,
-		"description": "Aggresive mouse that likes to be close to allies.",
+		"description": "A physically aggresive mouse with a fiece, electric bite and likes to be close to its trainer. Evolves into #16",
 		"rarity": "Uncommon",
 		"role": "Melee Assassin",
 		"type1": "Electric",
@@ -300,12 +327,14 @@
 		"defense": 30,
 		"spAttack": 30,
 		"spDefense": 50,
-		"speed": 80
+		"speed": 80,
+		"height": 1.6,
+		"weight": 16
 	},
 	{
 		"name": "Num 16",
 		"number": 16,
-		"description": "Aggresive mouse that likes to keep allies at an arms distance",
+		"description": "A fully evolved aggresive mouse that jumps between multiple enemies at the speed of light. Prefers to be independent.",
 		"rarity": "Uncommon",
 		"role": "Melee Assassin",
 		"type1": "Electric",
@@ -325,7 +354,7 @@
 	{
 		"name": "Num 17",
 		"number": 17,
-		"description": "Fiery and bulky tortoise",
+		"description": "A small tortoise that loves playing in blistering hot temperatures.  Evolves into # 18",
 		"rarity": "Uncommon",
 		"role": "Tank",
 		"type1": "Earth",
@@ -340,12 +369,14 @@
 		"defense": 80,
 		"spAttack": 30,
 		"spDefense": 35,
-		"speed": 20
+		"speed": 20,
+		"height": 1.8,
+		"weight": 30
 	},
 	{
 		"name": "Num 18",
 		"number": 18,
-		"description": "Fiery and bulky tortoise",
+		"description": "The 2nd evolution in the tortoise family.  It can take a beating but also dishes out some decent damage.  Evolves into #19.",
 		"rarity": "Uncommon",
 		"role": "Tank",
 		"type1": "Earth",
@@ -360,12 +391,14 @@
 		"defense": 100,
 		"spAttack": 40,
 		"spDefense": 45,
-		"speed": 25
+		"speed": 25,
+		"height": 3.2,
+		"weight": 80
 	},
 	{
 		"name": "Num 19",
 		"number": 19,
-		"description": "Fiery and bulky tortoise",
+		"description": "The final evolution in the fiery tortoise family.  It punishes enemies with its hard, reflective shell.",
 		"rarity": "Uncommon",
 		"role": "Tank",
 		"type1": "Earth",
@@ -380,7 +413,9 @@
 		"defense": 130,
 		"spAttack": 50,
 		"spDefense": 60,
-		"speed": 30
+		"speed": 30,
+		"height": 4.7,
+		"weight": 330
 	},
 	{
 		"name": "Num 20",
