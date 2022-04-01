@@ -420,7 +420,7 @@
 	{
 		"name": "Num 20",
 		"number": 20,
-		"description": "Imp looking caster",
+		"description": "A small mischievous Imp that likes tinkering with its Acrane magic.",
 		"rarity": "Uncommon",
 		"role": "Ranged Assassin",
 		"type1": "Arcane",
@@ -435,12 +435,14 @@
 		"defense": 30,
 		"spAttack": 75,
 		"spDefense": 35,
-		"speed": 70
+		"speed": 70,
+        "height": 1.2,
+        "weight": 13
 	},
 	{
 		"name": "Num 21",
 		"number": 21,
-		"description": "Imp looking caster",
+		"description": "The 2nd evolution in the Imp family.  What it lakes in defense it makes up for in its offense.",
 		"rarity": "Uncommon",
 		"role": "Ranged Assassin",
 		"type1": "Arcane",
@@ -455,12 +457,14 @@
 		"defense": 35,
 		"spAttack": 105,
 		"spDefense": 45,
-		"speed": 95
+		"speed": 95,
+        "height": 3.1,
+        "weight": 35
 	},
 	{
 		"name": "Num 22",
 		"number": 22,
-		"description": "Imp looking caster",
+		"description": "The 3rd and final evolution in the Imp family.  This glass cannon takes a long time to cast but unleashes devistating damage.",
 		"rarity": "Uncommon",
 		"role": "Ranged Assassin",
 		"type1": "Arcane",
@@ -475,7 +479,9 @@
 		"defense": 40,
 		"spAttack": 130,
 		"spDefense": 60,
-		"speed": 120
+		"speed": 120,
+        "height": 4.7,
+        "weight": 60
 	},
 	{
 		"name": "Num 23",
