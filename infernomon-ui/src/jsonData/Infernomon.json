@@ -62,7 +62,7 @@
 		"defense": 85,
 		"spAttack": 75,
 		"spDefense": 80,
-		"speed": 110,
+		"speed": 130,
 		"height": 4.7
 	},
 	{
@@ -197,7 +197,7 @@
 		"spDefense": 85,
 		"speed": 100,
 		"height": 5.0,
-		"weight": 90
+		"weight": 120
 	},
 	{
 		"name": "Num 10",
@@ -436,13 +436,13 @@
 		"spAttack": 75,
 		"spDefense": 35,
 		"speed": 70,
-        "height": 1.2,
-        "weight": 13
+		"height": 1.2,
+		"weight": 13
 	},
 	{
 		"name": "Num 21",
 		"number": 21,
-		"description": "The 2nd evolution in the Imp family.  What it lakes in defense it makes up for in its offense.",
+		"description": "The 2nd evolution in the Imp family.  What it lakes in defense it makes up for in offense.",
 		"rarity": "Uncommon",
 		"role": "Ranged Assassin",
 		"type1": "Arcane",
@@ -458,8 +458,8 @@
 		"spAttack": 105,
 		"spDefense": 45,
 		"speed": 95,
-        "height": 3.1,
-        "weight": 35
+		"height": 3.1,
+		"weight": 35
 	},
 	{
 		"name": "Num 22",
@@ -480,13 +480,13 @@
 		"spAttack": 130,
 		"spDefense": 60,
 		"speed": 120,
-        "height": 4.7,
-        "weight": 60
+		"height": 4.7,
+		"weight": 60
 	},
 	{
 		"name": "Num 23",
 		"number": 23,
-		"description": "Tanky Boar",
+		"description": "A small, chubby, playful boar with small tusks that likes to wrestle.",
 		"rarity": "Common",
 		"role": "Tank",
 		"type1": "Normal",
@@ -501,12 +501,14 @@
 		"defense": 65,
 		"spAttack": 35,
 		"spDefense": 70,
-		"speed": 55
+		"speed": 55,
+		"height": 2.1,
+		"weight": 36
 	},
 	{
 		"name": "Num 24",
 		"number": 24,
-		"description": "Tanky Boar",
+		"description": "A large, fully evolved, fat, aggresive boar that can take a beating and wounds opponents with its large tusks.",
 		"rarity": "Common",
 		"role": "Tank",
 		"type1": "Normal",
@@ -521,12 +523,14 @@
 		"defense": 90,
 		"spAttack": 45,
 		"spDefense": 95,
-		"speed": 70
+		"speed": 70,
+		"height": 4.7,
+		"weight": 280
 	},
 	{
 		"name": "Num 25",
 		"number": 25,
-		"description": "Mushroom animal that supports allies",
+		"description": "A small plant animal with mushrooms sprouting all over its body.  It is overly protective of its allies.",
 		"rarity": "Common",
 		"role": "Ranged Support",
 		"type1": "Blight",
@@ -541,12 +545,14 @@
 		"defense": 60,
 		"spAttack": 70,
 		"spDefense": 60,
-		"speed": 55
+		"speed": 55,
+		"height": 1.3,
+		"weight": 15
 	},
 	{
 		"name": "Num 26",
 		"number": 26,
-		"description": "Mushroom animal that supports allies",
+		"description": "A fully evolved mushroom animal that throws out big heals to its allies and would sacrifice itself for others.",
 		"rarity": "Common",
 		"role": "Ranged Support",
 		"type1": "Blight",
@@ -561,12 +567,14 @@
 		"defense": 75,
 		"spAttack": 85,
 		"spDefense": 75,
-		"speed": 70
+		"speed": 70,
+		"height": 3.9,
+		"weight": 60
 	},
 	{
 		"name": "Num 27",
 		"number": 27,
-		"description": "Anubis-like ranged caster",
+		"description": "A bi-pedal, Anubis-like caster that carries a staff which it uses to play with the earth and sand.",
 		"rarity": "Common",
 		"role": "Ranged Assassing",
 		"type1": "Earth",
@@ -581,12 +589,14 @@
 		"defense": 45,
 		"spAttack": 80,
 		"spDefense": 60,
-		"speed": 65
+		"speed": 65,
+		"height": 2.8,
+		"weight": 27
 	},
 	{
 		"name": "Num 28",
 		"number": 28,
-		"description": "Anubis-like ranged caster",
+		"description": "Fully evolved Anubis caster that punishes opponents with sand attacks.",
 		"rarity": "Common",
 		"role": "Ranged Assassing",
 		"type1": "Earth",
@@ -601,12 +611,14 @@
 		"defense": 60,
 		"spAttack": 95,
 		"spDefense": 75,
-		"speed": 80
+		"speed": 80,
+		"height": 4.7,
+		"weight": 75
 	},
 	{
 		"name": "Num 29",
 		"number": 29,
-		"description": "Bi Pedal Aligator",
+		"description": "A small alligator that looks cute and harmless but my catch you off guard with an electric bite.",
 		"rarity": "Common",
 		"role": "Melee Assassin",
 		"type1": "Electric",
@@ -621,12 +633,14 @@
 		"defense": 45,
 		"spAttack": 35,
 		"spDefense": 35,
-		"speed": 55
+		"speed": 55,
+		"height": 1.0,
+		"weight": 18
 	},
 	{
 		"name": "Num 30",
 		"number": 30,
-		"description": "Bi Pedal Aligator",
+		"description": "The 2nd evolution in the electric alligator family.  It likes to be up in the middle of a fight and has a balance fighting style.",
 		"rarity": "Common",
 		"role": "Melee Assassin",
 		"type1": "Electric",
@@ -641,12 +655,14 @@
 		"defense": 60,
 		"spAttack": 45,
 		"spDefense": 50,
-		"speed": 75
+		"speed": 75,
+		"height": 2.8,
+		"weight": 42
 	},
 	{
 		"name": "Num 31",
 		"number": 31,
-		"description": "Bi Pedal Aligator",
+		"description": "The 3rd and final evolution in the electric alligator Bi-pedal Aligator.  It prefers to alternate between electric bites and water punches.",
 		"rarity": "Common",
 		"role": "Melee Assassin",
 		"type1": "Electric",
@@ -661,12 +677,14 @@
 		"defense": 75,
 		"spAttack": 60,
 		"spDefense": 65,
-		"speed": 90
+		"speed": 90,
+		"height": 5.3,
+		"weight": 110
 	},
 	{
 		"name": "Num 32",
 		"number": 32,
-		"description": "Tanky gas cloud",
+		"description": "A small creature surrounded in Toxic gas.  It tries to make friends, which can be difficult sometimes to to its overwhelming fumes.",
 		"rarity": "Common",
 		"role": "Tank",
 		"type1": "Toxic",
@@ -681,12 +699,14 @@
 		"defense": 65,
 		"spAttack": 55,
 		"spDefense": 85,
-		"speed": 30
+		"speed": 30,
+		"height": 2.4,
+		"weight": 30
 	},
 	{
 		"name": "Num 33",
 		"number": 33,
-		"description": "Tanky gas cloud",
+		"description": "Final evolution that is tanky and protects its allies by overwhelming its opponents with its toxic fumes",
 		"rarity": "Common",
 		"role": "Tank",
 		"type1": "Toxic",
@@ -701,12 +721,14 @@
 		"defense": 80,
 		"spAttack": 65,
 		"spDefense": 120,
-		"speed": 40
+		"speed": 40,
+		"height": 5.0,
+		"weight": 210
 	},
 	{
 		"name": "Num 34",
 		"number": 34,
-		"description": "Multi-Arm monster",
+		"description": "A 6-armed monster that likes to be up in the action and group enmies together by pulling them in with its extendable arms.",
 		"rarity": "Uncommon",
 		"role": "Melee Utility",
 		"type1": "Toxic",
@@ -721,12 +743,14 @@
 		"defense": 90,
 		"spAttack": 65,
 		"spDefense": 80,
-		"speed": 75
+		"speed": 75,
+		"height": 5.6,
+		"weight": 160
 	},
 	{
 		"name": "Num 35",
 		"number": 35,
-		"description": "Sand worm monster",
+		"description": "Sand worm monster that blinds its opponents with pestering sand attacks.",
 		"rarity": "Uncommon",
 		"role": "Melee Utility",
 		"type1": "Earth",
@@ -741,12 +765,14 @@
 		"defense": 80,
 		"spAttack": 90,
 		"spDefense": 90,
-		"speed": 75
+		"speed": 75,
+		"height": 6.8,
+		"weight": 240
 	},
 	{
 		"name": "Num 36",
 		"number": 36,
-		"description": "Mechanical monster",
+		"description": "Mechanical monster that generates electric shields uses chaining electric powers to give its allies.",
 		"rarity": "Uncommon",
 		"role": "Melee Utility",
 		"type1": "Electric",
@@ -761,12 +787,14 @@
 		"defense": 100,
 		"spAttack": 90,
 		"spDefense": 100,
-		"speed": 55
+		"speed": 55,
+		"height": 5.3,
+		"weight": 160
 	},
 	{
 		"name": "Num 37",
 		"number": 37,
-		"description": "Owl that helps support allies",
+		"description": "A small, round, land owl that loves playing with other Infernomon and enjoys a windy day.",
 		"rarity": "Rare",
 		"role": "Ranged Support",
 		"type1": "Wind",
@@ -781,12 +809,14 @@
 		"defense": 65,
 		"spAttack": 50,
 		"spDefense": 65,
-		"speed": 35
+		"speed": 35,
+		"height": 2,
+		"weight": 28
 	},
 	{
 		"name": "Num 38",
 		"number": 38,
-		"description": "Owl that helps support allies",
+		"description": "A fully evolved, large, round, land owl that supports its allies by providing them with buffs that improve their offense.",
 		"rarity": "Rare",
 		"role": "Ranged Support",
 		"type1": "Wind",
@@ -801,12 +831,14 @@
 		"defense": 105,
 		"spAttack": 95,
 		"spDefense": 105,
-		"speed": 65
+		"speed": 65,
+		"height": 6,
+		"weight": 230
 	},
 	{
 		"name": "Num 39",
 		"number": 39,
-		"description": "Troll Skeleton that throws axes",
+		"description": "Troll that wears a skull from a defeated beast and carries bones in each hand that it throws at enemies at an incredibly fast rate.",
 		"rarity": "Rare",
 		"role": "Ranged Assassin",
 		"type1": "Normal",
@@ -821,12 +853,14 @@
 		"defense": 75,
 		"spAttack": 65,
 		"spDefense": 70,
-		"speed": 100
+		"speed": 100,
+		"height": 5.9,
+		"weight": 170
 	},
 	{
 		"name": "Num 40",
 		"number": 40,
-		"description": "Cute pre-evlolution to hell hound family",
+		"description": "Cute pre-evlolution to the hell hound family that loves to be by its trainer.",
 		"rarity": "Rare",
 		"role": "Melee Assassin",
 		"type1": "Normal",
@@ -841,12 +875,14 @@
 		"defense": 50,
 		"spAttack": 30,
 		"spDefense": 30,
-		"speed": 80
+		"speed": 80,
+		"height": 1.4,
+		"weight": 15
 	},
 	{
 		"name": "Num 41",
 		"number": 41,
-		"description": "Fire evlolution in the hell hound family",
+		"description": "Fire evlolution in the hell hound family that hits extremely hard with mystical fire attacks.",
 		"rarity": "Rare",
 		"role": "Melee Assassin",
 		"type1": "Fire",
@@ -861,12 +897,14 @@
 		"defense": 60,
 		"spAttack": 95,
 		"spDefense": 110,
-		"speed": 65
+		"speed": 65,
+		"height": 4.5,
+		"weight": 120
 	},
 	{
 		"name": "Num 42",
 		"number": 42,
-		"description": "Water evlolution in the hell hound family",
+		"description": "Water evlolution in the hell hound family that is extremely fast and hits hard with mystical water attacks.",
 		"rarity": "Rare",
 		"role": "Range Assassin",
 		"type1": "Water",
@@ -881,12 +919,15 @@
 		"defense": 60,
 		"spAttack": 110,
 		"spDefense": 95,
-		"speed": 130
+		"speed": 130,
+		"height": 3.9,
+		"weight": 85
 	},
 	{
-		"name": "Num 43",
+		"name": "Orgrot",
+		"imageName": "Orgrot.png",
 		"number": 43,
-		"description": "Orge-like hard hitting tank",
+		"description": "A large, rotting orge that does heavy damage and is extremely hard to take down.",
 		"rarity": "Rare",
 		"role": "Tank",
 		"type1": "Blight",
@@ -901,12 +942,14 @@
 		"defense": 95,
 		"spAttack": 80,
 		"spDefense": 90,
-		"speed": 40
+		"speed": 40,
+		"height": 6.5,
+		"weight": 500
 	},
 	{
-		"name": "Num 44",
+		"name": "Elembolt",
 		"number": 44,
-		"description": "Electric Elemental/Ghost Legendary",
+		"description": "Electric Elemental Legendary does serious damage with its chain electric abilities.",
 		"rarity": "Legendary",
 		"role": "Ranged Assassin",
 		"type1": "Electric",
@@ -921,12 +964,14 @@
 		"defense": 85,
 		"spAttack": 125,
 		"spDefense": 90,
-		"speed": 100
+		"speed": 100,
+		"height": 6.6,
+		"weight": 200
 	},
 	{
-		"name": "Num 45",
+		"name": "Elemquake",
 		"number": 45,
-		"description": "Earth Elemental/Ghost Legendary",
+		"description": "Earth Elemental Legendary that is verty sturdy and does heavy damage by controlling the earth.",
 		"rarity": "Legendary",
 		"role": "Ranged Assassin",
 		"type1": "Earth",
@@ -941,12 +986,14 @@
 		"defense": 100,
 		"spAttack": 85,
 		"spDefense": 125,
-		"speed": 90
+		"speed": 90,
+		"height": 6.4,
+		"weight": 285
 	},
 	{
-		"name": "Num 46",
+		"name": "Elemgale",
 		"number": 46,
-		"description": "Wind Elemental/Ghost Legendary",
+		"description": "Wind Elemental Legendary that controls the winds to cause destruction.",
 		"rarity": "Legendary",
 		"role": "Ranged Assassin",
 		"type1": "Wind",
@@ -961,12 +1008,14 @@
 		"defense": 90,
 		"spAttack": 100,
 		"spDefense": 85,
-		"speed": 90
+		"speed": 90,
+		"height": 6.7,
+		"weight": 210
 	},
 	{
 		"name": "Num 47",
 		"number": 47,
-		"description": "Legendary first evolution snake",
+		"description": "Legendary snake that is hard to come by.  It may look friendly but you may want to keep you distance to avoid its poisonous venom.",
 		"rarity": "Legendary",
 		"role": "Ranged Assassin",
 		"type1": "Toxic",
@@ -981,12 +1030,14 @@
 		"defense": 50,
 		"spAttack": 70,
 		"spDefense": 50,
-		"speed": 45
+		"speed": 45,
+		"height": 4,
+		"weight": 35
 	},
 	{
 		"name": "Num 48",
 		"number": 48,
-		"description": "Legendary mid evolution lizard",
+		"description": "Legendary mid-evolution lizard that attacks from range.  Keep you distance from anything it infects.",
 		"rarity": "Legendary",
 		"role": "Ranged Assassin",
 		"type1": "Toxic",
@@ -1001,12 +1052,14 @@
 		"defense": 65,
 		"spAttack": 85,
 		"spDefense": 65,
-		"speed": 60
+		"speed": 60,
+		"height": 5,
+		"weight": 85
 	},
 	{
 		"name": "Num 49",
 		"number": 49,
-		"description": "Legendary Final evolution toxic/wind dragon-like",
+		"description": "Legendary Final evolution toxic/wind dragon-like creature that hits remakably hard.",
 		"rarity": "Legendary",
 		"role": "Ranged Assassin",
 		"type1": "Toxic",
