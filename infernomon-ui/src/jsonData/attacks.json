@@ -1,6 +1,5 @@
 [
 	{
-		"id": "PoisonousBite",
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Poisonous Bite",
@@ -15,7 +14,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "PoisonousShot",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Poisonous Shot",
@@ -30,12 +28,11 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "StickyWeb",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Sticky Web",
 		"description": "Aimed circular AOE that slows enemies and does damage ever second over 3 seconds.",
-		"castType": "Aim Circle",
+		"castType": "Target AOE",
 		"castDuration": 0,
 		"range": 8,
 		"type": "Blight",
@@ -45,7 +42,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "ToxicFang",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Toxic Fang",
@@ -60,12 +56,11 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "VenomShot",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Venom Shot",
 		"description": "Single target attack.",
-		"castType": "Cast",
+		"castType": "Target",
 		"castDuration": 1,
 		"range": 8,
 		"type": "Toxic",
@@ -75,7 +70,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "AquaDaze",
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Aqua Daze",
@@ -90,7 +84,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "BubbleDaze",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Bubble Daze",
@@ -105,7 +98,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "BubbleShield",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Bubble Shield",
@@ -120,7 +112,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "SwampSlap",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Swamp Slap",
@@ -133,10 +124,9 @@
 		"cooldown": 15,
 		"statusEffect": "Stun",
 		"statusEffectChance": 1,
-        "statusEffectDuration": 3
+		"statusEffectDuration": 3
 	},
 	{
-		"id": "SwampShot",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Swamp Shot",
@@ -149,10 +139,9 @@
 		"cooldown": 15,
 		"statusEffect": "Stun",
 		"statusEffectChance": 1,
-        "statusEffectDuration": 3
+		"statusEffectDuration": 3
 	},
 	{
-		"id": "HotSaliva",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Hot Saliva",
@@ -167,7 +156,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "HotBite",
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Hot Bite",
@@ -182,7 +170,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "HotWind",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Hot Wind",
@@ -195,10 +182,9 @@
 		"cooldown": 10,
 		"statusEffect": "Burn",
 		"statusEffectChance": 0.5,
-        "statusEffectDuration": 5
+		"statusEffectDuration": 5
 	},
 	{
-		"id": "SonicFlame",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Sonic Flame",
@@ -211,15 +197,14 @@
 		"cooldown": 10,
 		"statusEffect": "Burn",
 		"statusEffectChance": 0.5,
-        "statusEffectDuration": 5
+		"statusEffectDuration": 5
 	},
 	{
-		"id": "BurningFang",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Burning Fang",
 		"description": "Single target attack with a 50% chance to burn.",
-		"castType": "Frontal Cone",
+		"castType": "Target",
 		"castDuration": 0,
 		"range": 2,
 		"type": "Fire",
@@ -227,10 +212,9 @@
 		"cooldown": 8,
 		"statusEffect": "Burn",
 		"statusEffectChance": 0.5,
-        "statusEffectDuration": 5
+		"statusEffectDuration": 5
 	},
 	{
-		"id": "SuckerPunch",
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Sucker Punch",
@@ -245,7 +229,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "BlindingDust",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Blinding Dust",
@@ -258,10 +241,9 @@
 		"cooldown": 0.7,
 		"statusEffect": "Accuracy",
 		"statusEffectChance": 0.05,
-        "statusEffectDuration": 5
+		"statusEffectDuration": 5
 	},
 	{
-		"id": "CheapShot",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Cheap Shot",
@@ -276,12 +258,11 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "SmokeBomb",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Smoke Bomb",
 		"description": "Reduces enemies accuracy for X seconds and removes threat.",
-		"castType": "Target Circle",
+		"castType": "Target AOE",
 		"castDuration": 0,
 		"range": 8,
 		"type": "Normal",
@@ -289,15 +270,14 @@
 		"cooldown": 15,
 		"statusEffect": "Accuracy",
 		"statusEffectChance": 1,
-        "statusEffectDuration": 5
+		"statusEffectDuration": 5
 	},
 	{
-		"id": "NinjaStars",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Ninja Stars",
 		"description": "AOE damage in a frontal cone",
-		"castType": "Frontal cone",
+		"castType": "Frontal Cone",
 		"castDuration": 0,
 		"range": 8,
 		"type": "Normal",
@@ -307,7 +287,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "PercisionPeck",
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Percision Peck",
@@ -322,7 +301,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "PercisionWind",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Percision Wind",
@@ -337,7 +315,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "BirdsEye",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Bird's Eye",
@@ -352,7 +329,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "SharpTalon",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Sharp Talon",
@@ -367,7 +343,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "SharpWind",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Sharp Wind",
@@ -382,7 +357,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "Buddy Thunderpunch",
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Buddy Thunderpunch",
@@ -397,7 +371,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "Buddy Thundershock",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Buddy Thundershock",
@@ -412,7 +385,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "Independent Thunderpunch",
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Independent Thunderpunch",
@@ -427,7 +399,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "Independent Thundershock",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Independent Thundershock",
@@ -442,7 +413,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "Volt Jump",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Volt Jump",
@@ -457,7 +427,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "Paralyze Punch",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "LParalyze Punch",
@@ -469,11 +438,10 @@
 		"damage": 90,
 		"cooldown": 10,
 		"statusEffect": "Paralyze",
-		"statusEffectChance": 0.50,
-        "statusEffectDuration": 5
+		"statusEffectChance": 0.5,
+		"statusEffectDuration": 5
 	},
 	{
-		"id": "Thundershock",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Thundershock",
@@ -488,7 +456,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "ShellShock",
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Shell Shock",
@@ -503,7 +470,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "FlameSpit",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "FlameSpit",
@@ -516,10 +482,9 @@
 		"cooldown": 1.3,
 		"statusEffect": "Burn",
 		"statusEffectChance": 0.05,
-        "statusEffectDuration": 5
+		"statusEffectDuration": 5
 	},
 	{
-		"id": "Flame Spin",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Flame Spin",
@@ -534,7 +499,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "ReflectingShell",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Reflecting Shell",
@@ -549,7 +513,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "FlameShells",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Flame Shells",
@@ -564,7 +527,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "ArcaneStockpile",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Arcane Stockpile",
@@ -579,7 +541,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "ArcaneTorment",
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Arcane Torment",
@@ -594,12 +555,11 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "ArcaneBall",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Arcane Ball",
 		"description": "AOE explosion on impact.",
-		"castType": "Target",
+		"castType": "Target AOE",
 		"castDuration": 3,
 		"range": 8,
 		"type": "Arcane",
@@ -609,7 +569,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "ArcaneMissile",
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Arcane Missile",
@@ -624,7 +583,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "Suppression",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Suppression",
@@ -637,10 +595,9 @@
 		"cooldown": 15,
 		"statusEffect": "Silence",
 		"statusEffectChance": 1,
-        "statusEffectDuration": 5
+		"statusEffectDuration": 5
 	},
-    {
-		"id": "Gore",
+	{
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Gore",
@@ -655,7 +612,6 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": "GhostBoar",
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Ghost Boar",
@@ -668,10 +624,9 @@
 		"cooldown": 1.3,
 		"statusEffect": "Fear",
 		"statusEffectChance": 0.1,
-        "statusEffectDuration": 3
+		"statusEffectDuration": 3
 	},
 	{
-		"id": "Charge",
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Charge",
@@ -684,6 +639,186 @@
 		"cooldown": 15,
 		"statusEffect": "Stun",
 		"statusEffectChance": 1,
-        "statusEffectDuration": 3
+		"statusEffectDuration": 3
+	},
+	{
+		"attackCategory": "Natural",
+		"damageCategory": "Physical",
+		"name": "Multi-Gore",
+		"description": "Gore targers in 180 degrees in front of you, lowering defenses by 50% for 4 seconds and generating threat",
+		"castType": "Frontal Half",
+		"castDuration": 0,
+		"range": 2,
+		"type": "Normal",
+		"damage": 25,
+		"cooldown": 12,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Natural",
+		"damageCategory": "Special",
+		"name": "Boar Stampede",
+		"description": "Boar ghosts run forward in a frontal line doing damage and generating threat",
+		"castType": "Frontal Line",
+		"castDuration": 0,
+		"range": 2,
+		"type": "Normal",
+		"damage": 20,
+		"cooldown": 8,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Auto",
+		"damageCategory": "Special",
+		"name": "Magic Mushroom",
+		"description": "Damage target and heals the weakest ally on the team for 10 based on Sp Attack.",
+		"castType": "Target",
+		"castDuration": 0,
+		"range": 8,
+		"type": "Blight",
+		"damage": 3,
+		"cooldown": 1,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Auto",
+		"damageCategory": "Physical",
+		"name": "Mushroom Toss",
+		"description": "Single target damage",
+		"castType": "Target",
+		"castDuration": 0,
+		"range": 8,
+		"type": "Blight",
+		"damage": 10,
+		"cooldown": 1,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Natural",
+		"damageCategory": "Special",
+		"name": "Mushroom Splash",
+		"description": "Does AOE damage at the targets location and heals allies within the splash for 2x the amount of the damage.",
+		"castType": "Target AOE",
+		"castDuration": 1.5,
+		"range": 8,
+		"type": "Blight",
+		"damage": 12,
+		"cooldown": 8,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Natural",
+		"damageCategory": "Special",
+		"name": "Mushroom Splash",
+		"description": "If you are the weakest member of you team, you heal yourself for 80.  Otherwise, you lose 100 health and siphon double that amount to an ally.",
+		"castType": "Target",
+		"castDuration": 1.5,
+		"range": 8,
+		"type": "Blight",
+		"damage": 0,
+		"cooldown": 7,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Natural",
+		"damageCategory": "Physical",
+		"name": "Mushroom Bomb",
+		"description": "AOE damage at the targeted location.",
+		"castType": "Target AOE",
+		"castDuration": 1.5,
+		"range": 8,
+		"type": "Blight",
+		"damage": 32,
+		"cooldown": 8,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Auto",
+		"damageCategory": "Special",
+		"name": "Sand Shot",
+		"description": "Single target damage with AOE damage every 5th attack",
+		"castType": "Target",
+		"castDuration": 0,
+		"range": 8,
+		"type": "Earth",
+		"damage": 8,
+		"cooldown": 1,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Auto",
+		"damageCategory": "Physical",
+		"name": "Sand Shake",
+		"description": "AOE damage at the target's feet.",
+		"castType": "Target",
+		"castDuration": 0,
+		"range": 8,
+		"type": "Earth",
+		"damage": 4,
+		"cooldown": 1,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Natural",
+		"damageCategory": "Special",
+		"name": "Sinking Sand",
+		"description": "AOE damage at the target's feet that slows enemies caught inside for 5 seconds.",
+		"castType": "Target AOE",
+		"castDuration": 1,
+		"range": 8,
+		"type": "Earth",
+		"damage": 25,
+		"cooldown": 10,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Natural",
+		"damageCategory": "Special",
+		"name": "Sand Summon",
+		"description": "Summon a sand ghost that runs into the target",
+		"castType": "Target",
+		"castDuration": 1,
+		"range": 8,
+		"type": "Earth",
+		"damage": 60,
+		"cooldown": 5,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
+	},
+	{
+		"attackCategory": "Natural",
+		"damageCategory": "Special",
+		"name": "Sand Slam",
+		"description": "Summon a sand above the target and drop it damage all enemies around it.",
+		"castType": "Target AOE",
+		"castDuration": 1,
+		"range": 8,
+		"type": "Earth",
+		"damage": 36,
+		"cooldown": 10,
+		"statusEffect": "",
+		"statusEffectChance": 0,
+		"statusEffectDuration": 0
 	}
 ]
