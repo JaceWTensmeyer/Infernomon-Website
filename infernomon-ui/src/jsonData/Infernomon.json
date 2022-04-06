@@ -63,7 +63,8 @@
 		"spAttack": 75,
 		"spDefense": 80,
 		"speed": 110,
-		"height": 4.7
+		"height": 4.7,
+		"weight": 130
 	},
 	{
 		"name": "Num 4",
