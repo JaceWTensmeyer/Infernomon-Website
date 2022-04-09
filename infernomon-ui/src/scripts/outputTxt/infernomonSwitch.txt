@@ -2,7 +2,6 @@
 function GetGenericInfernomonData(_number){
 	switch(_number) {
 		case 0: break
-
 		case 1: return {
 			name: "Num 1",
 			number: _number,
@@ -16,7 +15,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Blight"
 			type2: "Toxic"
 		} break
-	
 		case 2: return {
 			name: "Num 2",
 			number: _number,
@@ -30,7 +28,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Blight"
 			type2: "Toxic"
 		} break
-	
 		case 3: return {
 			name: "Num 3",
 			number: _number,
@@ -44,7 +41,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Blight"
 			type2: "Toxic"
 		} break
-	
 		case 4: return {
 			name: "Num 4",
 			number: _number,
@@ -58,7 +54,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Water"
 			type2: ""
 		} break
-	
 		case 5: return {
 			name: "Num 5",
 			number: _number,
@@ -72,7 +67,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Water"
 			type2: ""
 		} break
-	
 		case 6: return {
 			name: "Num 6",
 			number: _number,
@@ -86,7 +80,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Water"
 			type2: ""
 		} break
-	
 		case 7: return {
 			name: "Num 7",
 			number: _number,
@@ -100,7 +93,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Fire"
 			type2: "Wind"
 		} break
-	
 		case 8: return {
 			name: "Num 8",
 			number: _number,
@@ -114,7 +106,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Fire"
 			type2: "Wind"
 		} break
-	
 		case 9: return {
 			name: "Num 9",
 			number: _number,
@@ -128,7 +119,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Fire"
 			type2: "Wind"
 		} break
-	
 		case 10: return {
 			name: "Num 10",
 			number: _number,
@@ -142,7 +132,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Normal"
 			type2: ""
 		} break
-	
 		case 11: return {
 			name: "Num 11",
 			number: _number,
@@ -156,7 +145,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Normal"
 			type2: ""
 		} break
-	
 		case 12: return {
 			name: "Num 12",
 			number: _number,
@@ -170,7 +158,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Wind"
 			type2: ""
 		} break
-	
 		case 13: return {
 			name: "Num 13",
 			number: _number,
@@ -184,7 +171,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Wind"
 			type2: ""
 		} break
-	
 		case 14: return {
 			name: "Num 14",
 			number: _number,
@@ -198,7 +184,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Wind"
 			type2: ""
 		} break
-	
 		case 15: return {
 			name: "Num 15",
 			number: _number,
@@ -212,7 +197,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Electric"
 			type2: ""
 		} break
-	
 		case 16: return {
 			name: "Num 16",
 			number: _number,
@@ -226,7 +210,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Electric"
 			type2: ""
 		} break
-	
 		case 17: return {
 			name: "Num 17",
 			number: _number,
@@ -240,7 +223,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Earth"
 			type2: "Fire"
 		} break
-	
 		case 18: return {
 			name: "Num 18",
 			number: _number,
@@ -254,7 +236,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Earth"
 			type2: "Fire"
 		} break
-	
 		case 19: return {
 			name: "Num 19",
 			number: _number,
@@ -268,7 +249,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Earth"
 			type2: "Fire"
 		} break
-	
 		case 20: return {
 			name: "Num 20",
 			number: _number,
@@ -282,7 +262,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Arcane"
 			type2: ""
 		} break
-	
 		case 21: return {
 			name: "Num 21",
 			number: _number,
@@ -296,7 +275,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Arcane"
 			type2: ""
 		} break
-	
 		case 22: return {
 			name: "Num 22",
 			number: _number,
@@ -310,7 +288,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Arcane"
 			type2: ""
 		} break
-	
 		case 23: return {
 			name: "Num 23",
 			number: _number,
@@ -324,7 +301,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Normal"
 			type2: ""
 		} break
-	
 		case 24: return {
 			name: "Num 24",
 			number: _number,
@@ -338,7 +314,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Normal"
 			type2: ""
 		} break
-	
 		case 25: return {
 			name: "Num 25",
 			number: _number,
@@ -352,7 +327,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Blight"
 			type2: ""
 		} break
-	
 		case 26: return {
 			name: "Num 26",
 			number: _number,
@@ -366,7 +340,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Blight"
 			type2: ""
 		} break
-	
 		case 27: return {
 			name: "Num 27",
 			number: _number,
@@ -380,7 +353,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Earth"
 			type2: ""
 		} break
-	
 		case 28: return {
 			name: "Num 28",
 			number: _number,
@@ -394,7 +366,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Earth"
 			type2: ""
 		} break
-	
 		case 29: return {
 			name: "Num 29",
 			number: _number,
@@ -408,7 +379,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Electric"
 			type2: "Water"
 		} break
-	
 		case 30: return {
 			name: "Num 30",
 			number: _number,
@@ -422,7 +392,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Electric"
 			type2: "Water"
 		} break
-	
 		case 31: return {
 			name: "Num 31",
 			number: _number,
@@ -436,7 +405,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Electric"
 			type2: "Water"
 		} break
-	
 		case 32: return {
 			name: "Num 32",
 			number: _number,
@@ -450,7 +418,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Toxic"
 			type2: ""
 		} break
-	
 		case 33: return {
 			name: "Num 33",
 			number: _number,
@@ -464,7 +431,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Toxic"
 			type2: ""
 		} break
-	
 		case 34: return {
 			name: "Num 34",
 			number: _number,
@@ -478,7 +444,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Toxic"
 			type2: ""
 		} break
-	
 		case 35: return {
 			name: "Num 35",
 			number: _number,
@@ -492,7 +457,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Earth"
 			type2: ""
 		} break
-	
 		case 36: return {
 			name: "Num 36",
 			number: _number,
@@ -506,7 +470,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Electric"
 			type2: ""
 		} break
-	
 		case 37: return {
 			name: "Num 37",
 			number: _number,
@@ -520,7 +483,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Wind"
 			type2: ""
 		} break
-	
 		case 38: return {
 			name: "Num 38",
 			number: _number,
@@ -534,7 +496,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Wind"
 			type2: ""
 		} break
-	
 		case 39: return {
 			name: "Num 39",
 			number: _number,
@@ -548,7 +509,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Normal"
 			type2: ""
 		} break
-	
 		case 40: return {
 			name: "Num 40",
 			number: _number,
@@ -562,7 +522,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Normal"
 			type2: ""
 		} break
-	
 		case 41: return {
 			name: "Num 41",
 			number: _number,
@@ -576,7 +535,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Fire"
 			type2: ""
 		} break
-	
 		case 42: return {
 			name: "Num 42",
 			number: _number,
@@ -590,7 +548,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Water"
 			type2: ""
 		} break
-	
 		case 43: return {
 			name: "Orgrot",
 			number: _number,
@@ -604,7 +561,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Blight"
 			type2: ""
 		} break
-	
 		case 44: return {
 			name: "Elembolt",
 			number: _number,
@@ -618,7 +574,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Electric"
 			type2: ""
 		} break
-	
 		case 45: return {
 			name: "Elemquake",
 			number: _number,
@@ -632,7 +587,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Earth"
 			type2: ""
 		} break
-	
 		case 46: return {
 			name: "Elemgale",
 			number: _number,
@@ -646,7 +600,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Wind"
 			type2: ""
 		} break
-	
 		case 47: return {
 			name: "Num 47",
 			number: _number,
@@ -660,7 +613,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Toxic"
 			type2: ""
 		} break
-	
 		case 48: return {
 			name: "Num 48",
 			number: _number,
@@ -674,7 +626,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Toxic"
 			type2: ""
 		} break
-	
 		case 49: return {
 			name: "Num 49",
 			number: _number,
@@ -688,7 +639,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Toxic"
 			type2: "Wind"
 		} break
-	
 		case 50: return {
 			name: "Num 50",
 			number: _number,
@@ -702,7 +652,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Arcane"
 			type2: ""
 		} break
-	
 		case 51: return {
 			name: "Num 51",
 			number: _number,
@@ -716,7 +665,6 @@ function GetGenericInfernomonData(_number){
 			type1: "Arcane"
 			type2: ""
 		} break
-	
 		default: break
 	}
 }

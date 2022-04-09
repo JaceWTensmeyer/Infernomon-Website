@@ -5,8 +5,7 @@ const { cwd } = require('process');
 let txtString = `
 function GetGenericInfernomonData(_number){
 	switch(_number) {
-		case 0: break
-`;
+		case 0: break`;
 let i = 1;
 infernomon.forEach((inf) => {
 	txtString += `
@@ -22,8 +21,7 @@ infernomon.forEach((inf) => {
 			baseSpeed: ${inf.speed}
 			type1: "${inf.type1}"
 			type2: "${inf.type2}"
-		} break
-	`;
+		} break`;
 	i++;
 });
 

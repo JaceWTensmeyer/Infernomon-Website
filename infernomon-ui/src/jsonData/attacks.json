@@ -387,7 +387,7 @@
 	{
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
-		"name": "Independent Thunderpunch",
+		"name": "Solo Thunderpunch",
 		"description": "Does 20% extra damage when far away from the player.",
 		"castType": "Target",
 		"type": "Electric",
@@ -401,7 +401,7 @@
 	{
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
-		"name": "Independent Thundershock",
+		"name": "Solo Thundershock",
 		"description": "Does 30% extra damage when far away from the player.",
 		"castType": "Target",
 		"type": "Electric",
@@ -429,7 +429,7 @@
 	{
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
-		"name": "LParalyze Punch",
+		"name": "Paralyze Punch",
 		"description": "Single target damage with 50% chance to paralyze",
 		"castType": "Target",
 		"castDuration": 0,
