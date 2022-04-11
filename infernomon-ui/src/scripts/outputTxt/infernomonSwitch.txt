@@ -14,6 +14,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 70
 			type1: "Blight"
 			type2: "Toxic"
+			autoAttack1Id: 1
+			autoAttack2Id: 2
+			naturalAttack1Id: 3
+			naturalAttack2Id: 4
+			naturalAttack3Id: 5
 		} break
 		case 2: return {
 			name: "Num 2",
@@ -27,6 +32,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 85
 			type1: "Blight"
 			type2: "Toxic"
+			autoAttack1Id: 1
+			autoAttack2Id: 2
+			naturalAttack1Id: 3
+			naturalAttack2Id: 4
+			naturalAttack3Id: 5
 		} break
 		case 3: return {
 			name: "Num 3",
@@ -40,6 +50,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 110
 			type1: "Blight"
 			type2: "Toxic"
+			autoAttack1Id: 1
+			autoAttack2Id: 2
+			naturalAttack1Id: 3
+			naturalAttack2Id: 4
+			naturalAttack3Id: 5
 		} break
 		case 4: return {
 			name: "Num 4",
@@ -53,6 +68,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 45
 			type1: "Water"
 			type2: ""
+			autoAttack1Id: 6
+			autoAttack2Id: 7
+			naturalAttack1Id: 8
+			naturalAttack2Id: 9
+			naturalAttack3Id: 10
 		} break
 		case 5: return {
 			name: "Num 5",
@@ -66,6 +86,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 60
 			type1: "Water"
 			type2: ""
+			autoAttack1Id: 6
+			autoAttack2Id: 7
+			naturalAttack1Id: 8
+			naturalAttack2Id: 9
+			naturalAttack3Id: 10
 		} break
 		case 6: return {
 			name: "Num 6",
@@ -79,6 +104,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 75
 			type1: "Water"
 			type2: ""
+			autoAttack1Id: 6
+			autoAttack2Id: 7
+			naturalAttack1Id: 8
+			naturalAttack2Id: 9
+			naturalAttack3Id: 10
 		} break
 		case 7: return {
 			name: "Num 7",
@@ -92,6 +122,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 70
 			type1: "Fire"
 			type2: "Wind"
+			autoAttack1Id: 11
+			autoAttack2Id: 12
+			naturalAttack1Id: 13
+			naturalAttack2Id: 14
+			naturalAttack3Id: 15
 		} break
 		case 8: return {
 			name: "Num 8",
@@ -105,6 +140,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 80
 			type1: "Fire"
 			type2: "Wind"
+			autoAttack1Id: 11
+			autoAttack2Id: 12
+			naturalAttack1Id: 13
+			naturalAttack2Id: 14
+			naturalAttack3Id: 15
 		} break
 		case 9: return {
 			name: "Num 9",
@@ -118,6 +158,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 100
 			type1: "Fire"
 			type2: "Wind"
+			autoAttack1Id: 11
+			autoAttack2Id: 12
+			naturalAttack1Id: 13
+			naturalAttack2Id: 14
+			naturalAttack3Id: 15
 		} break
 		case 10: return {
 			name: "Num 10",
@@ -131,6 +176,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 70
 			type1: "Normal"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 11
+			naturalAttack2Id: 12
+			naturalAttack3Id: undefined
 		} break
 		case 11: return {
 			name: "Num 11",
@@ -144,6 +194,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 90
 			type1: "Normal"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 11
+			naturalAttack2Id: 12
+			naturalAttack3Id: undefined
 		} break
 		case 12: return {
 			name: "Num 12",
@@ -157,6 +212,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 55
 			type1: "Wind"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 14
+			naturalAttack2Id: 15
+			naturalAttack3Id: undefined
 		} break
 		case 13: return {
 			name: "Num 13",
@@ -170,6 +230,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 70
 			type1: "Wind"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 14
+			naturalAttack2Id: 15
+			naturalAttack3Id: undefined
 		} break
 		case 14: return {
 			name: "Num 14",
@@ -183,6 +248,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 90
 			type1: "Wind"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 14
+			naturalAttack2Id: 15
+			naturalAttack3Id: undefined
 		} break
 		case 15: return {
 			name: "Num 15",
@@ -196,6 +266,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 80
 			type1: "Electric"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 18
+			naturalAttack2Id: 19
+			naturalAttack3Id: undefined
 		} break
 		case 16: return {
 			name: "Num 16",
@@ -209,6 +284,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 105
 			type1: "Electric"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 18
+			naturalAttack2Id: 19
+			naturalAttack3Id: undefined
 		} break
 		case 17: return {
 			name: "Num 17",
@@ -222,6 +302,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 20
 			type1: "Earth"
 			type2: "Fire"
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 21
+			naturalAttack2Id: 22
+			naturalAttack3Id: undefined
 		} break
 		case 18: return {
 			name: "Num 18",
@@ -235,6 +320,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 25
 			type1: "Earth"
 			type2: "Fire"
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 21
+			naturalAttack2Id: 22
+			naturalAttack3Id: undefined
 		} break
 		case 19: return {
 			name: "Num 19",
@@ -248,6 +338,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 30
 			type1: "Earth"
 			type2: "Fire"
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 21
+			naturalAttack2Id: 22
+			naturalAttack3Id: undefined
 		} break
 		case 20: return {
 			name: "Num 20",
@@ -261,6 +356,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 70
 			type1: "Arcane"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 24
+			naturalAttack2Id: 25
+			naturalAttack3Id: undefined
 		} break
 		case 21: return {
 			name: "Num 21",
@@ -274,6 +374,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 95
 			type1: "Arcane"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 24
+			naturalAttack2Id: 25
+			naturalAttack3Id: undefined
 		} break
 		case 22: return {
 			name: "Num 22",
@@ -287,6 +392,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 120
 			type1: "Arcane"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 24
+			naturalAttack2Id: 25
+			naturalAttack3Id: undefined
 		} break
 		case 23: return {
 			name: "Num 23",
@@ -300,6 +410,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 55
 			type1: "Normal"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 27
+			naturalAttack2Id: 28
+			naturalAttack3Id: undefined
 		} break
 		case 24: return {
 			name: "Num 24",
@@ -313,6 +428,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 70
 			type1: "Normal"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 27
+			naturalAttack2Id: 28
+			naturalAttack3Id: undefined
 		} break
 		case 25: return {
 			name: "Num 25",
@@ -326,6 +446,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 55
 			type1: "Blight"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 30
+			naturalAttack2Id: 31
+			naturalAttack3Id: undefined
 		} break
 		case 26: return {
 			name: "Num 26",
@@ -339,6 +464,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 70
 			type1: "Blight"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 30
+			naturalAttack2Id: 31
+			naturalAttack3Id: undefined
 		} break
 		case 27: return {
 			name: "Num 27",
@@ -352,6 +482,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 65
 			type1: "Earth"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 33
+			naturalAttack2Id: 34
+			naturalAttack3Id: undefined
 		} break
 		case 28: return {
 			name: "Num 28",
@@ -365,6 +500,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 80
 			type1: "Earth"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 33
+			naturalAttack2Id: 34
+			naturalAttack3Id: undefined
 		} break
 		case 29: return {
 			name: "Num 29",
@@ -378,6 +518,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 55
 			type1: "Electric"
 			type2: "Water"
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 36
+			naturalAttack2Id: 37
+			naturalAttack3Id: undefined
 		} break
 		case 30: return {
 			name: "Num 30",
@@ -391,6 +536,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 75
 			type1: "Electric"
 			type2: "Water"
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 36
+			naturalAttack2Id: 37
+			naturalAttack3Id: undefined
 		} break
 		case 31: return {
 			name: "Num 31",
@@ -404,6 +554,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 90
 			type1: "Electric"
 			type2: "Water"
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 36
+			naturalAttack2Id: 37
+			naturalAttack3Id: undefined
 		} break
 		case 32: return {
 			name: "Num 32",
@@ -417,6 +572,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 30
 			type1: "Toxic"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 39
+			naturalAttack2Id: 40
+			naturalAttack3Id: undefined
 		} break
 		case 33: return {
 			name: "Num 33",
@@ -430,6 +590,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 40
 			type1: "Toxic"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 39
+			naturalAttack2Id: 40
+			naturalAttack3Id: undefined
 		} break
 		case 34: return {
 			name: "Num 34",
@@ -443,6 +608,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 75
 			type1: "Toxic"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 42
+			naturalAttack2Id: 43
+			naturalAttack3Id: undefined
 		} break
 		case 35: return {
 			name: "Num 35",
@@ -456,6 +626,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 75
 			type1: "Earth"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 45
+			naturalAttack2Id: 46
+			naturalAttack3Id: undefined
 		} break
 		case 36: return {
 			name: "Num 36",
@@ -469,6 +644,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 55
 			type1: "Electric"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 48
+			naturalAttack2Id: 49
+			naturalAttack3Id: undefined
 		} break
 		case 37: return {
 			name: "Num 37",
@@ -482,6 +662,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 35
 			type1: "Wind"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 51
+			naturalAttack2Id: 52
+			naturalAttack3Id: undefined
 		} break
 		case 38: return {
 			name: "Num 38",
@@ -495,6 +680,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 65
 			type1: "Wind"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 51
+			naturalAttack2Id: 52
+			naturalAttack3Id: undefined
 		} break
 		case 39: return {
 			name: "Num 39",
@@ -508,6 +698,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 100
 			type1: "Normal"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 54
+			naturalAttack2Id: 55
+			naturalAttack3Id: undefined
 		} break
 		case 40: return {
 			name: "Num 40",
@@ -521,6 +716,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 80
 			type1: "Normal"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 56
+			naturalAttack2Id: 57
+			naturalAttack3Id: undefined
 		} break
 		case 41: return {
 			name: "Num 41",
@@ -534,6 +734,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 65
 			type1: "Fire"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 59
+			naturalAttack2Id: 60
+			naturalAttack3Id: undefined
 		} break
 		case 42: return {
 			name: "Num 42",
@@ -547,6 +752,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 130
 			type1: "Water"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 62
+			naturalAttack2Id: 63
+			naturalAttack3Id: undefined
 		} break
 		case 43: return {
 			name: "Orgrot",
@@ -560,6 +770,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 40
 			type1: "Blight"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 65
+			naturalAttack2Id: 66
+			naturalAttack3Id: undefined
 		} break
 		case 44: return {
 			name: "Elembolt",
@@ -573,6 +788,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 100
 			type1: "Electric"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 68
+			naturalAttack2Id: 69
+			naturalAttack3Id: undefined
 		} break
 		case 45: return {
 			name: "Elemquake",
@@ -586,6 +806,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 90
 			type1: "Earth"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 71
+			naturalAttack2Id: 72
+			naturalAttack3Id: undefined
 		} break
 		case 46: return {
 			name: "Elemgale",
@@ -599,6 +824,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 90
 			type1: "Wind"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 74
+			naturalAttack2Id: 75
+			naturalAttack3Id: undefined
 		} break
 		case 47: return {
 			name: "Num 47",
@@ -612,6 +842,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 45
 			type1: "Toxic"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 77
+			naturalAttack2Id: 78
+			naturalAttack3Id: undefined
 		} break
 		case 48: return {
 			name: "Num 48",
@@ -625,6 +860,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 60
 			type1: "Toxic"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 77
+			naturalAttack2Id: 78
+			naturalAttack3Id: undefined
 		} break
 		case 49: return {
 			name: "Num 49",
@@ -638,6 +878,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 85
 			type1: "Toxic"
 			type2: "Wind"
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 77
+			naturalAttack2Id: 78
+			naturalAttack3Id: undefined
 		} break
 		case 50: return {
 			name: "Num 50",
@@ -651,6 +896,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 130
 			type1: "Arcane"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 80
+			naturalAttack2Id: 81
+			naturalAttack3Id: undefined
 		} break
 		case 51: return {
 			name: "Num 51",
@@ -664,6 +914,11 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 100
 			type1: "Arcane"
 			type2: ""
+			autoAttack1Id: undefined
+			autoAttack2Id: undefined
+			naturalAttack1Id: 83
+			naturalAttack2Id: 84
+			naturalAttack3Id: undefined
 		} break
 		default: break
 	}

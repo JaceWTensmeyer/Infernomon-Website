@@ -1,5 +1,6 @@
 [
 	{
+		"id": 1,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Poisonous Bite",
@@ -14,6 +15,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 2,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Poisonous Shot",
@@ -28,6 +30,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 3,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Sticky Web",
@@ -42,6 +45,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 4,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Toxic Fang",
@@ -56,6 +60,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 5,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Venom Shot",
@@ -70,6 +75,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 6,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Aqua Daze",
@@ -84,6 +90,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 7,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Bubble Daze",
@@ -98,6 +105,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 8,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Bubble Shield",
@@ -112,6 +120,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 9,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Swamp Slap",
@@ -127,6 +136,7 @@
 		"statusEffectDuration": 3
 	},
 	{
+		"id": 10,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Swamp Shot",
@@ -142,6 +152,7 @@
 		"statusEffectDuration": 3
 	},
 	{
+		"id": 11,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Hot Saliva",
@@ -156,6 +167,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 12,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Hot Bite",
@@ -170,6 +182,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 13,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Hot Wind",
@@ -185,6 +198,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 14,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Sonic Flame",
@@ -200,6 +214,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 15,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Burning Fang",
@@ -215,6 +230,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 16,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Sucker Punch",
@@ -229,6 +245,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 16,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Blinding Dust",
@@ -244,6 +261,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 17,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Cheap Shot",
@@ -258,6 +276,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 18,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Smoke Bomb",
@@ -273,6 +292,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 19,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Ninja Stars",
@@ -287,6 +307,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 20,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Percision Peck",
@@ -301,6 +322,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 21,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Percision Wind",
@@ -315,6 +337,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 22,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Bird's Eye",
@@ -329,6 +352,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 23,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Sharp Talon",
@@ -343,6 +367,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 24,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Sharp Wind",
@@ -357,6 +382,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 25,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Buddy Thunderpunch",
@@ -371,6 +397,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 26,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Buddy Thundershock",
@@ -385,6 +412,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 27,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Solo Thunderpunch",
@@ -399,6 +427,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 28,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Solo Thundershock",
@@ -413,6 +442,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 29,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Volt Jump",
@@ -427,6 +457,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 30,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Paralyze Punch",
@@ -442,6 +473,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 31,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Thundershock",
@@ -456,6 +488,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 32,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Shell Shock",
@@ -470,6 +503,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 33,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "FlameSpit",
@@ -485,6 +519,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 34,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Flame Spin",
@@ -499,6 +534,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 35,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Reflecting Shell",
@@ -513,6 +549,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 36,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Flame Shells",
@@ -527,6 +564,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 37,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Arcane Stockpile",
@@ -541,6 +579,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 38,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Arcane Torment",
@@ -555,6 +594,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 39,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Arcane Ball",
@@ -569,6 +609,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 40,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Arcane Missile",
@@ -583,6 +624,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 41,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Suppression",
@@ -598,6 +640,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 42,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Gore",
@@ -612,6 +655,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 43,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Ghost Boar",
@@ -627,6 +671,7 @@
 		"statusEffectDuration": 3
 	},
 	{
+		"id": 44,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Charge",
@@ -642,6 +687,7 @@
 		"statusEffectDuration": 3
 	},
 	{
+		"id": 45,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Multi-Gore",
@@ -657,6 +703,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 46,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Boar Stampede",
@@ -672,6 +719,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 47,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Magic Mushroom",
@@ -687,6 +735,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 48,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Mushroom Toss",
@@ -702,6 +751,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 49,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Mushroom Splash",
@@ -717,6 +767,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 50,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Mushroom Splash",
@@ -732,6 +783,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 51,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Mushroom Bomb",
@@ -747,6 +799,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 52,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Sand Shot",
@@ -762,6 +815,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 53,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Sand Shake",
@@ -777,6 +831,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 54,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Sinking Sand",
@@ -792,6 +847,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 55,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Sand Summon",
@@ -807,6 +863,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 56,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Sand Slam",
@@ -822,6 +879,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 57,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Combo Chomp",
@@ -837,6 +895,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 58,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Gator Zap",
@@ -852,6 +911,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 59,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Switch Chomp",
@@ -867,6 +927,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 60,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Swap Bob",
@@ -882,6 +943,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 61,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Water Shock",
@@ -897,6 +959,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 62,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Toxic Fumes",
@@ -912,6 +975,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 63,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Gas Punch",
@@ -927,6 +991,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 64,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Gas Power",
@@ -942,6 +1007,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 65,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Focus Fumes",
@@ -957,6 +1023,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 66,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Gas Slam",
@@ -972,6 +1039,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 67,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Toxic Pull",
@@ -987,6 +1055,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 69,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Toxic Shots",
@@ -1002,6 +1071,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 70,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Toxic Grip",
@@ -1017,6 +1087,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 71,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Crazy Arms",
@@ -1032,6 +1103,7 @@
 		"statusEffectDuration": 1
 	},
 	{
+		"id": 72,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Toxic Snipe",
@@ -1047,6 +1119,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 73,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Sand Cloud",
@@ -1062,6 +1135,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 74,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Dirt Shot",
@@ -1077,6 +1151,7 @@
 		"statusEffectDuration": 5
 	},
 	{
+		"id": 75,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Sand Storm",
@@ -1092,6 +1167,7 @@
 		"statusEffectDuration": 3
 	},
 	{
+		"id": 76,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Ground Pulse",
@@ -1107,6 +1183,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 77,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Worm Lunge",
@@ -1122,6 +1199,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 78,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Chaining Light",
@@ -1137,6 +1215,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 79,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Magnet Punch",
@@ -1152,6 +1231,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 80,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Electric Shield",
@@ -1167,6 +1247,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 81,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Shocking Support",
@@ -1182,6 +1263,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 82,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Magnet Slam",
@@ -1197,6 +1279,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 83,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Wind Tunnel",
@@ -1212,6 +1295,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 84,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Owl Slap",
@@ -1227,6 +1311,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 85,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Fresh Air",
@@ -1242,6 +1327,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 86,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Tailwind",
@@ -1257,6 +1343,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 87,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Flap Back",
@@ -1272,6 +1359,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 88,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Bone Toss",
@@ -1287,6 +1375,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 89,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Ghost Bones",
@@ -1302,6 +1391,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 90,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Troll Frenzy",
@@ -1317,6 +1407,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 91,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Bone Boomerang",
@@ -1332,6 +1423,7 @@
 		"statusEffectDuration": 0
 	},
 	{
+		"id": 92,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Scary Spirit",
@@ -1347,6 +1439,7 @@
 		"statusEffectDuration": 3
 	},
 	{
+		"id": 93,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Buddy Bite",
@@ -1361,6 +1454,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 94,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Buddy Blast",
@@ -1375,6 +1469,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 95,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Hound Cleave",
@@ -1389,6 +1484,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 96,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Chomp",
@@ -1403,6 +1499,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 97,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Spirit Wolf",
@@ -1417,6 +1514,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 98,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Hot Paw",
@@ -1431,6 +1529,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 99,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Hot Wolf",
@@ -1445,6 +1544,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 100,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Hound Blaze",
@@ -1459,6 +1559,7 @@
 		"statusEffectChance": 0.5
 	},
 	{
+		"id": 101,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Fire Chomp",
@@ -1473,6 +1574,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 102,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Fire Wolf",
@@ -1487,6 +1589,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 103,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Wet Wolf",
@@ -1501,6 +1604,7 @@
 		"statusEffectChance": 1
 	},
 	{
+		"id": 104,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Wet Paw",
@@ -1515,6 +1619,7 @@
 		"statusEffectChance": 1
 	},
 	{
+		"id": 105,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Hound Bubbles",
@@ -1529,6 +1634,7 @@
 		"statusEffectChance": 1
 	},
 	{
+		"id": 106,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Water Wolf",
@@ -1543,6 +1649,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 107,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Water Chomp",
@@ -1557,6 +1664,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 108,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Munch",
@@ -1571,6 +1679,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 109,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Putrid Spit",
@@ -1585,6 +1694,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 110,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Putrid Bile",
@@ -1599,6 +1709,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 111,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Pungent Swing",
@@ -1613,6 +1724,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 112,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Putrid Punch",
@@ -1627,6 +1739,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 113,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Elemental Shock",
@@ -1641,6 +1754,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 114,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Elemental Jolt",
@@ -1655,6 +1769,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 115,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Chain Shock",
@@ -1669,6 +1784,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 116,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Elemental Bolt",
@@ -1683,6 +1799,7 @@
 		"statusEffectChance": 0
 	},
 	{
+		"id": 117,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Chain Jolt",
