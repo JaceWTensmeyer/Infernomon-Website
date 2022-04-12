@@ -2,7 +2,7 @@ const attacks = require('../jsonData/attacks.json');
 const fs = require('fs');
 
 let txtString = `
-function GetInfernomonAttack(_id){
+function GetAttack(_id){
 	switch(_id) {
 		case 0: break`;
 let i = 1;
@@ -13,6 +13,7 @@ attacks.forEach((atk) => {
 			attackCategory: "${atk.attackCategory}",
 			damageCategory: "${atk.damageCategory}",
 			name: "${atk.name}",
+			scriptName: ${'AttackId' + i},
 			description: "${atk.description}",
 			castType: "${atk.castType}",
 			castDuration: ${atk.castDuration},
