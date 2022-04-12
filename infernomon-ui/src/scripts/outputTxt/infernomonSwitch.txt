@@ -7,17 +7,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 40,
-			baseAttack: 70
-			baseDefense: 50
-			baseSpAttack: 40
-			baseSpDefense: 45
-			baseSpeed: 70
-			type1: "Blight"
-			type2: "Toxic"
-			autoAttack1Id: 1
-			autoAttack2Id: 2
-			naturalAttack1Id: 3
-			naturalAttack2Id: 4
+			baseAttack: 70,
+			baseDefense: 50,
+			baseSpAttack: 40,
+			baseSpDefense: 45,
+			baseSpeed: 70,
+			type1: "Blight",
+			type2: "Toxic",
+			autoAttack1Id: 1,
+			autoAttack2Id: 2,
+			naturalAttack1Id: 3,
+			naturalAttack2Id: 4,
 			naturalAttack3Id: 5
 		} break
 		case 2: return {
@@ -25,17 +25,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 55,
-			baseAttack: 80
-			baseDefense: 65
-			baseSpAttack: 60
-			baseSpDefense: 60
-			baseSpeed: 85
-			type1: "Blight"
-			type2: "Toxic"
-			autoAttack1Id: 1
-			autoAttack2Id: 2
-			naturalAttack1Id: 3
-			naturalAttack2Id: 4
+			baseAttack: 80,
+			baseDefense: 65,
+			baseSpAttack: 60,
+			baseSpDefense: 60,
+			baseSpeed: 85,
+			type1: "Blight",
+			type2: "Toxic",
+			autoAttack1Id: 1,
+			autoAttack2Id: 2,
+			naturalAttack1Id: 3,
+			naturalAttack2Id: 4,
 			naturalAttack3Id: 5
 		} break
 		case 3: return {
@@ -43,17 +43,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 80,
-			baseAttack: 100
-			baseDefense: 85
-			baseSpAttack: 75
-			baseSpDefense: 80
-			baseSpeed: 110
-			type1: "Blight"
-			type2: "Toxic"
-			autoAttack1Id: 1
-			autoAttack2Id: 2
-			naturalAttack1Id: 3
-			naturalAttack2Id: 4
+			baseAttack: 100,
+			baseDefense: 85,
+			baseSpAttack: 75,
+			baseSpDefense: 80,
+			baseSpeed: 110,
+			type1: "Blight",
+			type2: "Toxic",
+			autoAttack1Id: 1,
+			autoAttack2Id: 2,
+			naturalAttack1Id: 3,
+			naturalAttack2Id: 4,
 			naturalAttack3Id: 5
 		} break
 		case 4: return {
@@ -61,17 +61,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 70,
-			baseAttack: 45
-			baseDefense: 65
-			baseSpAttack: 40
-			baseSpDefense: 50
-			baseSpeed: 45
-			type1: "Water"
-			type2: ""
-			autoAttack1Id: 6
-			autoAttack2Id: 7
-			naturalAttack1Id: 8
-			naturalAttack2Id: 9
+			baseAttack: 45,
+			baseDefense: 65,
+			baseSpAttack: 40,
+			baseSpDefense: 50,
+			baseSpeed: 45,
+			type1: "Water",
+			type2: "",
+			autoAttack1Id: 6,
+			autoAttack2Id: 7,
+			naturalAttack1Id: 8,
+			naturalAttack2Id: 9,
 			naturalAttack3Id: 10
 		} break
 		case 5: return {
@@ -79,17 +79,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 85,
-			baseAttack: 60
-			baseDefense: 80
-			baseSpAttack: 55
-			baseSpDefense: 65
-			baseSpeed: 60
-			type1: "Water"
-			type2: ""
-			autoAttack1Id: 6
-			autoAttack2Id: 7
-			naturalAttack1Id: 8
-			naturalAttack2Id: 9
+			baseAttack: 60,
+			baseDefense: 80,
+			baseSpAttack: 55,
+			baseSpDefense: 65,
+			baseSpeed: 60,
+			type1: "Water",
+			type2: "",
+			autoAttack1Id: 6,
+			autoAttack2Id: 7,
+			naturalAttack1Id: 8,
+			naturalAttack2Id: 9,
 			naturalAttack3Id: 10
 		} break
 		case 6: return {
@@ -97,17 +97,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 110,
-			baseAttack: 80
-			baseDefense: 85
-			baseSpAttack: 80
-			baseSpDefense: 100
-			baseSpeed: 75
-			type1: "Water"
-			type2: ""
-			autoAttack1Id: 6
-			autoAttack2Id: 7
-			naturalAttack1Id: 8
-			naturalAttack2Id: 9
+			baseAttack: 80,
+			baseDefense: 85,
+			baseSpAttack: 80,
+			baseSpDefense: 100,
+			baseSpeed: 75,
+			type1: "Water",
+			type2: "",
+			autoAttack1Id: 6,
+			autoAttack2Id: 7,
+			naturalAttack1Id: 8,
+			naturalAttack2Id: 9,
 			naturalAttack3Id: 10
 		} break
 		case 7: return {
@@ -115,17 +115,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 45,
-			baseAttack: 45
-			baseDefense: 40
-			baseSpAttack: 70
-			baseSpDefense: 45
-			baseSpeed: 70
-			type1: "Fire"
-			type2: "Wind"
-			autoAttack1Id: 11
-			autoAttack2Id: 12
-			naturalAttack1Id: 13
-			naturalAttack2Id: 14
+			baseAttack: 45,
+			baseDefense: 40,
+			baseSpAttack: 70,
+			baseSpDefense: 45,
+			baseSpeed: 70,
+			type1: "Fire",
+			type2: "Wind",
+			autoAttack1Id: 11,
+			autoAttack2Id: 12,
+			naturalAttack1Id: 13,
+			naturalAttack2Id: 14,
 			naturalAttack3Id: 15
 		} break
 		case 8: return {
@@ -133,17 +133,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
-			baseAttack: 60
-			baseDefense: 55
-			baseSpAttack: 85
-			baseSpDefense: 65
-			baseSpeed: 80
-			type1: "Fire"
-			type2: "Wind"
-			autoAttack1Id: 11
-			autoAttack2Id: 12
-			naturalAttack1Id: 13
-			naturalAttack2Id: 14
+			baseAttack: 60,
+			baseDefense: 55,
+			baseSpAttack: 85,
+			baseSpDefense: 65,
+			baseSpeed: 80,
+			type1: "Fire",
+			type2: "Wind",
+			autoAttack1Id: 11,
+			autoAttack2Id: 12,
+			naturalAttack1Id: 13,
+			naturalAttack2Id: 14,
 			naturalAttack3Id: 15
 		} break
 		case 9: return {
@@ -151,17 +151,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
-			baseAttack: 80
-			baseDefense: 80
-			baseSpAttack: 110
-			baseSpDefense: 85
-			baseSpeed: 100
-			type1: "Fire"
-			type2: "Wind"
-			autoAttack1Id: 11
-			autoAttack2Id: 12
-			naturalAttack1Id: 13
-			naturalAttack2Id: 14
+			baseAttack: 80,
+			baseDefense: 80,
+			baseSpAttack: 110,
+			baseSpDefense: 85,
+			baseSpeed: 100,
+			type1: "Fire",
+			type2: "Wind",
+			autoAttack1Id: 11,
+			autoAttack2Id: 12,
+			naturalAttack1Id: 13,
+			naturalAttack2Id: 14,
 			naturalAttack3Id: 15
 		} break
 		case 10: return {
@@ -169,17 +169,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 55,
-			baseAttack: 85
-			baseDefense: 60
-			baseSpAttack: 50
-			baseSpDefense: 50
-			baseSpeed: 70
-			type1: "Normal"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 11
-			naturalAttack2Id: 12
+			baseAttack: 85,
+			baseDefense: 60,
+			baseSpAttack: 50,
+			baseSpDefense: 50,
+			baseSpeed: 70,
+			type1: "Normal",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 11,
+			naturalAttack2Id: 12,
 			naturalAttack3Id: undefined
 		} break
 		case 11: return {
@@ -187,17 +187,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
-			baseAttack: 120
-			baseDefense: 70
-			baseSpAttack: 55
-			baseSpDefense: 55
-			baseSpeed: 90
-			type1: "Normal"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 11
-			naturalAttack2Id: 12
+			baseAttack: 120,
+			baseDefense: 70,
+			baseSpAttack: 55,
+			baseSpDefense: 55,
+			baseSpeed: 90,
+			type1: "Normal",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 11,
+			naturalAttack2Id: 12,
 			naturalAttack3Id: undefined
 		} break
 		case 12: return {
@@ -205,17 +205,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 45,
-			baseAttack: 60
-			baseDefense: 50
-			baseSpAttack: 45
-			baseSpDefense: 45
-			baseSpeed: 55
-			type1: "Wind"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 14
-			naturalAttack2Id: 15
+			baseAttack: 60,
+			baseDefense: 50,
+			baseSpAttack: 45,
+			baseSpDefense: 45,
+			baseSpeed: 55,
+			type1: "Wind",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 14,
+			naturalAttack2Id: 15,
 			naturalAttack3Id: undefined
 		} break
 		case 13: return {
@@ -223,17 +223,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
-			baseAttack: 75
-			baseDefense: 65
-			baseSpAttack: 55
-			baseSpDefense: 65
-			baseSpeed: 70
-			type1: "Wind"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 14
-			naturalAttack2Id: 15
+			baseAttack: 75,
+			baseDefense: 65,
+			baseSpAttack: 55,
+			baseSpDefense: 65,
+			baseSpeed: 70,
+			type1: "Wind",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 14,
+			naturalAttack2Id: 15,
 			naturalAttack3Id: undefined
 		} break
 		case 14: return {
@@ -241,17 +241,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 80,
-			baseAttack: 95
-			baseDefense: 80
-			baseSpAttack: 60
-			baseSpDefense: 75
-			baseSpeed: 90
-			type1: "Wind"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 14
-			naturalAttack2Id: 15
+			baseAttack: 95,
+			baseDefense: 80,
+			baseSpAttack: 60,
+			baseSpDefense: 75,
+			baseSpeed: 90,
+			type1: "Wind",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 14,
+			naturalAttack2Id: 15,
 			naturalAttack3Id: undefined
 		} break
 		case 15: return {
@@ -259,17 +259,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 50,
-			baseAttack: 80
-			baseDefense: 30
-			baseSpAttack: 30
-			baseSpDefense: 50
-			baseSpeed: 80
-			type1: "Electric"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 18
-			naturalAttack2Id: 19
+			baseAttack: 80,
+			baseDefense: 30,
+			baseSpAttack: 30,
+			baseSpDefense: 50,
+			baseSpeed: 80,
+			type1: "Electric",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 18,
+			naturalAttack2Id: 19,
 			naturalAttack3Id: undefined
 		} break
 		case 16: return {
@@ -277,17 +277,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 85,
-			baseAttack: 110
-			baseDefense: 55
-			baseSpAttack: 55
-			baseSpDefense: 75
-			baseSpeed: 105
-			type1: "Electric"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 18
-			naturalAttack2Id: 19
+			baseAttack: 110,
+			baseDefense: 55,
+			baseSpAttack: 55,
+			baseSpDefense: 75,
+			baseSpeed: 105,
+			type1: "Electric",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 18,
+			naturalAttack2Id: 19,
 			naturalAttack3Id: undefined
 		} break
 		case 17: return {
@@ -295,17 +295,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
-			baseAttack: 75
-			baseDefense: 80
-			baseSpAttack: 30
-			baseSpDefense: 35
-			baseSpeed: 20
-			type1: "Earth"
-			type2: "Fire"
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 21
-			naturalAttack2Id: 22
+			baseAttack: 75,
+			baseDefense: 80,
+			baseSpAttack: 30,
+			baseSpDefense: 35,
+			baseSpeed: 20,
+			type1: "Earth",
+			type2: "Fire",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 21,
+			naturalAttack2Id: 22,
 			naturalAttack3Id: undefined
 		} break
 		case 18: return {
@@ -313,17 +313,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
-			baseAttack: 95
-			baseDefense: 100
-			baseSpAttack: 40
-			baseSpDefense: 45
-			baseSpeed: 25
-			type1: "Earth"
-			type2: "Fire"
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 21
-			naturalAttack2Id: 22
+			baseAttack: 95,
+			baseDefense: 100,
+			baseSpAttack: 40,
+			baseSpDefense: 45,
+			baseSpeed: 25,
+			type1: "Earth",
+			type2: "Fire",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 21,
+			naturalAttack2Id: 22,
 			naturalAttack3Id: undefined
 		} break
 		case 19: return {
@@ -331,17 +331,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
-			baseAttack: 120
-			baseDefense: 130
-			baseSpAttack: 50
-			baseSpDefense: 60
-			baseSpeed: 30
-			type1: "Earth"
-			type2: "Fire"
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 21
-			naturalAttack2Id: 22
+			baseAttack: 120,
+			baseDefense: 130,
+			baseSpAttack: 50,
+			baseSpDefense: 60,
+			baseSpeed: 30,
+			type1: "Earth",
+			type2: "Fire",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 21,
+			naturalAttack2Id: 22,
 			naturalAttack3Id: undefined
 		} break
 		case 20: return {
@@ -349,17 +349,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 45,
-			baseAttack: 40
-			baseDefense: 30
-			baseSpAttack: 75
-			baseSpDefense: 35
-			baseSpeed: 70
-			type1: "Arcane"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 24
-			naturalAttack2Id: 25
+			baseAttack: 40,
+			baseDefense: 30,
+			baseSpAttack: 75,
+			baseSpDefense: 35,
+			baseSpeed: 70,
+			type1: "Arcane",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 24,
+			naturalAttack2Id: 25,
 			naturalAttack3Id: undefined
 		} break
 		case 21: return {
@@ -367,17 +367,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
-			baseAttack: 50
-			baseDefense: 35
-			baseSpAttack: 105
-			baseSpDefense: 45
-			baseSpeed: 95
-			type1: "Arcane"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 24
-			naturalAttack2Id: 25
+			baseAttack: 50,
+			baseDefense: 35,
+			baseSpAttack: 105,
+			baseSpDefense: 45,
+			baseSpeed: 95,
+			type1: "Arcane",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 24,
+			naturalAttack2Id: 25,
 			naturalAttack3Id: undefined
 		} break
 		case 22: return {
@@ -385,17 +385,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 70,
-			baseAttack: 60
-			baseDefense: 40
-			baseSpAttack: 130
-			baseSpDefense: 60
-			baseSpeed: 120
-			type1: "Arcane"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 24
-			naturalAttack2Id: 25
+			baseAttack: 60,
+			baseDefense: 40,
+			baseSpAttack: 130,
+			baseSpDefense: 60,
+			baseSpeed: 120,
+			type1: "Arcane",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 24,
+			naturalAttack2Id: 25,
 			naturalAttack3Id: undefined
 		} break
 		case 23: return {
@@ -403,17 +403,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
-			baseAttack: 60
-			baseDefense: 65
-			baseSpAttack: 35
-			baseSpDefense: 70
-			baseSpeed: 55
-			type1: "Normal"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 27
-			naturalAttack2Id: 28
+			baseAttack: 60,
+			baseDefense: 65,
+			baseSpAttack: 35,
+			baseSpDefense: 70,
+			baseSpeed: 55,
+			type1: "Normal",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 27,
+			naturalAttack2Id: 28,
 			naturalAttack3Id: undefined
 		} break
 		case 24: return {
@@ -421,17 +421,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 110,
-			baseAttack: 75
-			baseDefense: 90
-			baseSpAttack: 45
-			baseSpDefense: 95
-			baseSpeed: 70
-			type1: "Normal"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 27
-			naturalAttack2Id: 28
+			baseAttack: 75,
+			baseDefense: 90,
+			baseSpAttack: 45,
+			baseSpDefense: 95,
+			baseSpeed: 70,
+			type1: "Normal",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 27,
+			naturalAttack2Id: 28,
 			naturalAttack3Id: undefined
 		} break
 		case 25: return {
@@ -439,17 +439,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
-			baseAttack: 40
-			baseDefense: 60
-			baseSpAttack: 70
-			baseSpDefense: 60
-			baseSpeed: 55
-			type1: "Blight"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 30
-			naturalAttack2Id: 31
+			baseAttack: 40,
+			baseDefense: 60,
+			baseSpAttack: 70,
+			baseSpDefense: 60,
+			baseSpeed: 55,
+			type1: "Blight",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 30,
+			naturalAttack2Id: 31,
 			naturalAttack3Id: undefined
 		} break
 		case 26: return {
@@ -457,17 +457,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 95,
-			baseAttack: 50
-			baseDefense: 75
-			baseSpAttack: 85
-			baseSpDefense: 75
-			baseSpeed: 70
-			type1: "Blight"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 30
-			naturalAttack2Id: 31
+			baseAttack: 50,
+			baseDefense: 75,
+			baseSpAttack: 85,
+			baseSpDefense: 75,
+			baseSpeed: 70,
+			type1: "Blight",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 30,
+			naturalAttack2Id: 31,
 			naturalAttack3Id: undefined
 		} break
 		case 27: return {
@@ -475,17 +475,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 70,
-			baseAttack: 40
-			baseDefense: 45
-			baseSpAttack: 80
-			baseSpDefense: 60
-			baseSpeed: 65
-			type1: "Earth"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 33
-			naturalAttack2Id: 34
+			baseAttack: 40,
+			baseDefense: 45,
+			baseSpAttack: 80,
+			baseSpDefense: 60,
+			baseSpeed: 65,
+			type1: "Earth",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 33,
+			naturalAttack2Id: 34,
 			naturalAttack3Id: undefined
 		} break
 		case 28: return {
@@ -493,17 +493,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
-			baseAttack: 50
-			baseDefense: 60
-			baseSpAttack: 95
-			baseSpDefense: 75
-			baseSpeed: 80
-			type1: "Earth"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 33
-			naturalAttack2Id: 34
+			baseAttack: 50,
+			baseDefense: 60,
+			baseSpAttack: 95,
+			baseSpDefense: 75,
+			baseSpeed: 80,
+			type1: "Earth",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 33,
+			naturalAttack2Id: 34,
 			naturalAttack3Id: undefined
 		} break
 		case 29: return {
@@ -511,17 +511,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 55,
-			baseAttack: 55
-			baseDefense: 45
-			baseSpAttack: 35
-			baseSpDefense: 35
-			baseSpeed: 55
-			type1: "Electric"
-			type2: "Water"
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 36
-			naturalAttack2Id: 37
+			baseAttack: 55,
+			baseDefense: 45,
+			baseSpAttack: 35,
+			baseSpDefense: 35,
+			baseSpeed: 55,
+			type1: "Electric",
+			type2: "Water",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 36,
+			naturalAttack2Id: 37,
 			naturalAttack3Id: undefined
 		} break
 		case 30: return {
@@ -529,17 +529,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
-			baseAttack: 75
-			baseDefense: 60
-			baseSpAttack: 45
-			baseSpDefense: 50
-			baseSpeed: 75
-			type1: "Electric"
-			type2: "Water"
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 36
-			naturalAttack2Id: 37
+			baseAttack: 75,
+			baseDefense: 60,
+			baseSpAttack: 45,
+			baseSpDefense: 50,
+			baseSpeed: 75,
+			type1: "Electric",
+			type2: "Water",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 36,
+			naturalAttack2Id: 37,
 			naturalAttack3Id: undefined
 		} break
 		case 31: return {
@@ -547,17 +547,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
-			baseAttack: 90
-			baseDefense: 75
-			baseSpAttack: 60
-			baseSpDefense: 65
-			baseSpeed: 90
-			type1: "Electric"
-			type2: "Water"
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 36
-			naturalAttack2Id: 37
+			baseAttack: 90,
+			baseDefense: 75,
+			baseSpAttack: 60,
+			baseSpDefense: 65,
+			baseSpeed: 90,
+			type1: "Electric",
+			type2: "Water",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 36,
+			naturalAttack2Id: 37,
 			naturalAttack3Id: undefined
 		} break
 		case 32: return {
@@ -565,17 +565,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
-			baseAttack: 30
-			baseDefense: 65
-			baseSpAttack: 55
-			baseSpDefense: 85
-			baseSpeed: 30
-			type1: "Toxic"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 39
-			naturalAttack2Id: 40
+			baseAttack: 30,
+			baseDefense: 65,
+			baseSpAttack: 55,
+			baseSpDefense: 85,
+			baseSpeed: 30,
+			type1: "Toxic",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 39,
+			naturalAttack2Id: 40,
 			naturalAttack3Id: undefined
 		} break
 		case 33: return {
@@ -583,17 +583,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 105,
-			baseAttack: 40
-			baseDefense: 80
-			baseSpAttack: 65
-			baseSpDefense: 120
-			baseSpeed: 40
-			type1: "Toxic"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 39
-			naturalAttack2Id: 40
+			baseAttack: 40,
+			baseDefense: 80,
+			baseSpAttack: 65,
+			baseSpDefense: 120,
+			baseSpeed: 40,
+			type1: "Toxic",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 39,
+			naturalAttack2Id: 40,
 			naturalAttack3Id: undefined
 		} break
 		case 34: return {
@@ -601,17 +601,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
-			baseAttack: 100
-			baseDefense: 90
-			baseSpAttack: 65
-			baseSpDefense: 80
-			baseSpeed: 75
-			type1: "Toxic"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 42
-			naturalAttack2Id: 43
+			baseAttack: 100,
+			baseDefense: 90,
+			baseSpAttack: 65,
+			baseSpDefense: 80,
+			baseSpeed: 75,
+			type1: "Toxic",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 42,
+			naturalAttack2Id: 43,
 			naturalAttack3Id: undefined
 		} break
 		case 35: return {
@@ -619,17 +619,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
-			baseAttack: 70
-			baseDefense: 80
-			baseSpAttack: 90
-			baseSpDefense: 90
-			baseSpeed: 75
-			type1: "Earth"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 45
-			naturalAttack2Id: 46
+			baseAttack: 70,
+			baseDefense: 80,
+			baseSpAttack: 90,
+			baseSpDefense: 90,
+			baseSpeed: 75,
+			type1: "Earth",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 45,
+			naturalAttack2Id: 46,
 			naturalAttack3Id: undefined
 		} break
 		case 36: return {
@@ -637,17 +637,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
-			baseAttack: 60
-			baseDefense: 100
-			baseSpAttack: 90
-			baseSpDefense: 100
-			baseSpeed: 55
-			type1: "Electric"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 48
-			naturalAttack2Id: 49
+			baseAttack: 60,
+			baseDefense: 100,
+			baseSpAttack: 90,
+			baseSpDefense: 100,
+			baseSpeed: 55,
+			type1: "Electric",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 48,
+			naturalAttack2Id: 49,
 			naturalAttack3Id: undefined
 		} break
 		case 37: return {
@@ -655,17 +655,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
-			baseAttack: 40
-			baseDefense: 65
-			baseSpAttack: 50
-			baseSpDefense: 65
-			baseSpeed: 35
-			type1: "Wind"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 51
-			naturalAttack2Id: 52
+			baseAttack: 40,
+			baseDefense: 65,
+			baseSpAttack: 50,
+			baseSpDefense: 65,
+			baseSpeed: 35,
+			type1: "Wind",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 51,
+			naturalAttack2Id: 52,
 			naturalAttack3Id: undefined
 		} break
 		case 38: return {
@@ -673,17 +673,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
-			baseAttack: 70
-			baseDefense: 105
-			baseSpAttack: 95
-			baseSpDefense: 105
-			baseSpeed: 65
-			type1: "Wind"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 51
-			naturalAttack2Id: 52
+			baseAttack: 70,
+			baseDefense: 105,
+			baseSpAttack: 95,
+			baseSpDefense: 105,
+			baseSpeed: 65,
+			type1: "Wind",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 51,
+			naturalAttack2Id: 52,
 			naturalAttack3Id: undefined
 		} break
 		case 39: return {
@@ -691,17 +691,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
-			baseAttack: 130
-			baseDefense: 75
-			baseSpAttack: 65
-			baseSpDefense: 70
-			baseSpeed: 100
-			type1: "Normal"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 54
-			naturalAttack2Id: 55
+			baseAttack: 130,
+			baseDefense: 75,
+			baseSpAttack: 65,
+			baseSpDefense: 70,
+			baseSpeed: 100,
+			type1: "Normal",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 54,
+			naturalAttack2Id: 55,
 			naturalAttack3Id: undefined
 		} break
 		case 40: return {
@@ -709,17 +709,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 50,
-			baseAttack: 80
-			baseDefense: 50
-			baseSpAttack: 30
-			baseSpDefense: 30
-			baseSpeed: 80
-			type1: "Normal"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 56
-			naturalAttack2Id: 57
+			baseAttack: 80,
+			baseDefense: 50,
+			baseSpAttack: 30,
+			baseSpDefense: 30,
+			baseSpeed: 80,
+			type1: "Normal",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 56,
+			naturalAttack2Id: 57,
 			naturalAttack3Id: undefined
 		} break
 		case 41: return {
@@ -727,17 +727,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 65,
-			baseAttack: 130
-			baseDefense: 60
-			baseSpAttack: 95
-			baseSpDefense: 110
-			baseSpeed: 65
-			type1: "Fire"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 59
-			naturalAttack2Id: 60
+			baseAttack: 130,
+			baseDefense: 60,
+			baseSpAttack: 95,
+			baseSpDefense: 110,
+			baseSpeed: 65,
+			type1: "Fire",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 59,
+			naturalAttack2Id: 60,
 			naturalAttack3Id: undefined
 		} break
 		case 42: return {
@@ -745,17 +745,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 65,
-			baseAttack: 65
-			baseDefense: 60
-			baseSpAttack: 110
-			baseSpDefense: 95
-			baseSpeed: 130
-			type1: "Water"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 62
-			naturalAttack2Id: 63
+			baseAttack: 65,
+			baseDefense: 60,
+			baseSpAttack: 110,
+			baseSpDefense: 95,
+			baseSpeed: 130,
+			type1: "Water",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 62,
+			naturalAttack2Id: 63,
 			naturalAttack3Id: undefined
 		} break
 		case 43: return {
@@ -763,17 +763,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 140,
-			baseAttack: 110
-			baseDefense: 95
-			baseSpAttack: 80
-			baseSpDefense: 90
-			baseSpeed: 40
-			type1: "Blight"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 65
-			naturalAttack2Id: 66
+			baseAttack: 110,
+			baseDefense: 95,
+			baseSpAttack: 80,
+			baseSpDefense: 90,
+			baseSpeed: 40,
+			type1: "Blight",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 65,
+			naturalAttack2Id: 66,
 			naturalAttack3Id: undefined
 		} break
 		case 44: return {
@@ -781,17 +781,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
-			baseAttack: 90
-			baseDefense: 85
-			baseSpAttack: 125
-			baseSpDefense: 90
-			baseSpeed: 100
-			type1: "Electric"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 68
-			naturalAttack2Id: 69
+			baseAttack: 90,
+			baseDefense: 85,
+			baseSpAttack: 125,
+			baseSpDefense: 90,
+			baseSpeed: 100,
+			type1: "Electric",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 68,
+			naturalAttack2Id: 69,
 			naturalAttack3Id: undefined
 		} break
 		case 45: return {
@@ -799,17 +799,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
-			baseAttack: 90
-			baseDefense: 100
-			baseSpAttack: 85
-			baseSpDefense: 125
-			baseSpeed: 90
-			type1: "Earth"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 71
-			naturalAttack2Id: 72
+			baseAttack: 90,
+			baseDefense: 100,
+			baseSpAttack: 85,
+			baseSpDefense: 125,
+			baseSpeed: 90,
+			type1: "Earth",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 71,
+			naturalAttack2Id: 72,
 			naturalAttack3Id: undefined
 		} break
 		case 46: return {
@@ -817,17 +817,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
-			baseAttack: 125
-			baseDefense: 90
-			baseSpAttack: 100
-			baseSpDefense: 85
-			baseSpeed: 90
-			type1: "Wind"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 74
-			naturalAttack2Id: 75
+			baseAttack: 125,
+			baseDefense: 90,
+			baseSpAttack: 100,
+			baseSpDefense: 85,
+			baseSpeed: 90,
+			type1: "Wind",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 74,
+			naturalAttack2Id: 75,
 			naturalAttack3Id: undefined
 		} break
 		case 47: return {
@@ -835,17 +835,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 55,
-			baseAttack: 45
-			baseDefense: 50
-			baseSpAttack: 70
-			baseSpDefense: 50
-			baseSpeed: 45
-			type1: "Toxic"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 77
-			naturalAttack2Id: 78
+			baseAttack: 45,
+			baseDefense: 50,
+			baseSpAttack: 70,
+			baseSpDefense: 50,
+			baseSpeed: 45,
+			type1: "Toxic",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 77,
+			naturalAttack2Id: 78,
 			naturalAttack3Id: undefined
 		} break
 		case 48: return {
@@ -853,17 +853,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 70,
-			baseAttack: 60
-			baseDefense: 65
-			baseSpAttack: 85
-			baseSpDefense: 65
-			baseSpeed: 60
-			type1: "Toxic"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 77
-			naturalAttack2Id: 78
+			baseAttack: 60,
+			baseDefense: 65,
+			baseSpAttack: 85,
+			baseSpDefense: 65,
+			baseSpeed: 60,
+			type1: "Toxic",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 77,
+			naturalAttack2Id: 78,
 			naturalAttack3Id: undefined
 		} break
 		case 49: return {
@@ -871,17 +871,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
-			baseAttack: 90
-			baseDefense: 95
-			baseSpAttack: 135
-			baseSpDefense: 95
-			baseSpeed: 85
-			type1: "Toxic"
-			type2: "Wind"
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 77
-			naturalAttack2Id: 78
+			baseAttack: 90,
+			baseDefense: 95,
+			baseSpAttack: 135,
+			baseSpDefense: 95,
+			baseSpeed: 85,
+			type1: "Toxic",
+			type2: "Wind",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 77,
+			naturalAttack2Id: 78,
 			naturalAttack3Id: undefined
 		} break
 		case 50: return {
@@ -889,17 +889,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 105,
-			baseAttack: 150
-			baseDefense: 90
-			baseSpAttack: 115
-			baseSpDefense: 90
-			baseSpeed: 130
-			type1: "Arcane"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 80
-			naturalAttack2Id: 81
+			baseAttack: 150,
+			baseDefense: 90,
+			baseSpAttack: 115,
+			baseSpDefense: 90,
+			baseSpeed: 130,
+			type1: "Arcane",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 80,
+			naturalAttack2Id: 81,
 			naturalAttack3Id: undefined
 		} break
 		case 51: return {
@@ -907,17 +907,17 @@ function GetGenericInfernomonData(_number){
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
-			baseAttack: 100
-			baseDefense: 100
-			baseSpAttack: 100
-			baseSpDefense: 100
-			baseSpeed: 100
-			type1: "Arcane"
-			type2: ""
-			autoAttack1Id: undefined
-			autoAttack2Id: undefined
-			naturalAttack1Id: 83
-			naturalAttack2Id: 84
+			baseAttack: 100,
+			baseDefense: 100,
+			baseSpAttack: 100,
+			baseSpDefense: 100,
+			baseSpeed: 100,
+			type1: "Arcane",
+			type2: "",
+			autoAttack1Id: undefined,
+			autoAttack2Id: undefined,
+			naturalAttack1Id: 83,
+			naturalAttack2Id: 84,
 			naturalAttack3Id: undefined
 		} break
 		default: break
