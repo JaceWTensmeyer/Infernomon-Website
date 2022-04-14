@@ -8,32 +8,32 @@ function GetAttack(_id){
 			damageCategory: "Physical",
 			name: "Poisonous Bite",
 			scriptName: AttackId1,
-			description: "Does instant damage plus additional damage over 5 seconds",
+			description: "Does instant damage plus additional 6 damage over 3 seconds",
 			castType: "Target",
 			castDuration: 0,
 			range: 2,
 			type: "Toxic",
-			damage: 7,
+			damage: 8,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 2: return {
 			id: 2,
 			attackCategory: "Auto",
 			damageCategory: "Special",
-			name: "Poisonous Shot",
+			name: "Web Shot",
 			scriptName: AttackId2,
-			description: "Does instant damage plus additional damage over 5 seconds",
+			description: "Does instant damage slows target for a short time",
 			castType: "Target",
 			castDuration: 0,
 			range: 8,
-			type: "Toxic",
-			damage: 7,
+			type: "Blight",
+			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 3: return {
@@ -50,7 +50,7 @@ function GetAttack(_id){
 			damage: 30,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 4: return {
@@ -67,7 +67,7 @@ function GetAttack(_id){
 			damage: 80,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 5: return {
@@ -84,7 +84,7 @@ function GetAttack(_id){
 			damage: 90,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 6: return {
@@ -101,7 +101,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 7: return {
@@ -118,7 +118,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 8: return {
@@ -135,7 +135,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 9: return {
@@ -152,7 +152,7 @@ function GetAttack(_id){
 			damage: 90,
 			cooldown: 25,
 			statusEffect: "Stun",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 3
 		} break
 		case 10: return {
@@ -169,7 +169,7 @@ function GetAttack(_id){
 			damage: 90,
 			cooldown: 25,
 			statusEffect: "Stun",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 3
 		} break
 		case 11: return {
@@ -186,7 +186,7 @@ function GetAttack(_id){
 			damage: 16,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 12: return {
@@ -203,7 +203,7 @@ function GetAttack(_id){
 			damage: 16,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 13: return {
@@ -220,7 +220,7 @@ function GetAttack(_id){
 			damage: 30,
 			cooldown: 20,
 			statusEffect: "Burn",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 14: return {
@@ -237,7 +237,7 @@ function GetAttack(_id){
 			damage: 30,
 			cooldown: 20,
 			statusEffect: "Burn",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 15: return {
@@ -254,7 +254,7 @@ function GetAttack(_id){
 			damage: 70,
 			cooldown: 8,
 			statusEffect: "Burn",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 16: return {
@@ -271,7 +271,7 @@ function GetAttack(_id){
 			damage: 10,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 17: return {
@@ -288,7 +288,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "Accuracy",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 18: return {
@@ -305,7 +305,7 @@ function GetAttack(_id){
 			damage: 70,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 19: return {
@@ -322,7 +322,7 @@ function GetAttack(_id){
 			damage: 45,
 			cooldown: 25,
 			statusEffect: "Accuracy",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 20: return {
@@ -339,7 +339,7 @@ function GetAttack(_id){
 			damage: 27,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 21: return {
@@ -356,7 +356,7 @@ function GetAttack(_id){
 			damage: 14,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 22: return {
@@ -373,7 +373,7 @@ function GetAttack(_id){
 			damage: 14,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 23: return {
@@ -390,7 +390,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 24: return {
@@ -407,7 +407,7 @@ function GetAttack(_id){
 			damage: 50,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 25: return {
@@ -424,7 +424,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 26: return {
@@ -441,7 +441,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 27: return {
@@ -458,7 +458,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 28: return {
@@ -475,7 +475,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 29: return {
@@ -492,7 +492,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 30: return {
@@ -509,7 +509,7 @@ function GetAttack(_id){
 			damage: 50,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 31: return {
@@ -526,7 +526,7 @@ function GetAttack(_id){
 			damage: 90,
 			cooldown: 20,
 			statusEffect: "Paralyze",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 32: return {
@@ -543,7 +543,7 @@ function GetAttack(_id){
 			damage: 90,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 33: return {
@@ -560,7 +560,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 34: return {
@@ -577,7 +577,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 2.6,
 			statusEffect: "Burn",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 35: return {
@@ -594,7 +594,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 36: return {
@@ -611,7 +611,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 22,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 37: return {
@@ -628,7 +628,7 @@ function GetAttack(_id){
 			damage: 25,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 38: return {
@@ -645,7 +645,7 @@ function GetAttack(_id){
 			damage: 18,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 39: return {
@@ -662,7 +662,7 @@ function GetAttack(_id){
 			damage: 18,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 40: return {
@@ -679,7 +679,7 @@ function GetAttack(_id){
 			damage: 45,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 41: return {
@@ -696,7 +696,7 @@ function GetAttack(_id){
 			damage: 140,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 42: return {
@@ -713,7 +713,7 @@ function GetAttack(_id){
 			damage: 130,
 			cooldown: 25,
 			statusEffect: "Silence",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 43: return {
@@ -730,7 +730,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 44: return {
@@ -747,7 +747,7 @@ function GetAttack(_id){
 			damage: 22,
 			cooldown: 2.6,
 			statusEffect: "Fear",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 3
 		} break
 		case 45: return {
@@ -764,7 +764,7 @@ function GetAttack(_id){
 			damage: 80,
 			cooldown: 25,
 			statusEffect: "Stun",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 3
 		} break
 		case 46: return {
@@ -781,7 +781,7 @@ function GetAttack(_id){
 			damage: 25,
 			cooldown: 22,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 47: return {
@@ -798,7 +798,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 48: return {
@@ -815,7 +815,7 @@ function GetAttack(_id){
 			damage: 6,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 49: return {
@@ -832,7 +832,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 50: return {
@@ -849,7 +849,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 51: return {
@@ -866,7 +866,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 7,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 52: return {
@@ -883,7 +883,7 @@ function GetAttack(_id){
 			damage: 32,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 53: return {
@@ -900,7 +900,7 @@ function GetAttack(_id){
 			damage: 16,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 54: return {
@@ -917,7 +917,7 @@ function GetAttack(_id){
 			damage: 16,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 55: return {
@@ -934,7 +934,7 @@ function GetAttack(_id){
 			damage: 25,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 56: return {
@@ -951,7 +951,7 @@ function GetAttack(_id){
 			damage: 60,
 			cooldown: 5,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 57: return {
@@ -968,7 +968,7 @@ function GetAttack(_id){
 			damage: 36,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 58: return {
@@ -985,7 +985,7 @@ function GetAttack(_id){
 			damage: 26,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 59: return {
@@ -1002,7 +1002,7 @@ function GetAttack(_id){
 			damage: 26,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 60: return {
@@ -1019,7 +1019,7 @@ function GetAttack(_id){
 			damage: 80,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 61: return {
@@ -1036,7 +1036,7 @@ function GetAttack(_id){
 			damage: 80,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 62: return {
@@ -1053,7 +1053,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 63: return {
@@ -1070,7 +1070,7 @@ function GetAttack(_id){
 			damage: 8,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 64: return {
@@ -1087,7 +1087,7 @@ function GetAttack(_id){
 			damage: 26,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 65: return {
@@ -1104,7 +1104,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 66: return {
@@ -1121,7 +1121,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 25,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 67: return {
@@ -1138,7 +1138,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 68: return {
@@ -1155,7 +1155,7 @@ function GetAttack(_id){
 			damage: 11,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 69: return {
@@ -1172,7 +1172,7 @@ function GetAttack(_id){
 			damage: 11,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 70: return {
@@ -1189,7 +1189,7 @@ function GetAttack(_id){
 			damage: 70,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 71: return {
@@ -1206,7 +1206,7 @@ function GetAttack(_id){
 			damage: 35,
 			cooldown: 25,
 			statusEffect: "Stun",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 1
 		} break
 		case 72: return {
@@ -1223,7 +1223,7 @@ function GetAttack(_id){
 			damage: 100,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 73: return {
@@ -1240,7 +1240,7 @@ function GetAttack(_id){
 			damage: 6,
 			cooldown: 2.6,
 			statusEffect: "Accuracy",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 74: return {
@@ -1257,7 +1257,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 2.6,
 			statusEffect: "Accuracy",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
 		case 75: return {
@@ -1274,7 +1274,7 @@ function GetAttack(_id){
 			damage: 30,
 			cooldown: 25,
 			statusEffect: "Accuracy",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 3
 		} break
 		case 76: return {
@@ -1291,7 +1291,7 @@ function GetAttack(_id){
 			damage: 40,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 77: return {
@@ -1308,7 +1308,7 @@ function GetAttack(_id){
 			damage: 80,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 78: return {
@@ -1325,7 +1325,7 @@ function GetAttack(_id){
 			damage: 4,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 79: return {
@@ -1342,7 +1342,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 80: return {
@@ -1359,7 +1359,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 25,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 81: return {
@@ -1376,7 +1376,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 25,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 82: return {
@@ -1393,7 +1393,7 @@ function GetAttack(_id){
 			damage: 27,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 83: return {
@@ -1410,7 +1410,7 @@ function GetAttack(_id){
 			damage: 4,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 84: return {
@@ -1427,7 +1427,7 @@ function GetAttack(_id){
 			damage: 20,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 85: return {
@@ -1444,7 +1444,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 50,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 86: return {
@@ -1461,7 +1461,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 87: return {
@@ -1478,7 +1478,7 @@ function GetAttack(_id){
 			damage: 27,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 88: return {
@@ -1495,7 +1495,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 89: return {
@@ -1512,7 +1512,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 90: return {
@@ -1529,7 +1529,7 @@ function GetAttack(_id){
 			damage: 0,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 91: return {
@@ -1546,7 +1546,7 @@ function GetAttack(_id){
 			damage: 27,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
 		case 92: return {
@@ -1563,7 +1563,7 @@ function GetAttack(_id){
 			damage: 66,
 			cooldown: 22,
 			statusEffect: "Stun",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: 3
 		} break
 		case 93: return {
@@ -1580,7 +1580,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 94: return {
@@ -1597,7 +1597,7 @@ function GetAttack(_id){
 			damage: 12,
 			cooldown: 1.4,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 95: return {
@@ -1614,7 +1614,7 @@ function GetAttack(_id){
 			damage: 27,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 96: return {
@@ -1631,7 +1631,7 @@ function GetAttack(_id){
 			damage: 50,
 			cooldown: 5,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 97: return {
@@ -1648,7 +1648,7 @@ function GetAttack(_id){
 			damage: 50,
 			cooldown: 5,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 98: return {
@@ -1665,7 +1665,7 @@ function GetAttack(_id){
 			damage: 6,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 99: return {
@@ -1682,7 +1682,7 @@ function GetAttack(_id){
 			damage: 6,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 100: return {
@@ -1699,7 +1699,7 @@ function GetAttack(_id){
 			damage: 30,
 			cooldown: 20,
 			statusEffect: "Burn",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 101: return {
@@ -1716,7 +1716,7 @@ function GetAttack(_id){
 			damage: 80,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 102: return {
@@ -1733,7 +1733,7 @@ function GetAttack(_id){
 			damage: 80,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 103: return {
@@ -1750,7 +1750,7 @@ function GetAttack(_id){
 			damage: 18,
 			cooldown: 2,
 			statusEffect: "Slow",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 104: return {
@@ -1767,7 +1767,7 @@ function GetAttack(_id){
 			damage: 18,
 			cooldown: 2,
 			statusEffect: "Slow",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 105: return {
@@ -1784,7 +1784,7 @@ function GetAttack(_id){
 			damage: 33,
 			cooldown: 20,
 			statusEffect: "Slow",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 106: return {
@@ -1801,7 +1801,7 @@ function GetAttack(_id){
 			damage: 90,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 107: return {
@@ -1818,7 +1818,7 @@ function GetAttack(_id){
 			damage: 80,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 108: return {
@@ -1835,7 +1835,7 @@ function GetAttack(_id){
 			damage: 18,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 109: return {
@@ -1852,7 +1852,7 @@ function GetAttack(_id){
 			damage: 14,
 			cooldown: 2.6,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 110: return {
@@ -1869,7 +1869,7 @@ function GetAttack(_id){
 			damage: 18,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 111: return {
@@ -1886,7 +1886,7 @@ function GetAttack(_id){
 			damage: 18,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 112: return {
@@ -1903,7 +1903,7 @@ function GetAttack(_id){
 			damage: 70,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 113: return {
@@ -1920,7 +1920,7 @@ function GetAttack(_id){
 			damage: 14,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 114: return {
@@ -1937,7 +1937,7 @@ function GetAttack(_id){
 			damage: 14,
 			cooldown: 2,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 115: return {
@@ -1954,7 +1954,7 @@ function GetAttack(_id){
 			damage: 70,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 116: return {
@@ -1971,7 +1971,7 @@ function GetAttack(_id){
 			damage: 95,
 			cooldown: 8,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 117: return {
@@ -1988,7 +1988,7 @@ function GetAttack(_id){
 			damage: 60,
 			cooldown: 20,
 			statusEffect: "",
-			vstatusEffectChance: undefined,
+			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
 		default: break

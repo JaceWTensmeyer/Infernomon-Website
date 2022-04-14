@@ -245,7 +245,7 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": 16,
+		"id": 17,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Blinding Dust",
@@ -261,7 +261,7 @@
 		"statusEffectDuration": 5
 	},
 	{
-		"id": 17,
+		"id": 18,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Cheap Shot",
@@ -276,7 +276,7 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": 18,
+		"id": 19,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Smoke Bomb",
@@ -292,7 +292,7 @@
 		"statusEffectDuration": 5
 	},
 	{
-		"id": 19,
+		"id": 20,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Ninja Stars",
@@ -307,7 +307,7 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": 20,
+		"id": 21,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Percision Peck",
@@ -322,7 +322,7 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": 21,
+		"id": 22,
 		"attackCategory": "Auto",
 		"damageCategory": "Special",
 		"name": "Percision Wind",
@@ -337,7 +337,7 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": 22,
+		"id": 23,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Bird's Eye",
@@ -352,7 +352,7 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": 23,
+		"id": 24,
 		"attackCategory": "Natural",
 		"damageCategory": "Physical",
 		"name": "Sharp Talon",
@@ -367,7 +367,7 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": 24,
+		"id": 25,
 		"attackCategory": "Natural",
 		"damageCategory": "Special",
 		"name": "Sharp Wind",
@@ -382,7 +382,7 @@
 		"statusEffectChance": 0
 	},
 	{
-		"id": 25,
+		"id": 118,
 		"attackCategory": "Auto",
 		"damageCategory": "Physical",
 		"name": "Buddy Thunderpunch",
