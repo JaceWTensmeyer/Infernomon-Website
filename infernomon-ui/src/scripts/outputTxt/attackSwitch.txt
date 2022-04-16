@@ -275,7 +275,7 @@ function GetAttack(_id){
 			statusEffectDuration: undefined
 		} break
 		case 17: return {
-			id: 16,
+			id: 17,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Blinding Dust",
@@ -292,7 +292,7 @@ function GetAttack(_id){
 			statusEffectDuration: 5
 		} break
 		case 18: return {
-			id: 17,
+			id: 18,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Cheap Shot",
@@ -309,7 +309,7 @@ function GetAttack(_id){
 			statusEffectDuration: undefined
 		} break
 		case 19: return {
-			id: 18,
+			id: 19,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Smoke Bomb",
@@ -326,7 +326,7 @@ function GetAttack(_id){
 			statusEffectDuration: 5
 		} break
 		case 20: return {
-			id: 19,
+			id: 20,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Ninja Stars",
@@ -343,7 +343,7 @@ function GetAttack(_id){
 			statusEffectDuration: undefined
 		} break
 		case 21: return {
-			id: 20,
+			id: 21,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Percision Peck",
@@ -360,7 +360,7 @@ function GetAttack(_id){
 			statusEffectDuration: undefined
 		} break
 		case 22: return {
-			id: 21,
+			id: 22,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Percision Wind",
@@ -377,7 +377,7 @@ function GetAttack(_id){
 			statusEffectDuration: undefined
 		} break
 		case 23: return {
-			id: 22,
+			id: 23,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Bird's Eye",
@@ -394,7 +394,7 @@ function GetAttack(_id){
 			statusEffectDuration: undefined
 		} break
 		case 24: return {
-			id: 23,
+			id: 24,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Sharp Talon",
@@ -411,7 +411,7 @@ function GetAttack(_id){
 			statusEffectDuration: undefined
 		} break
 		case 25: return {
-			id: 24,
+			id: 25,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Sharp Wind",
@@ -428,7 +428,7 @@ function GetAttack(_id){
 			statusEffectDuration: undefined
 		} break
 		case 26: return {
-			id: 25,
+			id: 118,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Buddy Thunderpunch",
@@ -1987,6 +1987,465 @@ function GetAttack(_id){
 			type: "Electric",
 			damage: 60,
 			cooldown: 20,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 118: return {
+			id: 119,
+			attackCategory: "Auto",
+			damageCategory: "Physical",
+			name: "Elemental Quake",
+			scriptName: AttackId118,
+			description: "Single target damage plus AOE damage at the target's location.",
+			castType: "Target Circle",
+			castDuration: 0,
+			range: 2,
+			type: "Earth",
+			damage: 20,
+			cooldown: 2.6,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 119: return {
+			id: 120,
+			attackCategory: "Auto",
+			damageCategory: "Physical",
+			name: "Elemental Pulse",
+			scriptName: AttackId119,
+			description: "Single target damage plus AOE damage at the target's location.",
+			castType: "Target Circle",
+			castDuration: 0,
+			range: 8,
+			type: "Earth",
+			damage: 20,
+			cooldown: 2.6,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 120: return {
+			id: 121,
+			attackCategory: "Natural",
+			damageCategory: "Physical",
+			name: "Fissure",
+			scriptName: AttackId120,
+			description: "Damage around yourself.  Does bonus damage if it crits.",
+			castType: "Circle",
+			castDuration: 0,
+			range: 2,
+			type: "Earth",
+			damage: 33,
+			cooldown: 10,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 121: return {
+			id: 122,
+			attackCategory: "Natural",
+			damageCategory: "Physical",
+			name: "Quake",
+			scriptName: AttackId121,
+			description: "Single target attack",
+			castType: "Target",
+			castDuration: 0,
+			range: 2,
+			type: "Earth",
+			damage: 70,
+			cooldown: 7,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 122: return {
+			id: 123,
+			attackCategory: "Natural",
+			damageCategory: "Special",
+			name: "Range Quake",
+			scriptName: AttackId122,
+			description: "Single target damage",
+			castType: "Target",
+			castDuration: 1.5,
+			range: 8,
+			type: "Earth",
+			damage: 85,
+			cooldown: 7,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 123: return {
+			id: 124,
+			attackCategory: "Auto",
+			damageCategory: "Special",
+			name: "Elemental Gale",
+			scriptName: AttackId123,
+			description: "Frontal push back every 5th attack.",
+			castType: "Frontal Line",
+			castDuration: 0,
+			range: 8,
+			type: "Wind",
+			damage: 20,
+			cooldown: 2,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 124: return {
+			id: 125,
+			attackCategory: "Auto",
+			damageCategory: "Physical",
+			name: "Elemental Gust",
+			scriptName: AttackId124,
+			description: "Frontal push back every 5th attack.",
+			castType: "Frontal Line",
+			castDuration: 0,
+			range: 2,
+			type: "Wind",
+			damage: 20,
+			cooldown: 2,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 125: return {
+			id: 126,
+			attackCategory: "Natural",
+			damageCategory: "Special",
+			name: "Tornado",
+			scriptName: AttackId125,
+			description: "AOE damage and draws enemies in",
+			castType: "Target AOE",
+			castDuration: 1,
+			range: 8,
+			type: "Wind",
+			damage: 33,
+			cooldown: 12,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 126: return {
+			id: 127,
+			attackCategory: "Natural",
+			damageCategory: "Special",
+			name: "Gale",
+			scriptName: AttackId126,
+			description: "Single target damage.",
+			castType: "Target",
+			castDuration: 1.5,
+			range: 8,
+			type: "Wind",
+			damage: 85,
+			cooldown: 7,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 127: return {
+			id: 128,
+			attackCategory: "Natural",
+			damageCategory: "Physical",
+			name: "Gust Gash",
+			scriptName: AttackId127,
+			description: "Single target damage.",
+			castType: "Target",
+			castDuration: 0,
+			range: 2,
+			type: "Wind",
+			damage: 70,
+			cooldown: 7,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 128: return {
+			id: 129,
+			attackCategory: "Auto",
+			damageCategory: "Special",
+			name: "Dragon Venom",
+			scriptName: AttackId128,
+			description: "Single target damage with AOE frontal ever 5th attack",
+			castType: "Target",
+			castDuration: 0,
+			range: 8,
+			type: "Toxic",
+			damage: 20,
+			cooldown: 2,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 129: return {
+			id: 130,
+			attackCategory: "Auto",
+			damageCategory: "Physical",
+			name: "Reptile Bite",
+			scriptName: AttackId129,
+			description: "Single target damage",
+			castType: "Target",
+			castDuration: 0,
+			range: 2,
+			type: "Normal",
+			damage: 20,
+			cooldown: 2,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 130: return {
+			id: 131,
+			attackCategory: "Auto",
+			damageCategory: "Physical",
+			name: "Air Slash",
+			scriptName: AttackId130,
+			description: "Single target damage",
+			castType: "Target",
+			castDuration: 0,
+			range: 2,
+			type: "Wind",
+			damage: 20,
+			cooldown: 2,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 131: return {
+			id: 132,
+			attackCategory: "Natural",
+			damageCategory: "Special",
+			name: "Reptile Blast",
+			scriptName: AttackId131,
+			description: "Single target damage",
+			castType: "Target",
+			castDuration: 0,
+			range: 8,
+			type: "Normal",
+			damage: 70,
+			cooldown: 7,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 132: return {
+			id: 133,
+			attackCategory: "Natural",
+			damageCategory: "Special",
+			name: "Toxic Fire",
+			scriptName: AttackId132,
+			description: "Single target damage with a change to burn",
+			castType: "Target",
+			castDuration: 0,
+			range: 8,
+			type: "Wind",
+			damage: 70,
+			cooldown: 7,
+			statusEffect: "Burn",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 133: return {
+			id: 134,
+			attackCategory: "Natural",
+			damageCategory: "Special",
+			name: "Polluted Wind",
+			scriptName: AttackId133,
+			description: "Frontal Line damage with a change to poison",
+			castType: "Frontal Line",
+			castDuration: 0,
+			range: 8,
+			type: "Toxic",
+			damage: 30,
+			cooldown: 12,
+			statusEffect: "Poison",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 134: return {
+			id: 135,
+			attackCategory: "Natural",
+			damageCategory: "Physical",
+			name: "Venom Crunch",
+			scriptName: AttackId134,
+			description: "Single Target damage",
+			castType: "Target",
+			castDuration: 0,
+			range: 2,
+			type: "Toxic",
+			damage: 80,
+			cooldown: 8,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 135: return {
+			id: 136,
+			attackCategory: "Auto",
+			damageCategory: "Physical",
+			name: "Infernal Slash",
+			scriptName: AttackId135,
+			description: "Single Target damage that adds 2 infernal stacks",
+			castType: "Target",
+			castDuration: 0,
+			range: 2,
+			type: "Arcane",
+			damage: 13,
+			cooldown: 1.4,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 136: return {
+			id: 137,
+			attackCategory: "Auto",
+			damageCategory: "Special",
+			name: "Infernal Blast",
+			scriptName: AttackId136,
+			description: "Single Target damage that adds 2 infernal stacks",
+			castType: "Target",
+			castDuration: 0,
+			range: 8,
+			type: "Arcane",
+			damage: 13,
+			cooldown: 1.4,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 137: return {
+			id: 138,
+			attackCategory: "Natural",
+			damageCategory: "Physical",
+			name: "Persuit",
+			scriptName: AttackId137,
+			description: "Teleport to the target and do single target damage that adds 3 infernal stacks, and increases auto attack speed for 3 seconds",
+			castType: "Target",
+			castDuration: 0,
+			range: 8,
+			type: "Arcane",
+			damage: 95,
+			cooldown: 10,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 138: return {
+			id: 139,
+			attackCategory: "Natural",
+			damageCategory: "Physical",
+			name: "Demon Cleave",
+			scriptName: AttackId138,
+			description: "Frontal that adds 1 infernal stack on each target it hits",
+			castType: "Frontal",
+			castDuration: 0,
+			range: 2,
+			type: "Arcane",
+			damage: 40,
+			cooldown: 12,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 139: return {
+			id: 140,
+			attackCategory: "Natural",
+			damageCategory: "Special",
+			name: "Demonic Bolt",
+			scriptName: AttackId139,
+			description: "Single target damage",
+			castType: "Target",
+			castDuration: 1.5,
+			range: 8,
+			type: "Arcane",
+			damage: 95,
+			cooldown: 8,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 140: return {
+			id: 141,
+			attackCategory: "Auto",
+			damageCategory: "Special",
+			name: "Adaptive Shot",
+			scriptName: AttackId140,
+			description: "Single target damage that matches type of your aquired attack.",
+			castType: "Target",
+			castDuration: 0,
+			range: 8,
+			type: "Arcane",
+			damage: 20,
+			cooldown: 2,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 141: return {
+			id: 142,
+			attackCategory: "Auto",
+			damageCategory: "Physical",
+			name: "Adaptive Punch",
+			scriptName: AttackId141,
+			description: "Single target damage that matches type of your aquired attack.",
+			castType: "Target",
+			castDuration: 0,
+			range: 2,
+			type: "Arcane",
+			damage: 20,
+			cooldown: 2,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 142: return {
+			id: 143,
+			attackCategory: "Natural",
+			damageCategory: "Special",
+			name: "Priority Burst",
+			scriptName: AttackId142,
+			description: "Frontal cone that matches the damage category of the higher attack stat.",
+			castType: "Frontal Cone",
+			castDuration: 2,
+			range: 8,
+			type: "Arcane",
+			damage: 40,
+			cooldown: 10,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 143: return {
+			id: 144,
+			attackCategory: "Natural",
+			damageCategory: "Special",
+			name: "Priority Shot",
+			scriptName: AttackId143,
+			description: "Frontal cone that matches the damage category of the higher attack stat.",
+			castType: "Frontal Cone",
+			castDuration: 1.5,
+			range: 8,
+			type: "Arcane",
+			damage: 85,
+			cooldown: 7,
+			statusEffect: "",
+			statusEffectChance: undefined,
+			statusEffectDuration: undefined
+		} break
+		case 144: return {
+			id: 145,
+			attackCategory: "Natural",
+			damageCategory: "Physical",
+			name: "Adaptive Slam",
+			scriptName: AttackId144,
+			description: "Single target damage that matches the damage category of the higher attack stat.",
+			castType: "Target",
+			castDuration: 0,
+			range: 2,
+			type: "Arcane",
+			damage: 70,
+			cooldown: 7,
 			statusEffect: "",
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
