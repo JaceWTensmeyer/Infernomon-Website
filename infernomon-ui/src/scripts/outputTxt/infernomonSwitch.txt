@@ -285,7 +285,7 @@ function GetGenericInfernomonData(_number){
 			type1: "Electric",
 			type2: "",
 			autoAttack1Id: 27,
-			autoAttack2Id: 228,
+			autoAttack2Id: 28,
 			naturalAttack1Id: 29,
 			naturalAttack2Id: 30,
 			naturalAttack3Id: 31
@@ -896,7 +896,7 @@ function GetGenericInfernomonData(_number){
 			baseSpeed: 130,
 			type1: "Arcane",
 			type2: "",
-			autoAttack1Id: 126,
+			autoAttack1Id: 136,
 			autoAttack2Id: 137,
 			naturalAttack1Id: 138,
 			naturalAttack2Id: 139,

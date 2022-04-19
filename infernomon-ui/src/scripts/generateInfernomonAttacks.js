@@ -8,12 +8,12 @@ function GetAttack(_id){
 let i = 1;
 attacks.forEach((atk) => {
 	txtString += `
-		case ${i}: return {
+		case ${atk.id}: return {
 			id: ${atk.id},
 			attackCategory: "${atk.attackCategory}",
 			damageCategory: "${atk.damageCategory}",
 			name: "${atk.name}",
-			scriptName: ${'AttackId' + i},
+			scriptName: ${'AttackId' + atk.id},
 			description: "${atk.description}",
 			castType: "${atk.castType}",
 			castDuration: ${atk.castDuration},

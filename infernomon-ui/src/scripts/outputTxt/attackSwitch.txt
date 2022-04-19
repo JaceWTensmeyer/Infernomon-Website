@@ -427,12 +427,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 26: return {
+		case 118: return {
 			id: 118,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Buddy Thunderpunch",
-			scriptName: AttackId26,
+			scriptName: AttackId118,
 			description: "Does 40% extra damage when close to the player.",
 			castType: "Target",
 			castDuration: 0,
@@ -444,12 +444,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 27: return {
+		case 26: return {
 			id: 26,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Buddy Thundershock",
-			scriptName: AttackId27,
+			scriptName: AttackId26,
 			description: "Does 40% extra damage when close to the player.",
 			castType: "Target",
 			castDuration: 0,
@@ -461,12 +461,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 28: return {
+		case 27: return {
 			id: 27,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Solo Thunderpunch",
-			scriptName: AttackId28,
+			scriptName: AttackId27,
 			description: "Does 20% extra damage when far away from the player.",
 			castType: "Target",
 			castDuration: 0,
@@ -478,12 +478,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 29: return {
+		case 28: return {
 			id: 28,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Solo Thundershock",
-			scriptName: AttackId29,
+			scriptName: AttackId28,
 			description: "Does 30% extra damage when far away from the player.",
 			castType: "Target",
 			castDuration: 0,
@@ -495,12 +495,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 30: return {
+		case 29: return {
 			id: 29,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Volt Jump",
-			scriptName: AttackId30,
+			scriptName: AttackId29,
 			description: "Charge for 3 seconds then jump to 3 targets, doing damage to all of them then returning to initial position.",
 			castType: "Target",
 			castDuration: 3,
@@ -512,12 +512,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 31: return {
+		case 30: return {
 			id: 30,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Paralyze Punch",
-			scriptName: AttackId31,
+			scriptName: AttackId30,
 			description: "Single target damage with 50% chance to paralyze",
 			castType: "Target",
 			castDuration: 0,
@@ -529,12 +529,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
-		case 32: return {
+		case 31: return {
 			id: 31,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Thundershock",
-			scriptName: AttackId32,
+			scriptName: AttackId31,
 			description: "Single target damage.",
 			castType: "Target",
 			castDuration: 1,
@@ -546,12 +546,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 33: return {
+		case 32: return {
 			id: 32,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Shell Shock",
-			scriptName: AttackId33,
+			scriptName: AttackId32,
 			description: "Lowers the target's defense by 2% for 5 seconds, stacks 3x.",
 			castType: "Target",
 			castDuration: 0,
@@ -563,12 +563,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 34: return {
+		case 33: return {
 			id: 33,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "FlameSpit",
-			scriptName: AttackId34,
+			scriptName: AttackId33,
 			description: "Chance to burn target",
 			castType: "Target",
 			castDuration: 0,
@@ -580,12 +580,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
-		case 35: return {
+		case 34: return {
 			id: 34,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Flame Spin",
-			scriptName: AttackId35,
+			scriptName: AttackId34,
 			description: "Spin in a circle doing damage to all targets and generating threat.",
 			castType: "Circle",
 			castDuration: 0,
@@ -597,12 +597,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 36: return {
+		case 35: return {
 			id: 35,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Reflecting Shell",
-			scriptName: AttackId36,
+			scriptName: AttackId35,
 			description: "Go into your shell, reflecting attacks for 2 seconds and generating threat to nearby enemies.",
 			castType: "Circle",
 			castDuration: 0,
@@ -614,12 +614,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 37: return {
+		case 36: return {
 			id: 36,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Flame Shells",
-			scriptName: AttackId37,
+			scriptName: AttackId36,
 			description: "Frontal cone that shoots multiple shell-shaped flame balls",
 			castType: "Frontal Cone",
 			castDuration: 0,
@@ -631,12 +631,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 38: return {
+		case 37: return {
 			id: 37,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Arcane Stockpile",
-			scriptName: AttackId38,
+			scriptName: AttackId37,
 			description: "Slowly builds up arcane power with each attack.  After 10 attacks, the next ability casted becomes instant.",
 			castType: "Target",
 			castDuration: 0,
@@ -648,12 +648,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 39: return {
+		case 38: return {
 			id: 38,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Arcane Torment",
-			scriptName: AttackId39,
+			scriptName: AttackId38,
 			description: "Torment the Enemey's mind, briefly pushing back cast time.",
 			castType: "Target",
 			castDuration: 0,
@@ -665,12 +665,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 40: return {
+		case 39: return {
 			id: 39,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Arcane Ball",
-			scriptName: AttackId40,
+			scriptName: AttackId39,
 			description: "AOE explosion on impact.",
 			castType: "Target AOE",
 			castDuration: 3,
@@ -682,12 +682,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 41: return {
+		case 40: return {
 			id: 40,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Arcane Missile",
-			scriptName: AttackId41,
+			scriptName: AttackId40,
 			description: "Single target damage.",
 			castType: "Target",
 			castDuration: 3,
@@ -699,12 +699,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 42: return {
+		case 41: return {
 			id: 41,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Suppression",
-			scriptName: AttackId42,
+			scriptName: AttackId41,
 			description: "Instant damage that stops spell casting for a short time.",
 			castType: "Target",
 			castDuration: 0,
@@ -716,12 +716,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 5
 		} break
-		case 43: return {
+		case 42: return {
 			id: 42,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Gore",
-			scriptName: AttackId43,
+			scriptName: AttackId42,
 			description: "Gore the target, lowering its defense by 2% for 5 seconds stacking 3x.",
 			castType: "Target",
 			castDuration: 0,
@@ -733,12 +733,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 44: return {
+		case 43: return {
 			id: 43,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Ghost Boar",
-			scriptName: AttackId44,
+			scriptName: AttackId43,
 			description: "Send out a ghost to charge to the target with a chance to cause it to tremble in fear.",
 			castType: "Target",
 			castDuration: 0,
@@ -750,12 +750,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 3
 		} break
-		case 45: return {
+		case 44: return {
 			id: 44,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Charge",
-			scriptName: AttackId45,
+			scriptName: AttackId44,
 			description: "Charge to the target, stunning it and generating threat.",
 			castType: "Target",
 			castDuration: 0,
@@ -767,12 +767,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 3
 		} break
-		case 46: return {
+		case 45: return {
 			id: 45,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Multi-Gore",
-			scriptName: AttackId46,
+			scriptName: AttackId45,
 			description: "Gore targers in 180 degrees in front of you, lowering defenses by 50% for 4 seconds and generating threat",
 			castType: "Frontal Half",
 			castDuration: 0,
@@ -784,12 +784,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 47: return {
+		case 46: return {
 			id: 46,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Boar Stampede",
-			scriptName: AttackId47,
+			scriptName: AttackId46,
 			description: "Boar ghosts run forward in a frontal line doing damage and generating threat",
 			castType: "Frontal Line",
 			castDuration: 0,
@@ -801,12 +801,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 48: return {
+		case 47: return {
 			id: 47,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Magic Mushroom",
-			scriptName: AttackId48,
+			scriptName: AttackId47,
 			description: "Damage target and heals the weakest ally on the team for 10 based on Sp Attack.",
 			castType: "Target",
 			castDuration: 0,
@@ -818,12 +818,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 49: return {
+		case 48: return {
 			id: 48,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Mushroom Toss",
-			scriptName: AttackId49,
+			scriptName: AttackId48,
 			description: "Single target damage",
 			castType: "Target",
 			castDuration: 0,
@@ -835,12 +835,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 50: return {
+		case 49: return {
 			id: 49,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Mushroom Splash",
-			scriptName: AttackId50,
+			scriptName: AttackId49,
 			description: "Does AOE damage at the targets location and heals allies within the splash for 2x the amount of the damage.",
 			castType: "Target AOE",
 			castDuration: 1.5,
@@ -852,12 +852,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 51: return {
+		case 50: return {
 			id: 50,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Mushroom Splash",
-			scriptName: AttackId51,
+			scriptName: AttackId50,
 			description: "If you are the weakest member of you team, you heal yourself for 80.  Otherwise, you lose 100 health and siphon double that amount to an ally.",
 			castType: "Target",
 			castDuration: 1.5,
@@ -869,12 +869,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 52: return {
+		case 51: return {
 			id: 51,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Mushroom Bomb",
-			scriptName: AttackId52,
+			scriptName: AttackId51,
 			description: "AOE damage at the targeted location.",
 			castType: "Target AOE",
 			castDuration: 1.5,
@@ -886,12 +886,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 53: return {
+		case 52: return {
 			id: 52,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Sand Shot",
-			scriptName: AttackId53,
+			scriptName: AttackId52,
 			description: "Single target damage with AOE damage every 5th attack",
 			castType: "Target",
 			castDuration: 0,
@@ -903,12 +903,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 54: return {
+		case 53: return {
 			id: 53,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Sand Shake",
-			scriptName: AttackId54,
+			scriptName: AttackId53,
 			description: "AOE damage at the target's feet.",
 			castType: "Target",
 			castDuration: 0,
@@ -920,12 +920,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 55: return {
+		case 54: return {
 			id: 54,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Sinking Sand",
-			scriptName: AttackId55,
+			scriptName: AttackId54,
 			description: "AOE damage at the target's feet that slows enemies caught inside for 5 seconds.",
 			castType: "Target AOE",
 			castDuration: 1,
@@ -937,12 +937,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 56: return {
+		case 55: return {
 			id: 55,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Sand Summon",
-			scriptName: AttackId56,
+			scriptName: AttackId55,
 			description: "Summon a sand ghost that runs into the target",
 			castType: "Target",
 			castDuration: 1,
@@ -954,12 +954,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 57: return {
+		case 56: return {
 			id: 56,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Sand Slam",
-			scriptName: AttackId57,
+			scriptName: AttackId56,
 			description: "Summon a sand above the target and drop it damage all enemies around it.",
 			castType: "Target AOE",
 			castDuration: 1,
@@ -971,12 +971,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 58: return {
+		case 57: return {
 			id: 57,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Combo Chomp",
-			scriptName: AttackId58,
+			scriptName: AttackId57,
 			description: "Does 2 water punches followed by a strong electric bite.",
 			castType: "Target",
 			castDuration: 0,
@@ -988,12 +988,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 59: return {
+		case 58: return {
 			id: 58,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Gator Zap",
-			scriptName: AttackId59,
+			scriptName: AttackId58,
 			description: "Single target attack.",
 			castType: "Target",
 			castDuration: 0,
@@ -1005,12 +1005,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 60: return {
+		case 59: return {
 			id: 59,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Switch Chomp",
-			scriptName: AttackId60,
+			scriptName: AttackId59,
 			description: "Single target attack that does 50% extra damage immediately following a Water attack.",
 			castType: "Target",
 			castDuration: 0,
@@ -1022,12 +1022,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 61: return {
+		case 60: return {
 			id: 60,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Swap Bob",
-			scriptName: AttackId61,
+			scriptName: AttackId60,
 			description: "Single target attack that does 50% extra damage immediately following an Electric attack.",
 			castType: "Target",
 			castDuration: 0,
@@ -1039,12 +1039,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 62: return {
+		case 61: return {
 			id: 61,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Water Shock",
-			scriptName: AttackId62,
+			scriptName: AttackId61,
 			description: "Instant AOE Water damage at the target's location that creates a puddle and then shocks any enemies still in the puddle after 3 seconds for 20 damage.",
 			castType: "Target",
 			castDuration: 0,
@@ -1056,12 +1056,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 63: return {
+		case 62: return {
 			id: 62,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Toxic Fumes",
-			scriptName: AttackId63,
+			scriptName: AttackId62,
 			description: "AOE damage.",
 			castType: "Circle",
 			castDuration: 0,
@@ -1073,12 +1073,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 64: return {
+		case 63: return {
 			id: 63,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Gas Punch",
-			scriptName: AttackId64,
+			scriptName: AttackId63,
 			description: "Single target damage.",
 			castType: "Target",
 			castDuration: 0,
@@ -1090,12 +1090,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 65: return {
+		case 64: return {
 			id: 64,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Gas Power",
-			scriptName: AttackId65,
+			scriptName: AttackId64,
 			description: "5x damage on your auto attack for the next usage and generates threat.",
 			castType: "Target",
 			castDuration: 0,
@@ -1107,12 +1107,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 66: return {
+		case 65: return {
 			id: 65,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Focus Fumes",
-			scriptName: AttackId66,
+			scriptName: AttackId65,
 			description: "All damage done to the Infernomon over the next 3 seconds is then also done for the current target and generates threat.",
 			castType: "Target",
 			castDuration: 0,
@@ -1124,12 +1124,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 67: return {
+		case 66: return {
 			id: 66,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Gas Slam",
-			scriptName: AttackId67,
+			scriptName: AttackId66,
 			description: "Slam all targets surrounding you and generate threat.",
 			castType: "Circle",
 			castDuration: 0,
@@ -1141,12 +1141,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: 0
 		} break
-		case 68: return {
+		case 67: return {
 			id: 67,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Toxic Pull",
-			scriptName: AttackId68,
+			scriptName: AttackId67,
 			description: "Every 5th attack, pull the furthest enemy away from you towards you.",
 			castType: "Target",
 			castDuration: 0,
@@ -1991,12 +1991,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 118: return {
+		case 119: return {
 			id: 119,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Elemental Quake",
-			scriptName: AttackId118,
+			scriptName: AttackId119,
 			description: "Single target damage plus AOE damage at the target's location.",
 			castType: "Target Circle",
 			castDuration: 0,
@@ -2008,12 +2008,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 119: return {
+		case 120: return {
 			id: 120,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Elemental Pulse",
-			scriptName: AttackId119,
+			scriptName: AttackId120,
 			description: "Single target damage plus AOE damage at the target's location.",
 			castType: "Target Circle",
 			castDuration: 0,
@@ -2025,12 +2025,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 120: return {
+		case 121: return {
 			id: 121,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Fissure",
-			scriptName: AttackId120,
+			scriptName: AttackId121,
 			description: "Damage around yourself.  Does bonus damage if it crits.",
 			castType: "Circle",
 			castDuration: 0,
@@ -2042,12 +2042,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 121: return {
+		case 122: return {
 			id: 122,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Quake",
-			scriptName: AttackId121,
+			scriptName: AttackId122,
 			description: "Single target attack",
 			castType: "Target",
 			castDuration: 0,
@@ -2059,12 +2059,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 122: return {
+		case 123: return {
 			id: 123,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Range Quake",
-			scriptName: AttackId122,
+			scriptName: AttackId123,
 			description: "Single target damage",
 			castType: "Target",
 			castDuration: 1.5,
@@ -2076,12 +2076,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 123: return {
+		case 124: return {
 			id: 124,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Elemental Gale",
-			scriptName: AttackId123,
+			scriptName: AttackId124,
 			description: "Frontal push back every 5th attack.",
 			castType: "Frontal Line",
 			castDuration: 0,
@@ -2093,12 +2093,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 124: return {
+		case 125: return {
 			id: 125,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Elemental Gust",
-			scriptName: AttackId124,
+			scriptName: AttackId125,
 			description: "Frontal push back every 5th attack.",
 			castType: "Frontal Line",
 			castDuration: 0,
@@ -2110,12 +2110,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 125: return {
+		case 126: return {
 			id: 126,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Tornado",
-			scriptName: AttackId125,
+			scriptName: AttackId126,
 			description: "AOE damage and draws enemies in",
 			castType: "Target AOE",
 			castDuration: 1,
@@ -2127,12 +2127,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 126: return {
+		case 127: return {
 			id: 127,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Gale",
-			scriptName: AttackId126,
+			scriptName: AttackId127,
 			description: "Single target damage.",
 			castType: "Target",
 			castDuration: 1.5,
@@ -2144,12 +2144,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 127: return {
+		case 128: return {
 			id: 128,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Gust Gash",
-			scriptName: AttackId127,
+			scriptName: AttackId128,
 			description: "Single target damage.",
 			castType: "Target",
 			castDuration: 0,
@@ -2161,12 +2161,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 128: return {
+		case 129: return {
 			id: 129,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Dragon Venom",
-			scriptName: AttackId128,
+			scriptName: AttackId129,
 			description: "Single target damage with AOE frontal ever 5th attack",
 			castType: "Target",
 			castDuration: 0,
@@ -2178,12 +2178,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 129: return {
+		case 130: return {
 			id: 130,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Reptile Bite",
-			scriptName: AttackId129,
+			scriptName: AttackId130,
 			description: "Single target damage",
 			castType: "Target",
 			castDuration: 0,
@@ -2195,12 +2195,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 130: return {
+		case 131: return {
 			id: 131,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Air Slash",
-			scriptName: AttackId130,
+			scriptName: AttackId131,
 			description: "Single target damage",
 			castType: "Target",
 			castDuration: 0,
@@ -2212,12 +2212,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 131: return {
+		case 132: return {
 			id: 132,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Reptile Blast",
-			scriptName: AttackId131,
+			scriptName: AttackId132,
 			description: "Single target damage",
 			castType: "Target",
 			castDuration: 0,
@@ -2229,12 +2229,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 132: return {
+		case 133: return {
 			id: 133,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Toxic Fire",
-			scriptName: AttackId132,
+			scriptName: AttackId133,
 			description: "Single target damage with a change to burn",
 			castType: "Target",
 			castDuration: 0,
@@ -2246,12 +2246,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 133: return {
+		case 134: return {
 			id: 134,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Polluted Wind",
-			scriptName: AttackId133,
+			scriptName: AttackId134,
 			description: "Frontal Line damage with a change to poison",
 			castType: "Frontal Line",
 			castDuration: 0,
@@ -2263,12 +2263,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 134: return {
+		case 135: return {
 			id: 135,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Venom Crunch",
-			scriptName: AttackId134,
+			scriptName: AttackId135,
 			description: "Single Target damage",
 			castType: "Target",
 			castDuration: 0,
@@ -2280,12 +2280,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 135: return {
+		case 136: return {
 			id: 136,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Infernal Slash",
-			scriptName: AttackId135,
+			scriptName: AttackId136,
 			description: "Single Target damage that adds 2 infernal stacks",
 			castType: "Target",
 			castDuration: 0,
@@ -2297,12 +2297,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 136: return {
+		case 137: return {
 			id: 137,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Infernal Blast",
-			scriptName: AttackId136,
+			scriptName: AttackId137,
 			description: "Single Target damage that adds 2 infernal stacks",
 			castType: "Target",
 			castDuration: 0,
@@ -2314,12 +2314,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 137: return {
+		case 138: return {
 			id: 138,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Persuit",
-			scriptName: AttackId137,
+			scriptName: AttackId138,
 			description: "Teleport to the target and do single target damage that adds 3 infernal stacks, and increases auto attack speed for 3 seconds",
 			castType: "Target",
 			castDuration: 0,
@@ -2331,12 +2331,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 138: return {
+		case 139: return {
 			id: 139,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Demon Cleave",
-			scriptName: AttackId138,
+			scriptName: AttackId139,
 			description: "Frontal that adds 1 infernal stack on each target it hits",
 			castType: "Frontal",
 			castDuration: 0,
@@ -2348,12 +2348,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 139: return {
+		case 140: return {
 			id: 140,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Demonic Bolt",
-			scriptName: AttackId139,
+			scriptName: AttackId140,
 			description: "Single target damage",
 			castType: "Target",
 			castDuration: 1.5,
@@ -2365,12 +2365,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 140: return {
+		case 141: return {
 			id: 141,
 			attackCategory: "Auto",
 			damageCategory: "Special",
 			name: "Adaptive Shot",
-			scriptName: AttackId140,
+			scriptName: AttackId141,
 			description: "Single target damage that matches type of your aquired attack.",
 			castType: "Target",
 			castDuration: 0,
@@ -2382,12 +2382,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 141: return {
+		case 142: return {
 			id: 142,
 			attackCategory: "Auto",
 			damageCategory: "Physical",
 			name: "Adaptive Punch",
-			scriptName: AttackId141,
+			scriptName: AttackId142,
 			description: "Single target damage that matches type of your aquired attack.",
 			castType: "Target",
 			castDuration: 0,
@@ -2399,12 +2399,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 142: return {
+		case 143: return {
 			id: 143,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Priority Burst",
-			scriptName: AttackId142,
+			scriptName: AttackId143,
 			description: "Frontal cone that matches the damage category of the higher attack stat.",
 			castType: "Frontal Cone",
 			castDuration: 2,
@@ -2416,12 +2416,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 143: return {
+		case 144: return {
 			id: 144,
 			attackCategory: "Natural",
 			damageCategory: "Special",
 			name: "Priority Shot",
-			scriptName: AttackId143,
+			scriptName: AttackId144,
 			description: "Frontal cone that matches the damage category of the higher attack stat.",
 			castType: "Frontal Cone",
 			castDuration: 1.5,
@@ -2433,12 +2433,12 @@ function GetAttack(_id){
 			statusEffectChance: undefined,
 			statusEffectDuration: undefined
 		} break
-		case 144: return {
+		case 145: return {
 			id: 145,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
 			name: "Adaptive Slam",
-			scriptName: AttackId144,
+			scriptName: AttackId145,
 			description: "Single target damage that matches the damage category of the higher attack stat.",
 			castType: "Target",
 			castDuration: 0,
