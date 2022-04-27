@@ -76,7 +76,7 @@
 	},
 	{
 		"name": "Num 4",
-		"imageName": "Num4.png",
+		"imageName": "Frog1.png",
 		"number": 4,
 		"description": "A Water type frog that is friendly and makes a great companion for new trainers.",
 		"rarity": "Rare",
@@ -101,6 +101,7 @@
 	},
 	{
 		"name": "Num 5",
+		"imageName": "Frog2.png",
 		"number": 5,
 		"description": "The 2nd evolution in the frog starter family.  Has good defensive skill and a balanced offense.",
 		"rarity": "Rare",
@@ -125,6 +126,7 @@
 	},
 	{
 		"name": "Num 6",
+		"imageName": "Frog3.png",
 		"number": 6,
 		"description": "The 3rd and final evolution of the frog starter family.  It now walks on 2 feet with a huncher over posture and is known for using a defensive bubble and stunning its opponents by slapping them with its big hands.",
 		"rarity": "Rare",
@@ -174,6 +176,7 @@
 	},
 	{
 		"name": "Num 8",
+		"imageName": "Num8.png",
 		"number": 8,
 		"description": "The 2nd evolution in the bat starter family.  A fast flyier that hits had from a distance.",
 		"rarity": "Rare",
@@ -198,6 +201,7 @@
 	},
 	{
 		"name": "Num 9",
+		"imageName": "Num9.png",
 		"number": 9,
 		"description": "The 3rd and final evolution in the bat starter family.  It is known for burning its opponents with sonic flames and hot wind.",
 		"rarity": "Rare",
