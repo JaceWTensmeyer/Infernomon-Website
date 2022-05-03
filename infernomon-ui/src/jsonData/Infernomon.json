@@ -226,6 +226,7 @@
 	},
 	{
 		"name": "Num 10",
+		"imageName": "goblin1.png",
 		"number": 10,
 		"description": "Small, sneaky, goblin-like creature with sharp claws and evolves into #10",
 		"rarity": "Common",
@@ -250,6 +251,7 @@
 	},
 	{
 		"name": "Num 11",
+		"imageName": "goblin2.png",
 		"number": 11,
 		"description": "A sneaky, goblin-like creature know for attacking unsuspecting victims with its large claws",
 		"rarity": "Common",
