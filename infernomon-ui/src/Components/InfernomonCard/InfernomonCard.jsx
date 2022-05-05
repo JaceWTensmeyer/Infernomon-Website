@@ -95,7 +95,7 @@ const InfernomonCard = ({ infernomon }) => {
 				<div>Defense: {infernomon.defense}</div>
 				<div>Sp Attack: {infernomon.spAttack}</div>
 				<div>Sp Defense: {infernomon.spDefense}</div>
-				<div>Speed: {infernomon.speed}</div>
+				<div>Agility: {infernomon.agility}</div>
 				<div>
 					Total:{' '}
 					{infernomon.hp +
@@ -103,7 +103,7 @@ const InfernomonCard = ({ infernomon }) => {
 						infernomon.defense +
 						infernomon.spAttack +
 						infernomon.spDefense +
-						infernomon.speed}
+						infernomon.agility}
 				</div>
 			</div>
 			{/* Stat bars */}
@@ -150,10 +150,10 @@ const InfernomonCard = ({ infernomon }) => {
 				></div>
 				<div
 					style={{
-						backgroundColor: getStatColor(infernomon.speed),
+						backgroundColor: getStatColor(infernomon.agility),
 						height: '10px',
 						margin: '10px',
-						width: infernomon.speed / 1.5 + 'px',
+						width: infernomon.agility / 1.5 + 'px',
 					}}
 				></div>
 			</div>

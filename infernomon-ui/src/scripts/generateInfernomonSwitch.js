@@ -17,7 +17,7 @@ infernomon.forEach((inf) => {
 			baseDefense: ${inf.defense},
 			baseSpAttack: ${inf.spAttack},
 			baseSpDefense: ${inf.spDefense},
-			baseSpeed: ${inf.speed},
+			baseAgility: ${inf.agility},
 			type1: "${inf.type1}",
 			type2: "${inf.type2}",
 			autoAttack1Id: ${inf.autoAttack1Id},
