@@ -276,6 +276,7 @@
 	},
 	{
 		"name": "Num 12",
+		"imageName": "Ostrich1.png",
 		"number": 12,
 		"description": "A small, cute ostrich that like to scratch things with it talons.  Evolves into #13",
 		"rarity": "Common",
@@ -300,6 +301,7 @@
 	},
 	{
 		"name": "Num 13",
+		"imageName": "Ostrich2.png",
 		"number": 13,
 		"description": "A growing ostrich that is beginning to use its talons for attacking.  Evolves into #14",
 		"rarity": "Common",
@@ -324,6 +326,7 @@
 	},
 	{
 		"name": "Num 14",
+		"imageName": "Ostrich3.png",
 		"number": 14,
 		"description": "A final-evolution ostrich that punishes enemies with percision using its extremely sharp talons.",
 		"rarity": "Common",
