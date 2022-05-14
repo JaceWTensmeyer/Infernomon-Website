@@ -351,6 +351,7 @@
 	},
 	{
 		"name": "Num 15",
+		"imageName": "Mouse1.png",
 		"number": 15,
 		"description": "A physically aggresive mouse with a fiece, electric bite and likes to be close to its trainer. Evolves into #16",
 		"rarity": "Uncommon",
@@ -375,6 +376,7 @@
 	},
 	{
 		"name": "Num 16",
+		"imageName": "Mouse2.png",
 		"number": 16,
 		"description": "A fully evolved aggresive mouse that jumps between multiple enemies at the speed of light. Prefers to be independent.",
 		"rarity": "Uncommon",
