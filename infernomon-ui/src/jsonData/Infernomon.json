@@ -399,6 +399,7 @@
 	},
 	{
 		"name": "Num 17",
+		"imageName": "Turtle1.png",
 		"number": 17,
 		"description": "A small tortoise that loves playing in blistering hot temperatures.  Evolves into # 18",
 		"rarity": "Uncommon",
@@ -423,6 +424,7 @@
 	},
 	{
 		"name": "Num 18",
+		"imageName": "Turtle2.png",
 		"number": 18,
 		"description": "The 2nd evolution in the tortoise family.  It can take a beating but also dishes out some decent damage.  Evolves into #19.",
 		"rarity": "Uncommon",
@@ -447,6 +449,7 @@
 	},
 	{
 		"name": "Num 19",
+		"imageName": "Turtle3.png",
 		"number": 19,
 		"description": "The final evolution in the fiery tortoise family.  It punishes enemies with its hard, reflective shell.",
 		"rarity": "Uncommon",
@@ -471,6 +474,7 @@
 	},
 	{
 		"name": "Num 20",
+		"imageName": "Imp1.png",
 		"number": 20,
 		"description": "A small mischievous Imp that likes tinkering with its Acrane magic.",
 		"rarity": "Uncommon",
@@ -495,6 +499,7 @@
 	},
 	{
 		"name": "Num 21",
+		"imageName": "Imp2.png",
 		"number": 21,
 		"description": "The 2nd evolution in the Imp family.  What it lakes in defense it makes up for in offense.",
 		"rarity": "Uncommon",
@@ -519,6 +524,7 @@
 	},
 	{
 		"name": "Num 22",
+		"imageName": "Imp3.png",
 		"number": 22,
 		"description": "The 3rd and final evolution in the Imp family.  This glass cannon takes a long time to cast but unleashes devistating damage.",
 		"rarity": "Uncommon",
@@ -543,6 +549,7 @@
 	},
 	{
 		"name": "Num 23",
+		"imageName": "Boar1.png",
 		"number": 23,
 		"description": "A small, chubby, playful boar with small tusks that likes to wrestle.",
 		"rarity": "Common",
@@ -567,6 +574,7 @@
 	},
 	{
 		"name": "Num 24",
+		"imageName": "Boar2.png",
 		"number": 24,
 		"description": "A large, fully evolved, fat, aggresive boar that can take a beating and wounds opponents with its large tusks.",
 		"rarity": "Common",
@@ -591,6 +599,7 @@
 	},
 	{
 		"name": "Num 25",
+		"imageName": "Mushroom1.png",
 		"number": 25,
 		"description": "A small plant animal with mushrooms sprouting all over its body.  It is overly protective of its allies.",
 		"rarity": "Common",
@@ -615,6 +624,7 @@
 	},
 	{
 		"name": "Num 26",
+		"imageName": "Mushroom2.png",
 		"number": 26,
 		"description": "A fully evolved mushroom animal that throws out big heals to its allies and would sacrifice itself for others.",
 		"rarity": "Common",
