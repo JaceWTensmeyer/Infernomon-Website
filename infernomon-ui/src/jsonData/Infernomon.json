@@ -649,6 +649,7 @@
 	},
 	{
 		"name": "Num 27",
+		"imageName": "Anubis1.png",
 		"number": 27,
 		"description": "A bi-pedal, Anubis-like caster that carries a staff which it uses to play with the earth and sand.",
 		"rarity": "Common",
@@ -673,6 +674,7 @@
 	},
 	{
 		"name": "Num 28",
+		"imageName": "Anubis2.png",
 		"number": 28,
 		"description": "Fully evolved Anubis caster that punishes opponents with sand attacks.",
 		"rarity": "Common",
@@ -697,6 +699,7 @@
 	},
 	{
 		"name": "Num 29",
+		"imageName": "Croc1.png",
 		"number": 29,
 		"description": "A small alligator that looks cute and harmless but my catch you off guard with an electric bite.",
 		"rarity": "Common",
@@ -721,6 +724,7 @@
 	},
 	{
 		"name": "Num 30",
+		"imageName": "Croc2.png",
 		"number": 30,
 		"description": "The 2nd evolution in the electric alligator family.  It likes to be up in the middle of a fight and has a balance fighting style.",
 		"rarity": "Common",
@@ -745,6 +749,7 @@
 	},
 	{
 		"name": "Num 31",
+		"imageName": "Croc3.png",
 		"number": 31,
 		"description": "The 3rd and final evolution in the electric alligator Bi-pedal Aligator.  It prefers to alternate between electric bites and water punches.",
 		"rarity": "Common",
