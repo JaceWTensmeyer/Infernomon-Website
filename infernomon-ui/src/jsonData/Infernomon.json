@@ -774,6 +774,7 @@
 	},
 	{
 		"name": "Num 32",
+		"imageName": "Abomination1.png",
 		"number": 32,
 		"description": "A small creature surrounded in Toxic gas.  It tries to make friends, which can be difficult sometimes to to its overwhelming fumes.",
 		"rarity": "Common",
@@ -798,6 +799,7 @@
 	},
 	{
 		"name": "Num 33",
+		"imageName": "Abomination2.png",
 		"number": 33,
 		"description": "Final evolution that is tanky and protects its allies by overwhelming its opponents with its toxic fumes",
 		"rarity": "Common",
