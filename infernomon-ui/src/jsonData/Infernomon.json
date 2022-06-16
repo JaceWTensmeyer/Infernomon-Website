@@ -824,6 +824,7 @@
 	},
 	{
 		"name": "Num 34",
+		"imageName": "Multiarm.png",
 		"number": 34,
 		"description": "A 6-armed monster that likes to be up in the action and group enmies together by pulling them in with its extendable arms.",
 		"rarity": "Uncommon",
@@ -848,6 +849,7 @@
 	},
 	{
 		"name": "Num 35",
+		"imageName": "Sandworm.png",
 		"number": 35,
 		"description": "Sand worm monster that blinds its opponents with pestering sand attacks.",
 		"rarity": "Uncommon",
@@ -872,6 +874,7 @@
 	},
 	{
 		"name": "Num 36",
+		"imageName": "electronic.png",
 		"number": 36,
 		"description": "Mechanical monster that generates electric shields uses chaining electric powers to give its allies.",
 		"rarity": "Uncommon",
