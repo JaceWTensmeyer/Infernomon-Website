@@ -1,5 +1,6 @@
 const infernomon = require('../jsonData/Infernomon.json');
 const fs = require('fs');
+const recipes = require('../jsonData/recipe.json')
 
 let txtString = `
 function GetGenericInfernomonData(_number){
@@ -24,7 +25,9 @@ infernomon.forEach((inf) => {
 			autoAttack2Id: ${inf.autoAttack2Id},
 			naturalAttack1Id: ${inf.naturalAttack1Id},
 			naturalAttack2Id: ${inf.naturalAttack2Id},
-			naturalAttack3Id: ${inf.naturalAttack3Id}
+			naturalAttack3Id: ${inf.naturalAttack3Id},
+			recipe: ${recipes.find(x => x.number === i) ? '[' + recipes.find(x => x.number === i).recipe + ']' : undefined},
+			rarity: "${inf.rarity}"
 		} break`;
 	i++;
 });
@@ -37,5 +40,6 @@ txtString += `
 
 fs.writeFileSync(
 	`A:/Projects/Infernomon-Website/infernomon-ui/src/scripts/outputTxt/infernomonSwitch.txt`,
+	// `C:/Users/jtenz/Documents/Infernomon-Website/infernomon-ui/src/scripts/outputTxt/infernomonSwitch.txt`,
 	txtString
 );
