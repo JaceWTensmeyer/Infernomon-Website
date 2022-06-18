@@ -899,6 +899,7 @@
 	},
 	{
 		"name": "Num 37",
+		"imageName": "owl1.png",
 		"number": 37,
 		"description": "A small, round, land owl that loves playing with other Infernomon and enjoys a windy day.",
 		"rarity": "Rare",
@@ -923,6 +924,7 @@
 	},
 	{
 		"name": "Num 38",
+		"imageName": "owl2.png",
 		"number": 38,
 		"description": "A fully evolved, large, round, land owl that supports its allies by providing them with buffs that improve their offense.",
 		"rarity": "Rare",
