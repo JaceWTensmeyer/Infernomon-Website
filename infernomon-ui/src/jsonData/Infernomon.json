@@ -950,6 +950,7 @@
 	{
 		"name": "Num 39",
 		"number": 39,
+		"imageName": "Troll.png",
 		"description": "Troll that wears a skull from a defeated beast and carries bones in each hand that it throws at enemies at an incredibly fast rate.",
 		"rarity": "Rare",
 		"role": "Ranged Assassin",
@@ -974,6 +975,7 @@
 	{
 		"name": "Num 40",
 		"number": 40,
+		"imageName": "dog1.png",
 		"description": "Cute pre-evlolution to the hell hound family that loves to be by its trainer.",
 		"rarity": "Rare",
 		"role": "Melee Assassin",
@@ -997,6 +999,7 @@
 	},
 	{
 		"name": "Num 41",
+		"imageName": "dogFire.png",
 		"number": 41,
 		"description": "Fire evlolution in the hell hound family that hits extremely hard with mystical fire attacks.",
 		"rarity": "Rare",
@@ -1021,6 +1024,7 @@
 	},
 	{
 		"name": "Num 42",
+		"imageName": "dogWater.png",
 		"number": 42,
 		"description": "Water evlolution in the hell hound family that is extremely fast and hits hard with mystical water attacks.",
 		"rarity": "Rare",
