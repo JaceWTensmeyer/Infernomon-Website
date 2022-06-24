@@ -1074,6 +1074,7 @@
 	},
 	{
 		"name": "Elembolt",
+		"imageName": "elembolt.png",
 		"number": 44,
 		"description": "Electric Elemental Legendary does serious damage with its chain electric abilities.",
 		"rarity": "Legendary",
@@ -1098,6 +1099,7 @@
 	},
 	{
 		"name": "Elemquake",
+		"imageName": "elemquake.png",
 		"number": 45,
 		"description": "Earth Elemental Legendary that is verty sturdy and does heavy damage by controlling the earth.",
 		"rarity": "Legendary",
@@ -1122,6 +1124,7 @@
 	},
 	{
 		"name": "Elemgale",
+		"imageName": "elemgale.png",
 		"number": 46,
 		"description": "Wind Elemental Legendary that controls the winds to cause destruction.",
 		"rarity": "Legendary",
