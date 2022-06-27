@@ -841,7 +841,7 @@
 		"hp": 90,
 		"attack": 100,
 		"defense": 90,
-		"spAttack": 65,
+		"spAttack": 70,
 		"spDefense": 80,
 		"agility": 75,
 		"height": 5.6,
@@ -1149,6 +1149,7 @@
 	},
 	{
 		"name": "Num 47",
+		"imageName": "snake1.png",
 		"number": 47,
 		"description": "Legendary snake that is hard to come by.  It may look friendly but you may want to keep you distance to avoid its poisonous venom.",
 		"rarity": "Legendary",
@@ -1173,6 +1174,7 @@
 	},
 	{
 		"name": "Num 48",
+		"imageName": "lizard1.png",
 		"number": 48,
 		"description": "Legendary mid-evolution lizard that attacks from range.  Keep you distance from anything it infects.",
 		"rarity": "Legendary",
@@ -1197,6 +1199,7 @@
 	},
 	{
 		"name": "Num 49",
+		"imageName": "dragon1.png",
 		"number": 49,
 		"description": "Legendary Final evolution toxic/wind dragon-like creature that hits remakably hard.",
 		"rarity": "Legendary",
