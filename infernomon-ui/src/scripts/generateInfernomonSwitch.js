@@ -1,6 +1,6 @@
 const infernomon = require('../jsonData/Infernomon.json');
 const fs = require('fs');
-const recipes = require('../jsonData/recipe.json')
+const recipes = require('../jsonData/infernomonRecipe.json')
 
 let txtString = `
 function GetGenericInfernomonData(_number){
