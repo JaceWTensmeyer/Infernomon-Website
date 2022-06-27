@@ -150,7 +150,7 @@
 		"weight": 180
 	},
 	{
-		"name": "Num 7",
+		"name": "Kyroptar",
 		"imageName": "Num7.png",
 		"number": 7,
 		"description": "A Fire/Wind type bat that is friendly and makes a great companion for new trainers.",
@@ -175,7 +175,7 @@
 		"weight": 18
 	},
 	{
-		"name": "Num 8",
+		"name": "Kyropturn",
 		"imageName": "Num8.png",
 		"number": 8,
 		"description": "The 2nd evolution in the bat starter family.  A fast flyier that hits had from a distance.",
@@ -200,7 +200,7 @@
 		"weight": 40
 	},
 	{
-		"name": "Num 9",
+		"name": "Kyroptorch",
 		"imageName": "Num9.png",
 		"number": 9,
 		"description": "The 3rd and final evolution in the bat starter family.  It is known for burning its opponents with sonic flames and hot wind.",
