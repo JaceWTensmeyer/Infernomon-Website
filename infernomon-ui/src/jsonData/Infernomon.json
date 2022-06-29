@@ -25,7 +25,7 @@
 		"weight": 22
 	},
 	{
-		"name": "Rotinid",
+		"name": "Decaynid",
 		"imageName": "Spider2.png",
 		"number": 2,
 		"description": "The 2nd evolution in the spider starter family.  Has quick movement and has a strong venomous bite.",
@@ -275,7 +275,7 @@
 		"weight": 75
 	},
 	{
-		"name": "Num 12",
+		"name": "Chickipek",
 		"imageName": "Ostrich1.png",
 		"number": 12,
 		"description": "A small, cute ostrich that like to scratch things with it talons.  Evolves into #13",
@@ -300,7 +300,7 @@
 		"weight": 24
 	},
 	{
-		"name": "Num 13",
+		"name": "Cluckbeak",
 		"imageName": "Ostrich2.png",
 		"number": 13,
 		"description": "A growing ostrich that is beginning to use its talons for attacking.  Evolves into #14",
@@ -325,7 +325,7 @@
 		"weight": 55
 	},
 	{
-		"name": "Num 14",
+		"name": "Raphook",
 		"imageName": "Ostrich3.png",
 		"number": 14,
 		"description": "A final-evolution ostrich that punishes enemies with percision using its extremely sharp talons.",
@@ -350,7 +350,7 @@
 		"weight": 90
 	},
 	{
-		"name": "Num 15",
+		"name": "Rattazap",
 		"imageName": "Mouse1.png",
 		"number": 15,
 		"description": "A physically aggresive mouse with a fiece, electric bite and likes to be close to its trainer. Evolves into #16",
@@ -375,7 +375,7 @@
 		"weight": 16
 	},
 	{
-		"name": "Num 16",
+		"name": "Rattazolt",
 		"imageName": "Mouse2.png",
 		"number": 16,
 		"description": "A fully evolved aggresive mouse that jumps between multiple enemies at the speed of light. Prefers to be independent.",
@@ -398,7 +398,7 @@
 		"agility": 105
 	},
 	{
-		"name": "Num 17",
+		"name": "Ashello",
 		"imageName": "Turtle1.png",
 		"number": 17,
 		"description": "A small tortoise that loves playing in blistering hot temperatures.  Evolves into # 18",
@@ -423,7 +423,7 @@
 		"weight": 30
 	},
 	{
-		"name": "Num 18",
+		"name": "Turmog",
 		"imageName": "Turtle2.png",
 		"number": 18,
 		"description": "The 2nd evolution in the tortoise family.  It can take a beating but also dishes out some decent damage.  Evolves into #19.",
@@ -448,7 +448,7 @@
 		"weight": 80
 	},
 	{
-		"name": "Num 19",
+		"name": "Tankaino",
 		"imageName": "Turtle3.png",
 		"number": 19,
 		"description": "The final evolution in the fiery tortoise family.  It punishes enemies with its hard, reflective shell.",
@@ -473,7 +473,7 @@
 		"weight": 330
 	},
 	{
-		"name": "Num 20",
+		"name": "Imp 1",
 		"imageName": "Imp1.png",
 		"number": 20,
 		"description": "A small mischievous Imp that likes tinkering with its Acrane magic.",
@@ -498,7 +498,7 @@
 		"weight": 13
 	},
 	{
-		"name": "Num 21",
+		"name": "imp 2",
 		"imageName": "Imp2.png",
 		"number": 21,
 		"description": "The 2nd evolution in the Imp family.  What it lakes in defense it makes up for in offense.",
@@ -548,7 +548,7 @@
 		"weight": 60
 	},
 	{
-		"name": "Num 23",
+		"name": "Hogrosh",
 		"imageName": "Boar1.png",
 		"number": 23,
 		"description": "A small, chubby, playful boar with small tusks that likes to wrestle.",
@@ -573,7 +573,7 @@
 		"weight": 36
 	},
 	{
-		"name": "Num 24",
+		"name": "Boaroke",
 		"imageName": "Boar2.png",
 		"number": 24,
 		"description": "A large, fully evolved, fat, aggresive boar that can take a beating and wounds opponents with its large tusks.",
