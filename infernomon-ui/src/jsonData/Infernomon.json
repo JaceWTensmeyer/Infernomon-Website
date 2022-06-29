@@ -350,7 +350,7 @@
 		"weight": 90
 	},
 	{
-		"name": "Rattazap",
+		"name": "Moukizap",
 		"imageName": "Mouse1.png",
 		"number": 15,
 		"description": "A physically aggresive mouse with a fiece, electric bite and likes to be close to its trainer. Evolves into #16",
@@ -375,7 +375,7 @@
 		"weight": 16
 	},
 	{
-		"name": "Rattazolt",
+		"name": "Razzolt",
 		"imageName": "Mouse2.png",
 		"number": 16,
 		"description": "A fully evolved aggresive mouse that jumps between multiple enemies at the speed of light. Prefers to be independent.",
@@ -473,7 +473,7 @@
 		"weight": 330
 	},
 	{
-		"name": "Imp 1",
+		"name": "Incanimp",
 		"imageName": "Imp1.png",
 		"number": 20,
 		"description": "A small mischievous Imp that likes tinkering with its Acrane magic.",
@@ -498,7 +498,7 @@
 		"weight": 13
 	},
 	{
-		"name": "imp 2",
+		"name": "Sorcerimp",
 		"imageName": "Imp2.png",
 		"number": 21,
 		"description": "The 2nd evolution in the Imp family.  What it lakes in defense it makes up for in offense.",
@@ -523,7 +523,7 @@
 		"weight": 35
 	},
 	{
-		"name": "Num 22",
+		"name": "Arcanimp",
 		"imageName": "Imp3.png",
 		"number": 22,
 		"description": "The 3rd and final evolution in the Imp family.  This glass cannon takes a long time to cast but unleashes devistating damage.",
@@ -598,7 +598,7 @@
 		"weight": 280
 	},
 	{
-		"name": "Num 25",
+		"name": "Genashroom",
 		"imageName": "Mushroom1.png",
 		"number": 25,
 		"description": "A small plant animal with mushrooms sprouting all over its body.  It is overly protective of its allies.",
@@ -623,7 +623,7 @@
 		"weight": 15
 	},
 	{
-		"name": "Num 26",
+		"name": "Juvashroom",
 		"imageName": "Mushroom2.png",
 		"number": 26,
 		"description": "A fully evolved mushroom animal that throws out big heals to its allies and would sacrifice itself for others.",
@@ -648,7 +648,7 @@
 		"weight": 60
 	},
 	{
-		"name": "Num 27",
+		"name": "Anuband",
 		"imageName": "Anubis1.png",
 		"number": 27,
 		"description": "A bi-pedal, Anubis-like caster that carries a staff which it uses to play with the earth and sand.",
@@ -673,7 +673,7 @@
 		"weight": 27
 	},
 	{
-		"name": "Num 28",
+		"name": "Anujak",
 		"imageName": "Anubis2.png",
 		"number": 28,
 		"description": "Fully evolved Anubis caster that punishes opponents with sand attacks.",
@@ -698,7 +698,7 @@
 		"weight": 75
 	},
 	{
-		"name": "Num 29",
+		"name": "Gnawzer",
 		"imageName": "Croc1.png",
 		"number": 29,
 		"description": "A small alligator that looks cute and harmless but my catch you off guard with an electric bite.",
@@ -723,7 +723,7 @@
 		"weight": 18
 	},
 	{
-		"name": "Num 30",
+		"name": "Crawzok",
 		"imageName": "Croc2.png",
 		"number": 30,
 		"description": "The 2nd evolution in the electric alligator family.  It likes to be up in the middle of a fight and has a balance fighting style.",
@@ -748,7 +748,7 @@
 		"weight": 42
 	},
 	{
-		"name": "Num 31",
+		"name": "Crawzamp",
 		"imageName": "Croc3.png",
 		"number": 31,
 		"description": "The 3rd and final evolution in the electric alligator Bi-pedal Aligator.  It prefers to alternate between electric bites and water punches.",
