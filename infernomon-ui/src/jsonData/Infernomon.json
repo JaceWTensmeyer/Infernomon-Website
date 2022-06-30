@@ -75,7 +75,7 @@
 		"weight": 130
 	},
 	{
-		"name": "Tadlick",
+		"name": "Tadliq",
 		"imageName": "Frog1.png",
 		"number": 4,
 		"description": "A Water type frog that is friendly and makes a great companion for new trainers.",
@@ -723,7 +723,7 @@
 		"weight": 18
 	},
 	{
-		"name": "Crawzok",
+		"name": "Allizok",
 		"imageName": "Croc2.png",
 		"number": 30,
 		"description": "The 2nd evolution in the electric alligator family.  It likes to be up in the middle of a fight and has a balance fighting style.",
@@ -748,7 +748,7 @@
 		"weight": 42
 	},
 	{
-		"name": "Crawzamp",
+		"name": "Crawzerk",
 		"imageName": "Croc3.png",
 		"number": 31,
 		"description": "The 3rd and final evolution in the electric alligator Bi-pedal Aligator.  It prefers to alternate between electric bites and water punches.",
@@ -773,7 +773,7 @@
 		"weight": 110
 	},
 	{
-		"name": "Num 32",
+		"name": "Minoosmog",
 		"imageName": "Abomination1.png",
 		"number": 32,
 		"description": "A small creature surrounded in Toxic gas.  It tries to make friends, which can be difficult sometimes to to its overwhelming fumes.",
@@ -798,7 +798,7 @@
 		"weight": 30
 	},
 	{
-		"name": "Num 33",
+		"name": "Aboomog",
 		"imageName": "Abomination2.png",
 		"number": 33,
 		"description": "Final evolution that is tanky and protects its allies by overwhelming its opponents with its toxic fumes",
@@ -823,7 +823,7 @@
 		"weight": 210
 	},
 	{
-		"name": "Num 34",
+		"name": "Lankyank",
 		"imageName": "Multiarm.png",
 		"number": 34,
 		"description": "A 6-armed monster that likes to be up in the action and group enmies together by pulling them in with its extendable arms.",
@@ -848,7 +848,7 @@
 		"weight": 160
 	},
 	{
-		"name": "Num 35",
+		"name": "Slissirt",
 		"imageName": "Sandworm.png",
 		"number": 35,
 		"description": "Sand worm monster that blinds its opponents with pestering sand attacks.",
@@ -873,7 +873,7 @@
 		"weight": 240
 	},
 	{
-		"name": "Num 36",
+		"name": "Charjamp",
 		"imageName": "electronic.png",
 		"number": 36,
 		"description": "Mechanical monster that generates electric shields uses chaining electric powers to give its allies.",
@@ -898,7 +898,7 @@
 		"weight": 160
 	},
 	{
-		"name": "Num 37",
+		"name": "Strixlet",
 		"imageName": "owl1.png",
 		"number": 37,
 		"description": "A small, round, land owl that loves playing with other Infernomon and enjoys a windy day.",
@@ -923,7 +923,7 @@
 		"weight": 28
 	},
 	{
-		"name": "Num 38",
+		"name": "Strixume",
 		"imageName": "owl2.png",
 		"number": 38,
 		"description": "A fully evolved, large, round, land owl that supports its allies by providing them with buffs that improve their offense.",
@@ -948,7 +948,7 @@
 		"weight": 230
 	},
 	{
-		"name": "Num 39",
+		"name": "Trolerag",
 		"number": 39,
 		"imageName": "Troll.png",
 		"description": "Troll that wears a skull from a defeated beast and carries bones in each hand that it throws at enemies at an incredibly fast rate.",
@@ -973,7 +973,7 @@
 		"weight": 170
 	},
 	{
-		"name": "Num 40",
+		"name": "Heelound",
 		"number": 40,
 		"imageName": "dog1.png",
 		"description": "Cute pre-evlolution to the hell hound family that loves to be by its trainer.",
@@ -998,7 +998,7 @@
 		"weight": 15
 	},
 	{
-		"name": "Num 41",
+		"name": "Magmound",
 		"imageName": "dogFire.png",
 		"number": 41,
 		"description": "Fire evlolution in the hell hound family that hits extremely hard with mystical fire attacks.",
@@ -1023,7 +1023,7 @@
 		"weight": 120
 	},
 	{
-		"name": "Num 42",
+		"name": "Mistound",
 		"imageName": "dogWater.png",
 		"number": 42,
 		"description": "Water evlolution in the hell hound family that is extremely fast and hits hard with mystical water attacks.",
@@ -1148,7 +1148,7 @@
 		"weight": 210
 	},
 	{
-		"name": "Num 47",
+		"name": "Serpatox",
 		"imageName": "snake1.png",
 		"number": 47,
 		"description": "Legendary snake that is hard to come by.  It may look friendly but you may want to keep you distance to avoid its poisonous venom.",
@@ -1173,7 +1173,7 @@
 		"weight": 35
 	},
 	{
-		"name": "Num 48",
+		"name": "Lixlime",
 		"imageName": "lizard1.png",
 		"number": 48,
 		"description": "Legendary mid-evolution lizard that attacks from range.  Keep you distance from anything it infects.",
@@ -1198,7 +1198,7 @@
 		"weight": 85
 	},
 	{
-		"name": "Num 49",
+		"name": "Ptearonox",
 		"imageName": "dragon1.png",
 		"number": 49,
 		"description": "Legendary Final evolution toxic/wind dragon-like creature that hits remakably hard.",
