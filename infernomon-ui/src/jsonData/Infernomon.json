@@ -649,7 +649,7 @@
 	},
 	{
 		"name": "Anuband",
-		"imageName": "Anubis1.png",
+		"imageName": "Anuband.png",
 		"number": 27,
 		"description": "A bi-pedal, Anubis-like caster that carries a staff which it uses to play with the earth and sand.",
 		"rarity": "Common",
@@ -674,7 +674,7 @@
 	},
 	{
 		"name": "Anujak",
-		"imageName": "Anubis2.png",
+		"imageName": "Anujak.png",
 		"number": 28,
 		"description": "Fully evolved Anubis caster that punishes opponents with sand attacks.",
 		"rarity": "Common",
@@ -774,7 +774,7 @@
 	},
 	{
 		"name": "Minoosmog",
-		"imageName": "Abomination1.png",
+		"imageName": "Minoosmog.png",
 		"number": 32,
 		"description": "A small creature surrounded in Toxic gas.  It tries to make friends, which can be difficult sometimes to to its overwhelming fumes.",
 		"rarity": "Common",
@@ -799,7 +799,7 @@
 	},
 	{
 		"name": "Aboomog",
-		"imageName": "Abomination2.png",
+		"imageName": "Aboomog.png",
 		"number": 33,
 		"description": "Final evolution that is tanky and protects its allies by overwhelming its opponents with its toxic fumes",
 		"rarity": "Common",
