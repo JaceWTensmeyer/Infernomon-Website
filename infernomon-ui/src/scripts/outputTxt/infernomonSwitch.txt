@@ -3,7 +3,7 @@ function GetGenericInfernomonData(_number){
 	switch(_number) {
 		case 0: break
 		case 1: return {
-			name: "Num 1",
+			name: "Venonid",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 40,
@@ -23,7 +23,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 2: return {
-			name: "Num 2",
+			name: "Decaynid",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 55,
@@ -43,7 +43,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 3: return {
-			name: "Num 3",
+			name: "Festernid",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 80,
@@ -63,7 +63,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 4: return {
-			name: "Num 4",
+			name: "Tadliq",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 70,
@@ -83,7 +83,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 5: return {
-			name: "Num 5",
+			name: "Croakanoc",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 85,
@@ -103,7 +103,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 6: return {
-			name: "Num 6",
+			name: "Polliwallop",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 110,
@@ -123,7 +123,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 7: return {
-			name: "Num 7",
+			name: "Kyropter",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 45,
@@ -143,7 +143,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 8: return {
-			name: "Num 8",
+			name: "Kyropturn",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
@@ -163,7 +163,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 9: return {
-			name: "Num 9",
+			name: "Kyroptorch",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
@@ -183,7 +183,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 10: return {
-			name: "Num 10",
+			name: "Gobclaw",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 55,
@@ -203,7 +203,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 11: return {
-			name: "Num 11",
+			name: "Gobelgash",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
@@ -223,7 +223,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 12: return {
-			name: "Num 12",
+			name: "Chickipek",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 45,
@@ -243,7 +243,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 13: return {
-			name: "Num 13",
+			name: "Cluckbeak",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
@@ -263,7 +263,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 14: return {
-			name: "Num 14",
+			name: "Raphook",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 80,
@@ -283,7 +283,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 15: return {
-			name: "Num 15",
+			name: "Moukizap",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 50,
@@ -303,7 +303,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 16: return {
-			name: "Num 16",
+			name: "Razzolt",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 85,
@@ -323,7 +323,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 17: return {
-			name: "Num 17",
+			name: "Ashello",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
@@ -343,7 +343,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 18: return {
-			name: "Num 18",
+			name: "Turmog",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
@@ -363,7 +363,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 19: return {
-			name: "Num 19",
+			name: "Tankaino",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
@@ -383,7 +383,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 20: return {
-			name: "Num 20",
+			name: "Incanimp",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 45,
@@ -403,7 +403,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 21: return {
-			name: "Num 21",
+			name: "Sorcerimp",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
@@ -423,7 +423,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 22: return {
-			name: "Num 22",
+			name: "Arcanimp",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 70,
@@ -443,7 +443,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 23: return {
-			name: "Num 23",
+			name: "Hogrosh",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
@@ -463,7 +463,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 24: return {
-			name: "Num 24",
+			name: "Boaroke",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 110,
@@ -483,7 +483,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 25: return {
-			name: "Num 25",
+			name: "Genashroom",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
@@ -503,7 +503,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 26: return {
-			name: "Num 26",
+			name: "Juvashroom",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 95,
@@ -523,7 +523,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 27: return {
-			name: "Num 27",
+			name: "Anuband",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 70,
@@ -543,7 +543,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 28: return {
-			name: "Num 28",
+			name: "Anujak",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
@@ -563,7 +563,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 29: return {
-			name: "Num 29",
+			name: "Gnawzer",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 55,
@@ -583,7 +583,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 30: return {
-			name: "Num 30",
+			name: "Allizok",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
@@ -603,7 +603,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 31: return {
-			name: "Num 31",
+			name: "Crawzerk",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
@@ -623,7 +623,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 32: return {
-			name: "Num 32",
+			name: "Minoosmog",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 75,
@@ -643,7 +643,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 33: return {
-			name: "Num 33",
+			name: "Aboomog",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 105,
@@ -663,13 +663,13 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common"
 		} break
 		case 34: return {
-			name: "Num 34",
+			name: "Lankyank",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 90,
 			baseAttack: 100,
 			baseDefense: 90,
-			baseSpAttack: 65,
+			baseSpAttack: 70,
 			baseSpDefense: 80,
 			baseAgility: 75,
 			type1: "Toxic",
@@ -683,7 +683,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 35: return {
-			name: "Num 35",
+			name: "Slissirt",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
@@ -703,7 +703,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 36: return {
-			name: "Num 36",
+			name: "Charjamp",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
@@ -723,7 +723,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon"
 		} break
 		case 37: return {
-			name: "Num 37",
+			name: "Strixlet",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 60,
@@ -743,7 +743,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 38: return {
-			name: "Num 38",
+			name: "Strixume",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
@@ -763,7 +763,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 39: return {
-			name: "Num 39",
+			name: "Trolerag",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
@@ -783,7 +783,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 40: return {
-			name: "Num 40",
+			name: "Heelound",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 50,
@@ -803,7 +803,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 41: return {
-			name: "Num 41",
+			name: "Magmound",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 65,
@@ -823,7 +823,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare"
 		} break
 		case 42: return {
-			name: "Num 42",
+			name: "Mistound",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 65,
@@ -923,7 +923,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Legendary"
 		} break
 		case 47: return {
-			name: "Num 47",
+			name: "Serpatox",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 55,
@@ -943,7 +943,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Legendary"
 		} break
 		case 48: return {
-			name: "Num 48",
+			name: "Lixlime",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 70,
@@ -963,7 +963,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Legendary"
 		} break
 		case 49: return {
-			name: "Num 49",
+			name: "Ptearonox",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
@@ -983,7 +983,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Legendary"
 		} break
 		case 50: return {
-			name: "Num 50",
+			name: "Infernemort",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 105,
@@ -1003,7 +1003,7 @@ function GetGenericInfernomonData(_number){
 			rarity: "Epic"
 		} break
 		case 51: return {
-			name: "Num 51",
+			name: "Infernemis",
 			number: _number,
 			maxExpPoints: 1000000,
 			baseHp: 100,
