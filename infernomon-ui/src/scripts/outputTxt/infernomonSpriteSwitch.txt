@@ -1,0 +1,636 @@
+
+function GetSpritesForInfernomon(_number){
+	switch(_number) {
+		case 0: break
+		case 1: {
+			spriteIdle = spr_InventoryImageNum1 
+			spriteMove = spr_InventoryImageNum1 
+			spritePortrait = spr_InventoryImageNum1 
+			spriteInventoryImage = spr_InventoryImageNum1 
+		} break
+		case 2: {
+			spriteIdle = spr_InventoryImageNum2 
+			spriteMove = spr_InventoryImageNum2 
+			spritePortrait = spr_InventoryImageNum2 
+			spriteInventoryImage = spr_InventoryImageNum2 
+		} break
+		case 3: {
+			spriteIdle = spr_InventoryImageNum3 
+			spriteMove = spr_InventoryImageNum3 
+			spritePortrait = spr_InventoryImageNum3 
+			spriteInventoryImage = spr_InventoryImageNum3 
+		} break
+		case 4: {
+			spriteIdle = spr_InventoryImageNum4 
+			spriteMove = spr_InventoryImageNum4 
+			spritePortrait = spr_InventoryImageNum4 
+			spriteInventoryImage = spr_InventoryImageNum4 
+		} break
+		case 5: {
+			spriteIdle = spr_InventoryImageNum5 
+			spriteMove = spr_InventoryImageNum5 
+			spritePortrait = spr_InventoryImageNum5 
+			spriteInventoryImage = spr_InventoryImageNum5 
+		} break
+		case 6: {
+			spriteIdle = spr_InventoryImageNum6 
+			spriteMove = spr_InventoryImageNum6 
+			spritePortrait = spr_InventoryImageNum6 
+			spriteInventoryImage = spr_InventoryImageNum6 
+		} break
+		case 7: {
+			spriteIdle = spr_InventoryImageNum7 
+			spriteMove = spr_InventoryImageNum7 
+			spritePortrait = spr_InventoryImageNum7 
+			spriteInventoryImage = spr_InventoryImageNum7 
+		} break
+		case 8: {
+			spriteIdle = spr_InventoryImageNum8 
+			spriteMove = spr_InventoryImageNum8 
+			spritePortrait = spr_InventoryImageNum8 
+			spriteInventoryImage = spr_InventoryImageNum8 
+		} break
+		case 9: {
+			spriteIdle = spr_InventoryImageNum9 
+			spriteMove = spr_InventoryImageNum9 
+			spritePortrait = spr_InventoryImageNum9 
+			spriteInventoryImage = spr_InventoryImageNum9 
+		} break
+		case 10: {
+			spriteIdle = spr_InventoryImageNum10 
+			spriteMove = spr_InventoryImageNum10 
+			spritePortrait = spr_InventoryImageNum10 
+			spriteInventoryImage = spr_InventoryImageNum10 
+		} break
+		case 11: {
+			spriteIdle = spr_InventoryImageNum11 
+			spriteMove = spr_InventoryImageNum11 
+			spritePortrait = spr_InventoryImageNum11 
+			spriteInventoryImage = spr_InventoryImageNum11 
+		} break
+		case 12: {
+			spriteIdle = spr_InventoryImageNum12 
+			spriteMove = spr_InventoryImageNum12 
+			spritePortrait = spr_InventoryImageNum12 
+			spriteInventoryImage = spr_InventoryImageNum12 
+		} break
+		case 13: {
+			spriteIdle = spr_InventoryImageNum13 
+			spriteMove = spr_InventoryImageNum13 
+			spritePortrait = spr_InventoryImageNum13 
+			spriteInventoryImage = spr_InventoryImageNum13 
+		} break
+		case 14: {
+			spriteIdle = spr_InventoryImageNum14 
+			spriteMove = spr_InventoryImageNum14 
+			spritePortrait = spr_InventoryImageNum14 
+			spriteInventoryImage = spr_InventoryImageNum14 
+		} break
+		case 15: {
+			spriteIdle = spr_InventoryImageNum15 
+			spriteMove = spr_InventoryImageNum15 
+			spritePortrait = spr_InventoryImageNum15 
+			spriteInventoryImage = spr_InventoryImageNum15 
+		} break
+		case 16: {
+			spriteIdle = spr_InventoryImageNum16 
+			spriteMove = spr_InventoryImageNum16 
+			spritePortrait = spr_InventoryImageNum16 
+			spriteInventoryImage = spr_InventoryImageNum16 
+		} break
+		case 17: {
+			spriteIdle = spr_InventoryImageNum17 
+			spriteMove = spr_InventoryImageNum17 
+			spritePortrait = spr_InventoryImageNum17 
+			spriteInventoryImage = spr_InventoryImageNum17 
+		} break
+		case 18: {
+			spriteIdle = spr_InventoryImageNum18 
+			spriteMove = spr_InventoryImageNum18 
+			spritePortrait = spr_InventoryImageNum18 
+			spriteInventoryImage = spr_InventoryImageNum18 
+		} break
+		case 19: {
+			spriteIdle = spr_InventoryImageNum19 
+			spriteMove = spr_InventoryImageNum19 
+			spritePortrait = spr_InventoryImageNum19 
+			spriteInventoryImage = spr_InventoryImageNum19 
+		} break
+		case 20: {
+			spriteIdle = spr_InventoryImageNum20 
+			spriteMove = spr_InventoryImageNum20 
+			spritePortrait = spr_InventoryImageNum20 
+			spriteInventoryImage = spr_InventoryImageNum20 
+		} break
+		case 21: {
+			spriteIdle = spr_InventoryImageNum21 
+			spriteMove = spr_InventoryImageNum21 
+			spritePortrait = spr_InventoryImageNum21 
+			spriteInventoryImage = spr_InventoryImageNum21 
+		} break
+		case 22: {
+			spriteIdle = spr_InventoryImageNum22 
+			spriteMove = spr_InventoryImageNum22 
+			spritePortrait = spr_InventoryImageNum22 
+			spriteInventoryImage = spr_InventoryImageNum22 
+		} break
+		case 23: {
+			spriteIdle = spr_InventoryImageNum23 
+			spriteMove = spr_InventoryImageNum23 
+			spritePortrait = spr_InventoryImageNum23 
+			spriteInventoryImage = spr_InventoryImageNum23 
+		} break
+		case 24: {
+			spriteIdle = spr_InventoryImageNum24 
+			spriteMove = spr_InventoryImageNum24 
+			spritePortrait = spr_InventoryImageNum24 
+			spriteInventoryImage = spr_InventoryImageNum24 
+		} break
+		case 25: {
+			spriteIdle = spr_InventoryImageNum25 
+			spriteMove = spr_InventoryImageNum25 
+			spritePortrait = spr_InventoryImageNum25 
+			spriteInventoryImage = spr_InventoryImageNum25 
+		} break
+		case 26: {
+			spriteIdle = spr_InventoryImageNum26 
+			spriteMove = spr_InventoryImageNum26 
+			spritePortrait = spr_InventoryImageNum26 
+			spriteInventoryImage = spr_InventoryImageNum26 
+		} break
+		case 27: {
+			spriteIdle = spr_InventoryImageNum27 
+			spriteMove = spr_InventoryImageNum27 
+			spritePortrait = spr_InventoryImageNum27 
+			spriteInventoryImage = spr_InventoryImageNum27 
+		} break
+		case 28: {
+			spriteIdle = spr_InventoryImageNum28 
+			spriteMove = spr_InventoryImageNum28 
+			spritePortrait = spr_InventoryImageNum28 
+			spriteInventoryImage = spr_InventoryImageNum28 
+		} break
+		case 29: {
+			spriteIdle = spr_InventoryImageNum29 
+			spriteMove = spr_InventoryImageNum29 
+			spritePortrait = spr_InventoryImageNum29 
+			spriteInventoryImage = spr_InventoryImageNum29 
+		} break
+		case 30: {
+			spriteIdle = spr_InventoryImageNum30 
+			spriteMove = spr_InventoryImageNum30 
+			spritePortrait = spr_InventoryImageNum30 
+			spriteInventoryImage = spr_InventoryImageNum30 
+		} break
+		case 31: {
+			spriteIdle = spr_InventoryImageNum31 
+			spriteMove = spr_InventoryImageNum31 
+			spritePortrait = spr_InventoryImageNum31 
+			spriteInventoryImage = spr_InventoryImageNum31 
+		} break
+		case 32: {
+			spriteIdle = spr_InventoryImageNum32 
+			spriteMove = spr_InventoryImageNum32 
+			spritePortrait = spr_InventoryImageNum32 
+			spriteInventoryImage = spr_InventoryImageNum32 
+		} break
+		case 33: {
+			spriteIdle = spr_InventoryImageNum33 
+			spriteMove = spr_InventoryImageNum33 
+			spritePortrait = spr_InventoryImageNum33 
+			spriteInventoryImage = spr_InventoryImageNum33 
+		} break
+		case 34: {
+			spriteIdle = spr_InventoryImageNum34 
+			spriteMove = spr_InventoryImageNum34 
+			spritePortrait = spr_InventoryImageNum34 
+			spriteInventoryImage = spr_InventoryImageNum34 
+		} break
+		case 35: {
+			spriteIdle = spr_InventoryImageNum35 
+			spriteMove = spr_InventoryImageNum35 
+			spritePortrait = spr_InventoryImageNum35 
+			spriteInventoryImage = spr_InventoryImageNum35 
+		} break
+		case 36: {
+			spriteIdle = spr_InventoryImageNum36 
+			spriteMove = spr_InventoryImageNum36 
+			spritePortrait = spr_InventoryImageNum36 
+			spriteInventoryImage = spr_InventoryImageNum36 
+		} break
+		case 37: {
+			spriteIdle = spr_InventoryImageNum37 
+			spriteMove = spr_InventoryImageNum37 
+			spritePortrait = spr_InventoryImageNum37 
+			spriteInventoryImage = spr_InventoryImageNum37 
+		} break
+		case 38: {
+			spriteIdle = spr_InventoryImageNum38 
+			spriteMove = spr_InventoryImageNum38 
+			spritePortrait = spr_InventoryImageNum38 
+			spriteInventoryImage = spr_InventoryImageNum38 
+		} break
+		case 39: {
+			spriteIdle = spr_InventoryImageNum39 
+			spriteMove = spr_InventoryImageNum39 
+			spritePortrait = spr_InventoryImageNum39 
+			spriteInventoryImage = spr_InventoryImageNum39 
+		} break
+		case 40: {
+			spriteIdle = spr_InventoryImageNum40 
+			spriteMove = spr_InventoryImageNum40 
+			spritePortrait = spr_InventoryImageNum40 
+			spriteInventoryImage = spr_InventoryImageNum40 
+		} break
+		case 41: {
+			spriteIdle = spr_InventoryImageNum41 
+			spriteMove = spr_InventoryImageNum41 
+			spritePortrait = spr_InventoryImageNum41 
+			spriteInventoryImage = spr_InventoryImageNum41 
+		} break
+		case 42: {
+			spriteIdle = spr_InventoryImageNum42 
+			spriteMove = spr_InventoryImageNum42 
+			spritePortrait = spr_InventoryImageNum42 
+			spriteInventoryImage = spr_InventoryImageNum42 
+		} break
+		case 43: {
+			spriteIdle = spr_InventoryImageNum43 
+			spriteMove = spr_InventoryImageNum43 
+			spritePortrait = spr_InventoryImageNum43 
+			spriteInventoryImage = spr_InventoryImageNum43 
+		} break
+		case 44: {
+			spriteIdle = spr_InventoryImageNum44 
+			spriteMove = spr_InventoryImageNum44 
+			spritePortrait = spr_InventoryImageNum44 
+			spriteInventoryImage = spr_InventoryImageNum44 
+		} break
+		case 45: {
+			spriteIdle = spr_InventoryImageNum45 
+			spriteMove = spr_InventoryImageNum45 
+			spritePortrait = spr_InventoryImageNum45 
+			spriteInventoryImage = spr_InventoryImageNum45 
+		} break
+		case 46: {
+			spriteIdle = spr_InventoryImageNum46 
+			spriteMove = spr_InventoryImageNum46 
+			spritePortrait = spr_InventoryImageNum46 
+			spriteInventoryImage = spr_InventoryImageNum46 
+		} break
+		case 47: {
+			spriteIdle = spr_InventoryImageNum47 
+			spriteMove = spr_InventoryImageNum47 
+			spritePortrait = spr_InventoryImageNum47 
+			spriteInventoryImage = spr_InventoryImageNum47 
+		} break
+		case 48: {
+			spriteIdle = spr_InventoryImageNum48 
+			spriteMove = spr_InventoryImageNum48 
+			spritePortrait = spr_InventoryImageNum48 
+			spriteInventoryImage = spr_InventoryImageNum48 
+		} break
+		case 49: {
+			spriteIdle = spr_InventoryImageNum49 
+			spriteMove = spr_InventoryImageNum49 
+			spritePortrait = spr_InventoryImageNum49 
+			spriteInventoryImage = spr_InventoryImageNum49 
+		} break
+		case 50: {
+			spriteIdle = spr_InventoryImageNum50 
+			spriteMove = spr_InventoryImageNum50 
+			spritePortrait = spr_InventoryImageNum50 
+			spriteInventoryImage = spr_InventoryImageNum50 
+		} break
+		case 51: {
+			spriteIdle = spr_InventoryImageNum51 
+			spriteMove = spr_InventoryImageNum51 
+			spritePortrait = spr_InventoryImageNum51 
+			spriteInventoryImage = spr_InventoryImageNum51 
+		} break
+		default: {
+			spriteIdle = spr_IdleNum0
+			spriteMove = spr_MoveNum0
+			spritePortrait = spr_PortraitNum0
+			spriteInventoryImage = spr_InventoryImageNum0
+		}
+	}
+}
+
+function GetSpritesForInfernomonStruct(_number){
+	switch(_number) {
+		case 0: break
+		case 1: return {
+			spriteIdle: spr_InventoryImageNum1,
+			spriteMove: spr_InventoryImageNum1,
+			spritePortrait: spr_InventoryImageNum1, 
+			spriteInventoryImage: spr_InventoryImageNum1 
+		} break
+		case 2: return {
+			spriteIdle: spr_InventoryImageNum2,
+			spriteMove: spr_InventoryImageNum2,
+			spritePortrait: spr_InventoryImageNum2, 
+			spriteInventoryImage: spr_InventoryImageNum2 
+		} break
+		case 3: return {
+			spriteIdle: spr_InventoryImageNum3,
+			spriteMove: spr_InventoryImageNum3,
+			spritePortrait: spr_InventoryImageNum3, 
+			spriteInventoryImage: spr_InventoryImageNum3 
+		} break
+		case 4: return {
+			spriteIdle: spr_InventoryImageNum4,
+			spriteMove: spr_InventoryImageNum4,
+			spritePortrait: spr_InventoryImageNum4, 
+			spriteInventoryImage: spr_InventoryImageNum4 
+		} break
+		case 5: return {
+			spriteIdle: spr_InventoryImageNum5,
+			spriteMove: spr_InventoryImageNum5,
+			spritePortrait: spr_InventoryImageNum5, 
+			spriteInventoryImage: spr_InventoryImageNum5 
+		} break
+		case 6: return {
+			spriteIdle: spr_InventoryImageNum6,
+			spriteMove: spr_InventoryImageNum6,
+			spritePortrait: spr_InventoryImageNum6, 
+			spriteInventoryImage: spr_InventoryImageNum6 
+		} break
+		case 7: return {
+			spriteIdle: spr_InventoryImageNum7,
+			spriteMove: spr_InventoryImageNum7,
+			spritePortrait: spr_InventoryImageNum7, 
+			spriteInventoryImage: spr_InventoryImageNum7 
+		} break
+		case 8: return {
+			spriteIdle: spr_InventoryImageNum8,
+			spriteMove: spr_InventoryImageNum8,
+			spritePortrait: spr_InventoryImageNum8, 
+			spriteInventoryImage: spr_InventoryImageNum8 
+		} break
+		case 9: return {
+			spriteIdle: spr_InventoryImageNum9,
+			spriteMove: spr_InventoryImageNum9,
+			spritePortrait: spr_InventoryImageNum9, 
+			spriteInventoryImage: spr_InventoryImageNum9 
+		} break
+		case 10: return {
+			spriteIdle: spr_InventoryImageNum10,
+			spriteMove: spr_InventoryImageNum10,
+			spritePortrait: spr_InventoryImageNum10, 
+			spriteInventoryImage: spr_InventoryImageNum10 
+		} break
+		case 11: return {
+			spriteIdle: spr_InventoryImageNum11,
+			spriteMove: spr_InventoryImageNum11,
+			spritePortrait: spr_InventoryImageNum11, 
+			spriteInventoryImage: spr_InventoryImageNum11 
+		} break
+		case 12: return {
+			spriteIdle: spr_InventoryImageNum12,
+			spriteMove: spr_InventoryImageNum12,
+			spritePortrait: spr_InventoryImageNum12, 
+			spriteInventoryImage: spr_InventoryImageNum12 
+		} break
+		case 13: return {
+			spriteIdle: spr_InventoryImageNum13,
+			spriteMove: spr_InventoryImageNum13,
+			spritePortrait: spr_InventoryImageNum13, 
+			spriteInventoryImage: spr_InventoryImageNum13 
+		} break
+		case 14: return {
+			spriteIdle: spr_InventoryImageNum14,
+			spriteMove: spr_InventoryImageNum14,
+			spritePortrait: spr_InventoryImageNum14, 
+			spriteInventoryImage: spr_InventoryImageNum14 
+		} break
+		case 15: return {
+			spriteIdle: spr_InventoryImageNum15,
+			spriteMove: spr_InventoryImageNum15,
+			spritePortrait: spr_InventoryImageNum15, 
+			spriteInventoryImage: spr_InventoryImageNum15 
+		} break
+		case 16: return {
+			spriteIdle: spr_InventoryImageNum16,
+			spriteMove: spr_InventoryImageNum16,
+			spritePortrait: spr_InventoryImageNum16, 
+			spriteInventoryImage: spr_InventoryImageNum16 
+		} break
+		case 17: return {
+			spriteIdle: spr_InventoryImageNum17,
+			spriteMove: spr_InventoryImageNum17,
+			spritePortrait: spr_InventoryImageNum17, 
+			spriteInventoryImage: spr_InventoryImageNum17 
+		} break
+		case 18: return {
+			spriteIdle: spr_InventoryImageNum18,
+			spriteMove: spr_InventoryImageNum18,
+			spritePortrait: spr_InventoryImageNum18, 
+			spriteInventoryImage: spr_InventoryImageNum18 
+		} break
+		case 19: return {
+			spriteIdle: spr_InventoryImageNum19,
+			spriteMove: spr_InventoryImageNum19,
+			spritePortrait: spr_InventoryImageNum19, 
+			spriteInventoryImage: spr_InventoryImageNum19 
+		} break
+		case 20: return {
+			spriteIdle: spr_InventoryImageNum20,
+			spriteMove: spr_InventoryImageNum20,
+			spritePortrait: spr_InventoryImageNum20, 
+			spriteInventoryImage: spr_InventoryImageNum20 
+		} break
+		case 21: return {
+			spriteIdle: spr_InventoryImageNum21,
+			spriteMove: spr_InventoryImageNum21,
+			spritePortrait: spr_InventoryImageNum21, 
+			spriteInventoryImage: spr_InventoryImageNum21 
+		} break
+		case 22: return {
+			spriteIdle: spr_InventoryImageNum22,
+			spriteMove: spr_InventoryImageNum22,
+			spritePortrait: spr_InventoryImageNum22, 
+			spriteInventoryImage: spr_InventoryImageNum22 
+		} break
+		case 23: return {
+			spriteIdle: spr_InventoryImageNum23,
+			spriteMove: spr_InventoryImageNum23,
+			spritePortrait: spr_InventoryImageNum23, 
+			spriteInventoryImage: spr_InventoryImageNum23 
+		} break
+		case 24: return {
+			spriteIdle: spr_InventoryImageNum24,
+			spriteMove: spr_InventoryImageNum24,
+			spritePortrait: spr_InventoryImageNum24, 
+			spriteInventoryImage: spr_InventoryImageNum24 
+		} break
+		case 25: return {
+			spriteIdle: spr_InventoryImageNum25,
+			spriteMove: spr_InventoryImageNum25,
+			spritePortrait: spr_InventoryImageNum25, 
+			spriteInventoryImage: spr_InventoryImageNum25 
+		} break
+		case 26: return {
+			spriteIdle: spr_InventoryImageNum26,
+			spriteMove: spr_InventoryImageNum26,
+			spritePortrait: spr_InventoryImageNum26, 
+			spriteInventoryImage: spr_InventoryImageNum26 
+		} break
+		case 27: return {
+			spriteIdle: spr_InventoryImageNum27,
+			spriteMove: spr_InventoryImageNum27,
+			spritePortrait: spr_InventoryImageNum27, 
+			spriteInventoryImage: spr_InventoryImageNum27 
+		} break
+		case 28: return {
+			spriteIdle: spr_InventoryImageNum28,
+			spriteMove: spr_InventoryImageNum28,
+			spritePortrait: spr_InventoryImageNum28, 
+			spriteInventoryImage: spr_InventoryImageNum28 
+		} break
+		case 29: return {
+			spriteIdle: spr_InventoryImageNum29,
+			spriteMove: spr_InventoryImageNum29,
+			spritePortrait: spr_InventoryImageNum29, 
+			spriteInventoryImage: spr_InventoryImageNum29 
+		} break
+		case 30: return {
+			spriteIdle: spr_InventoryImageNum30,
+			spriteMove: spr_InventoryImageNum30,
+			spritePortrait: spr_InventoryImageNum30, 
+			spriteInventoryImage: spr_InventoryImageNum30 
+		} break
+		case 31: return {
+			spriteIdle: spr_InventoryImageNum31,
+			spriteMove: spr_InventoryImageNum31,
+			spritePortrait: spr_InventoryImageNum31, 
+			spriteInventoryImage: spr_InventoryImageNum31 
+		} break
+		case 32: return {
+			spriteIdle: spr_InventoryImageNum32,
+			spriteMove: spr_InventoryImageNum32,
+			spritePortrait: spr_InventoryImageNum32, 
+			spriteInventoryImage: spr_InventoryImageNum32 
+		} break
+		case 33: return {
+			spriteIdle: spr_InventoryImageNum33,
+			spriteMove: spr_InventoryImageNum33,
+			spritePortrait: spr_InventoryImageNum33, 
+			spriteInventoryImage: spr_InventoryImageNum33 
+		} break
+		case 34: return {
+			spriteIdle: spr_InventoryImageNum34,
+			spriteMove: spr_InventoryImageNum34,
+			spritePortrait: spr_InventoryImageNum34, 
+			spriteInventoryImage: spr_InventoryImageNum34 
+		} break
+		case 35: return {
+			spriteIdle: spr_InventoryImageNum35,
+			spriteMove: spr_InventoryImageNum35,
+			spritePortrait: spr_InventoryImageNum35, 
+			spriteInventoryImage: spr_InventoryImageNum35 
+		} break
+		case 36: return {
+			spriteIdle: spr_InventoryImageNum36,
+			spriteMove: spr_InventoryImageNum36,
+			spritePortrait: spr_InventoryImageNum36, 
+			spriteInventoryImage: spr_InventoryImageNum36 
+		} break
+		case 37: return {
+			spriteIdle: spr_InventoryImageNum37,
+			spriteMove: spr_InventoryImageNum37,
+			spritePortrait: spr_InventoryImageNum37, 
+			spriteInventoryImage: spr_InventoryImageNum37 
+		} break
+		case 38: return {
+			spriteIdle: spr_InventoryImageNum38,
+			spriteMove: spr_InventoryImageNum38,
+			spritePortrait: spr_InventoryImageNum38, 
+			spriteInventoryImage: spr_InventoryImageNum38 
+		} break
+		case 39: return {
+			spriteIdle: spr_InventoryImageNum39,
+			spriteMove: spr_InventoryImageNum39,
+			spritePortrait: spr_InventoryImageNum39, 
+			spriteInventoryImage: spr_InventoryImageNum39 
+		} break
+		case 40: return {
+			spriteIdle: spr_InventoryImageNum40,
+			spriteMove: spr_InventoryImageNum40,
+			spritePortrait: spr_InventoryImageNum40, 
+			spriteInventoryImage: spr_InventoryImageNum40 
+		} break
+		case 41: return {
+			spriteIdle: spr_InventoryImageNum41,
+			spriteMove: spr_InventoryImageNum41,
+			spritePortrait: spr_InventoryImageNum41, 
+			spriteInventoryImage: spr_InventoryImageNum41 
+		} break
+		case 42: return {
+			spriteIdle: spr_InventoryImageNum42,
+			spriteMove: spr_InventoryImageNum42,
+			spritePortrait: spr_InventoryImageNum42, 
+			spriteInventoryImage: spr_InventoryImageNum42 
+		} break
+		case 43: return {
+			spriteIdle: spr_InventoryImageNum43,
+			spriteMove: spr_InventoryImageNum43,
+			spritePortrait: spr_InventoryImageNum43, 
+			spriteInventoryImage: spr_InventoryImageNum43 
+		} break
+		case 44: return {
+			spriteIdle: spr_InventoryImageNum44,
+			spriteMove: spr_InventoryImageNum44,
+			spritePortrait: spr_InventoryImageNum44, 
+			spriteInventoryImage: spr_InventoryImageNum44 
+		} break
+		case 45: return {
+			spriteIdle: spr_InventoryImageNum45,
+			spriteMove: spr_InventoryImageNum45,
+			spritePortrait: spr_InventoryImageNum45, 
+			spriteInventoryImage: spr_InventoryImageNum45 
+		} break
+		case 46: return {
+			spriteIdle: spr_InventoryImageNum46,
+			spriteMove: spr_InventoryImageNum46,
+			spritePortrait: spr_InventoryImageNum46, 
+			spriteInventoryImage: spr_InventoryImageNum46 
+		} break
+		case 47: return {
+			spriteIdle: spr_InventoryImageNum47,
+			spriteMove: spr_InventoryImageNum47,
+			spritePortrait: spr_InventoryImageNum47, 
+			spriteInventoryImage: spr_InventoryImageNum47 
+		} break
+		case 48: return {
+			spriteIdle: spr_InventoryImageNum48,
+			spriteMove: spr_InventoryImageNum48,
+			spritePortrait: spr_InventoryImageNum48, 
+			spriteInventoryImage: spr_InventoryImageNum48 
+		} break
+		case 49: return {
+			spriteIdle: spr_InventoryImageNum49,
+			spriteMove: spr_InventoryImageNum49,
+			spritePortrait: spr_InventoryImageNum49, 
+			spriteInventoryImage: spr_InventoryImageNum49 
+		} break
+		case 50: return {
+			spriteIdle: spr_InventoryImageNum50,
+			spriteMove: spr_InventoryImageNum50,
+			spritePortrait: spr_InventoryImageNum50, 
+			spriteInventoryImage: spr_InventoryImageNum50 
+		} break
+		case 51: return {
+			spriteIdle: spr_InventoryImageNum51,
+			spriteMove: spr_InventoryImageNum51,
+			spritePortrait: spr_InventoryImageNum51, 
+			spriteInventoryImage: spr_InventoryImageNum51 
+		} break
+		default: return {
+			spriteIdle: spr_IdleNum0,
+			spriteMove: spr_MoveNum0,
+			spritePortrait: spr_PortraitNum0,
+			spriteInventoryImage: spr_InventoryImageNum0
+		}
+	}
+}
