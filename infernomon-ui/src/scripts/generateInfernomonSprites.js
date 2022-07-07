@@ -9,15 +9,14 @@ let i = 1;
 infernomon.forEach((inf) => {
 	txtString += `
 		case ${i}: {
-			spriteIdle = ${
-				inf.idleSprite ? 'spr_IdleNum' + i : 'spr_InventoryImageNum' + i
-			} 
-			spriteMove = ${
-				inf.moveSprite ? 'spr_MoveNum' + i : 'spr_InventoryImageNum' + i
+			spriteIdle = ${inf.idleSprite ? inf.idleSprite : 'spr_InventoryImageNum' + i} 
+			spriteMove = ${inf.moveSprite ? inf.moveSprite : 'spr_InventoryImageNum' + i} 
+			spriteAttack = ${
+				inf.attackSprite ? inf.attackSprite : 'spr_InventoryImageNum' + i
 			} 
 			spritePortrait = ${
 				inf.portraitSprite ? 'spr_PortraitNum' + i : 'spr_InventoryImageNum' + i
-			} 
+			} 			
 			spriteInventoryImage = ${'spr_InventoryImageNum' + i} 
 		} break`;
 	i++;
@@ -43,8 +42,11 @@ i = 1;
 infernomon.forEach((inf) => {
 	txtString += `
 		case ${i}: return {
-			spriteIdle: ${inf.idleSprite ? 'spr_IdleNum' + i : 'spr_InventoryImageNum' + i},
-			spriteMove: ${inf.moveSprite ? 'spr_MoveNum' + i : 'spr_InventoryImageNum' + i},
+			spriteIdle: ${inf.idleSprite ? inf.idleSprite : 'spr_InventoryImageNum' + i},
+			spriteMove: ${inf.moveSprite ? inf.moveSprite : 'spr_InventoryImageNum' + i},
+			spriteAttack: ${
+				inf.attackSprite ? inf.attackSprite : 'spr_InventoryImageNum' + i
+			},
 			spritePortrait: ${
 				inf.portraitSprite ? 'spr_PortraitNum' + i : 'spr_InventoryImageNum' + i
 			}, 

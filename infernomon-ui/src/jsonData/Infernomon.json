@@ -152,6 +152,9 @@
 	{
 		"name": "Kyropter",
 		"imageName": "Kyropter.png",
+		"idleSprite": "spr_kyropterIdle",
+		"moveSprite": "spr_kyropterMove",
+		"attackSprite": "spr_kyropterAttack",
 		"number": 7,
 		"description": "A Fire/Wind type bat that is friendly and makes a great companion for new trainers.",
 		"rarity": "Rare",
