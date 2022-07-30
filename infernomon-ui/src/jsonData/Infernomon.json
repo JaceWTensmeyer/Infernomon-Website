@@ -30,6 +30,9 @@
 	{
 		"name": "Decaynid",
 		"imageName": "Decaynid.png",
+		"idleSprite": "spr_decaynidIdle",
+		"moveSprite": "spr_decaynidMove",
+		"attackSprite": "spr_decaynidAttack",
 		"number": 2,
 		"description": "The 2nd evolution in the spider starter family.  Has quick movement and has a strong venomous bite.",
 		"rarity": "Rare",
@@ -55,6 +58,9 @@
 	{
 		"name": "Festernid",
 		"imageName": "Festernid.png",
+		"idleSprite": "spr_festernidIdle",
+		"moveSprite": "spr_festernidMove",
+		"attackSprite": "spr_festernidAttack",
 		"number": 3,
 		"description": "The 3rd and final evolution in the spider starter family.  Very fast with hard hitting Toxic bites and can shoot Blight webs across the ground that slow enemies down.",
 		"rarity": "Rare",
@@ -80,6 +86,9 @@
 	{
 		"name": "Tadliq",
 		"imageName": "Tadliq.png",
+		"idleSprite": "spr_tadliqIdle",
+		"moveSprite": "spr_tadliqMove",
+		"attackSprite": "spr_tadliqAttack",
 		"number": 4,
 		"description": "A Water type frog that is friendly and makes a great companion for new trainers.",
 		"rarity": "Rare",
@@ -105,6 +114,9 @@
 	{
 		"name": "Croakanoc",
 		"imageName": "Croakanoc.png",
+		"idleSprite": "spr_croakanocIdle",
+		"moveSprite": "spr_croakanocMove",
+		"attackSprite": "spr_croakanocAttack",
 		"number": 5,
 		"description": "The 2nd evolution in the frog starter family.  Has good defensive skill and a balanced offense.",
 		"rarity": "Rare",
@@ -130,6 +142,9 @@
 	{
 		"name": "Polliwallop",
 		"imageName": "Polliwallop.png",
+		"idleSprite": "spr_polliwallopIdle",
+		"moveSprite": "spr_polliwallopMove",
+		"attackSprite": "spr_polliwallopAttack",
 		"number": 6,
 		"description": "The 3rd and final evolution of the frog starter family.  It now walks on 2 feet with a huncher over posture and is known for using a defensive bubble and stunning its opponents by slapping them with its big hands.",
 		"rarity": "Rare",
@@ -183,6 +198,9 @@
 	{
 		"name": "Kyropturn",
 		"imageName": "Kyropturn.png",
+		"idleSprite": "spr_kyropturnIdle",
+		"moveSprite": "spr_kyropturnMove",
+		"attackSprite": "spr_kyropturnAttack",
 		"number": 8,
 		"description": "The 2nd evolution in the bat starter family.  A fast flyier that hits had from a distance.",
 		"rarity": "Rare",
@@ -208,6 +226,9 @@
 	{
 		"name": "Kyroptorch",
 		"imageName": "Kyroptorch.png",
+		"idleSprite": "spr_kyroptorchIdle",
+		"moveSprite": "spr_kyroptorchMove",
+		"attackSprite": "spr_kyroptorchAttack",
 		"number": 9,
 		"description": "The 3rd and final evolution in the bat starter family.  It is known for burning its opponents with sonic flames and hot wind.",
 		"rarity": "Rare",
