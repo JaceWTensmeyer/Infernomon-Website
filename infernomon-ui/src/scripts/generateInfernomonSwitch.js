@@ -1,6 +1,6 @@
 const infernomon = require('../jsonData/Infernomon.json');
 const fs = require('fs');
-const recipes = require('../jsonData/infernomonRecipe.json')
+const recipes = require('../jsonData/infernomonRecipe.json');
 
 let txtString = `
 function GetGenericInfernomonData(_number){
@@ -12,6 +12,7 @@ infernomon.forEach((inf) => {
 		case ${i}: return {
 			name: "${inf.name}",
 			number: _number,
+			animationScale: ${inf.animationScale},
 			maxExpPoints: 1000000,
 			baseHp: ${inf.hp},
 			baseAttack: ${inf.attack},
@@ -26,7 +27,11 @@ infernomon.forEach((inf) => {
 			naturalAttack1Id: ${inf.naturalAttack1Id},
 			naturalAttack2Id: ${inf.naturalAttack2Id},
 			naturalAttack3Id: ${inf.naturalAttack3Id},
-			recipe: ${recipes.find(x => x.number === i) ? '[' + recipes.find(x => x.number === i).recipe + ']' : undefined},
+			recipe: ${
+				recipes.find((x) => x.number === i)
+					? '[' + recipes.find((x) => x.number === i).recipe + ']'
+					: undefined
+			},
 			rarity: "${inf.rarity}"
 		} break`;
 	i++;

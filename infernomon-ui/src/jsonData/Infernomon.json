@@ -5,6 +5,7 @@
 		"idleSprite": "spr_venonidIdle",
 		"moveSprite": "spr_venonidMove",
 		"attackSprite": "spr_venonidAttack",
+		"animationScale": 0.5,
 		"number": 1,
 		"description": "A Blight/Toxic type spider that is friendly and makes a great companion for new trainers.",
 		"rarity": "Rare",
@@ -33,6 +34,7 @@
 		"idleSprite": "spr_decaynidIdle",
 		"moveSprite": "spr_decaynidMove",
 		"attackSprite": "spr_decaynidAttack",
+		"animationScale": 0.6,
 		"number": 2,
 		"description": "The 2nd evolution in the spider starter family.  Has quick movement and has a strong venomous bite.",
 		"rarity": "Rare",
@@ -61,6 +63,7 @@
 		"idleSprite": "spr_festernidIdle",
 		"moveSprite": "spr_festernidMove",
 		"attackSprite": "spr_festernidAttack",
+		"animationScale": 0.8,
 		"number": 3,
 		"description": "The 3rd and final evolution in the spider starter family.  Very fast with hard hitting Toxic bites and can shoot Blight webs across the ground that slow enemies down.",
 		"rarity": "Rare",
@@ -89,6 +92,7 @@
 		"idleSprite": "spr_tadliqIdle",
 		"moveSprite": "spr_tadliqMove",
 		"attackSprite": "spr_tadliqAttack",
+		"animationScale": 0.4,
 		"number": 4,
 		"description": "A Water type frog that is friendly and makes a great companion for new trainers.",
 		"rarity": "Rare",
@@ -117,6 +121,7 @@
 		"idleSprite": "spr_croakanocIdle",
 		"moveSprite": "spr_croakanocMove",
 		"attackSprite": "spr_croakanocAttack",
+		"animationScale": 0.4,
 		"number": 5,
 		"description": "The 2nd evolution in the frog starter family.  Has good defensive skill and a balanced offense.",
 		"rarity": "Rare",
@@ -145,6 +150,7 @@
 		"idleSprite": "spr_polliwallopIdle",
 		"moveSprite": "spr_polliwallopMove",
 		"attackSprite": "spr_polliwallopAttack",
+		"animationScale": 0.6,
 		"number": 6,
 		"description": "The 3rd and final evolution of the frog starter family.  It now walks on 2 feet with a huncher over posture and is known for using a defensive bubble and stunning its opponents by slapping them with its big hands.",
 		"rarity": "Rare",
@@ -173,6 +179,7 @@
 		"idleSprite": "spr_kyropterIdle",
 		"moveSprite": "spr_kyropterMove",
 		"attackSprite": "spr_kyropterAttack",
+		"animationScale": 1,
 		"number": 7,
 		"description": "A Fire/Wind type bat that is friendly and makes a great companion for new trainers.",
 		"rarity": "Rare",
@@ -201,6 +208,7 @@
 		"idleSprite": "spr_kyropturnIdle",
 		"moveSprite": "spr_kyropturnMove",
 		"attackSprite": "spr_kyropturnAttack",
+		"animationScale": 1,
 		"number": 8,
 		"description": "The 2nd evolution in the bat starter family.  A fast flyier that hits had from a distance.",
 		"rarity": "Rare",
@@ -229,6 +237,7 @@
 		"idleSprite": "spr_kyroptorchIdle",
 		"moveSprite": "spr_kyroptorchMove",
 		"attackSprite": "spr_kyroptorchAttack",
+		"animationScale": 0.8,
 		"number": 9,
 		"description": "The 3rd and final evolution in the bat starter family.  It is known for burning its opponents with sonic flames and hot wind.",
 		"rarity": "Rare",
@@ -254,6 +263,7 @@
 	{
 		"name": "Gobclaw",
 		"imageName": "Gobclaw.png",
+		"animationScale": 0.3,
 		"number": 10,
 		"description": "Small, sneaky, goblin-like creature with sharp claws and evolves into #10",
 		"rarity": "Common",
@@ -279,6 +289,7 @@
 	{
 		"name": "Gobelgash",
 		"imageName": "Gobelgash.png",
+		"animationScale": 0.3,
 		"number": 11,
 		"description": "A sneaky, goblin-like creature know for attacking unsuspecting victims with its large claws",
 		"rarity": "Common",
@@ -304,6 +315,7 @@
 	{
 		"name": "Chickipek",
 		"imageName": "Chickipek.png",
+		"animationScale": 0.3,
 		"number": 12,
 		"description": "A small, cute ostrich that like to scratch things with it talons.  Evolves into #13",
 		"rarity": "Common",
@@ -329,6 +341,7 @@
 	{
 		"name": "Cluckbeak",
 		"imageName": "Cluckbeak.png",
+		"animationScale": 0.3,
 		"number": 13,
 		"description": "A growing ostrich that is beginning to use its talons for attacking.  Evolves into #14",
 		"rarity": "Common",
@@ -354,6 +367,7 @@
 	{
 		"name": "Raphook",
 		"imageName": "Raphook.png",
+		"animationScale": 0.3,
 		"number": 14,
 		"description": "A final-evolution ostrich that punishes enemies with percision using its extremely sharp talons.",
 		"rarity": "Common",
@@ -379,6 +393,7 @@
 	{
 		"name": "Moukizap",
 		"imageName": "Moukizap.png",
+		"animationScale": 0.3,
 		"number": 15,
 		"description": "A physically aggresive mouse with a fiece, electric bite and likes to be close to its trainer. Evolves into #16",
 		"rarity": "Uncommon",
@@ -404,6 +419,7 @@
 	{
 		"name": "Razzolt",
 		"imageName": "Razzolt.png",
+		"animationScale": 0.3,
 		"number": 16,
 		"description": "A fully evolved aggresive mouse that jumps between multiple enemies at the speed of light. Prefers to be independent.",
 		"rarity": "Uncommon",
@@ -427,6 +443,7 @@
 	{
 		"name": "Ashello",
 		"imageName": "Ashello.png",
+		"animationScale": 0.3,
 		"number": 17,
 		"description": "A small tortoise that loves playing in blistering hot temperatures.  Evolves into # 18",
 		"rarity": "Uncommon",
@@ -452,6 +469,7 @@
 	{
 		"name": "Turmog",
 		"imageName": "Turmog.png",
+		"animationScale": 0.3,
 		"number": 18,
 		"description": "The 2nd evolution in the tortoise family.  It can take a beating but also dishes out some decent damage.  Evolves into #19.",
 		"rarity": "Uncommon",
@@ -477,6 +495,7 @@
 	{
 		"name": "Tankaino",
 		"imageName": "Tankaino.png",
+		"animationScale": 0.3,
 		"number": 19,
 		"description": "The final evolution in the fiery tortoise family.  It punishes enemies with its hard, reflective shell.",
 		"rarity": "Uncommon",
@@ -502,6 +521,7 @@
 	{
 		"name": "Incanimp",
 		"imageName": "Incanimp.png",
+		"animationScale": 0.3,
 		"number": 20,
 		"description": "A small mischievous Imp that likes tinkering with its Acrane magic.",
 		"rarity": "Uncommon",
@@ -527,6 +547,7 @@
 	{
 		"name": "Sorcerimp",
 		"imageName": "Sorcerimp.png",
+		"animationScale": 0.3,
 		"number": 21,
 		"description": "The 2nd evolution in the Imp family.  What it lakes in defense it makes up for in offense.",
 		"rarity": "Uncommon",
@@ -552,6 +573,7 @@
 	{
 		"name": "Arcanimp",
 		"imageName": "Arcanimp.png",
+		"animationScale": 0.3,
 		"number": 22,
 		"description": "The 3rd and final evolution in the Imp family.  This glass cannon takes a long time to cast but unleashes devistating damage.",
 		"rarity": "Uncommon",
@@ -577,6 +599,7 @@
 	{
 		"name": "Hogrosh",
 		"imageName": "Hogrosh.png",
+		"animationScale": 0.3,
 		"number": 23,
 		"description": "A small, chubby, playful boar with small tusks that likes to wrestle.",
 		"rarity": "Common",
@@ -602,6 +625,7 @@
 	{
 		"name": "Boaroke",
 		"imageName": "Boaroke.png",
+		"animationScale": 0.3,
 		"number": 24,
 		"description": "A large, fully evolved, fat, aggresive boar that can take a beating and wounds opponents with its large tusks.",
 		"rarity": "Common",
@@ -627,6 +651,7 @@
 	{
 		"name": "Genashroom",
 		"imageName": "Genashroom.png",
+		"animationScale": 0.3,
 		"number": 25,
 		"description": "A small plant animal with mushrooms sprouting all over its body.  It is overly protective of its allies.",
 		"rarity": "Common",
@@ -652,6 +677,7 @@
 	{
 		"name": "Juvashroom",
 		"imageName": "Juvashroom.png",
+		"animationScale": 0.3,
 		"number": 26,
 		"description": "A fully evolved mushroom animal that throws out big heals to its allies and would sacrifice itself for others.",
 		"rarity": "Common",
@@ -677,6 +703,7 @@
 	{
 		"name": "Anuband",
 		"imageName": "Anuband.png",
+		"animationScale": 0.3,
 		"number": 27,
 		"description": "A bi-pedal, Anubis-like caster that carries a staff which it uses to play with the earth and sand.",
 		"rarity": "Common",
@@ -702,6 +729,7 @@
 	{
 		"name": "Anujak",
 		"imageName": "Anujak.png",
+		"animationScale": 0.3,
 		"number": 28,
 		"description": "Fully evolved Anubis caster that punishes opponents with sand attacks.",
 		"rarity": "Common",
@@ -727,6 +755,7 @@
 	{
 		"name": "Gnawzer",
 		"imageName": "Gnawzer.png",
+		"animationScale": 0.3,
 		"number": 29,
 		"description": "A small alligator that looks cute and harmless but my catch you off guard with an electric bite.",
 		"rarity": "Common",
@@ -752,6 +781,7 @@
 	{
 		"name": "Allizok",
 		"imageName": "Allizok.png",
+		"animationScale": 0.3,
 		"number": 30,
 		"description": "The 2nd evolution in the electric alligator family.  It likes to be up in the middle of a fight and has a balance fighting style.",
 		"rarity": "Common",
@@ -777,6 +807,7 @@
 	{
 		"name": "Crawzerk",
 		"imageName": "Crawzerk.png",
+		"animationScale": 0.3,
 		"number": 31,
 		"description": "The 3rd and final evolution in the electric alligator Bi-pedal Aligator.  It prefers to alternate between electric bites and water punches.",
 		"rarity": "Common",
@@ -802,6 +833,7 @@
 	{
 		"name": "Minoosmog",
 		"imageName": "Minoosmog.png",
+		"animationScale": 0.3,
 		"number": 32,
 		"description": "A small creature surrounded in Toxic gas.  It tries to make friends, which can be difficult sometimes to to its overwhelming fumes.",
 		"rarity": "Common",
@@ -827,6 +859,7 @@
 	{
 		"name": "Aboomog",
 		"imageName": "Aboomog.png",
+		"animationScale": 0.3,
 		"number": 33,
 		"description": "Final evolution that is tanky and protects its allies by overwhelming its opponents with its toxic fumes",
 		"rarity": "Common",
@@ -852,6 +885,7 @@
 	{
 		"name": "Lankyank",
 		"imageName": "Lankyank.png",
+		"animationScale": 0.3,
 		"number": 34,
 		"description": "A 6-armed monster that likes to be up in the action and group enmies together by pulling them in with its extendable arms.",
 		"rarity": "Uncommon",
@@ -877,6 +911,7 @@
 	{
 		"name": "Slissirt",
 		"imageName": "Slissirt.png",
+		"animationScale": 0.3,
 		"number": 35,
 		"description": "Sand worm monster that blinds its opponents with pestering sand attacks.",
 		"rarity": "Uncommon",
@@ -902,6 +937,7 @@
 	{
 		"name": "Charjamp",
 		"imageName": "Charjamp.png",
+		"animationScale": 0.3,
 		"number": 36,
 		"description": "Mechanical monster that generates electric shields uses chaining electric powers to give its allies.",
 		"rarity": "Uncommon",
@@ -927,6 +963,7 @@
 	{
 		"name": "Strixlet",
 		"imageName": "Strixlet.png",
+		"animationScale": 0.3,
 		"number": 37,
 		"description": "A small, round, land owl that loves playing with other Infernomon and enjoys a windy day.",
 		"rarity": "Rare",
@@ -952,6 +989,7 @@
 	{
 		"name": "Strixume",
 		"imageName": "Strixume.png",
+		"animationScale": 0.3,
 		"number": 38,
 		"description": "A fully evolved, large, round, land owl that supports its allies by providing them with buffs that improve their offense.",
 		"rarity": "Rare",
@@ -976,6 +1014,7 @@
 	},
 	{
 		"name": "Trolerag",
+		"animationScale": 0.3,
 		"number": 39,
 		"imageName": "Trolerag.png",
 		"description": "Troll that wears a skull from a defeated beast and carries bones in each hand that it throws at enemies at an incredibly fast rate.",
@@ -1001,6 +1040,7 @@
 	},
 	{
 		"name": "Heelound",
+		"animationScale": 0.3,
 		"number": 40,
 		"imageName": "Heelound.png",
 		"description": "Cute pre-evlolution to the hell hound family that loves to be by its trainer.",
@@ -1027,6 +1067,7 @@
 	{
 		"name": "Magmound",
 		"imageName": "Magmound.png",
+		"animationScale": 0.3,
 		"number": 41,
 		"description": "Fire evlolution in the hell hound family that hits extremely hard with mystical fire attacks.",
 		"rarity": "Rare",
@@ -1052,6 +1093,7 @@
 	{
 		"name": "Mistound",
 		"imageName": "Mistound.png",
+		"animationScale": 0.3,
 		"number": 42,
 		"description": "Water evlolution in the hell hound family that is extremely fast and hits hard with mystical water attacks.",
 		"rarity": "Rare",
@@ -1077,6 +1119,7 @@
 	{
 		"name": "Orgrot",
 		"imageName": "Orgrot.png",
+		"animationScale": 0.3,
 		"number": 43,
 		"description": "A large, rotting orge that does heavy damage and is extremely hard to take down.",
 		"rarity": "Rare",
@@ -1102,6 +1145,7 @@
 	{
 		"name": "Elembolt",
 		"imageName": "Elembolt.png",
+		"animationScale": 0.3,
 		"number": 44,
 		"description": "Electric Elemental Legendary does serious damage with its chain electric abilities.",
 		"rarity": "Legendary",
@@ -1127,6 +1171,7 @@
 	{
 		"name": "Elemquake",
 		"imageName": "Elemquake.png",
+		"animationScale": 0.3,
 		"number": 45,
 		"description": "Earth Elemental Legendary that is verty sturdy and does heavy damage by controlling the earth.",
 		"rarity": "Legendary",
@@ -1152,6 +1197,7 @@
 	{
 		"name": "Elemgale",
 		"imageName": "Elemgale.png",
+		"animationScale": 0.3,
 		"number": 46,
 		"description": "Wind Elemental Legendary that controls the winds to cause destruction.",
 		"rarity": "Legendary",
@@ -1177,6 +1223,7 @@
 	{
 		"name": "Serpatox",
 		"imageName": "Serpatox.png",
+		"animationScale": 0.3,
 		"number": 47,
 		"description": "Legendary snake that is hard to come by.  It may look friendly but you may want to keep you distance to avoid its poisonous venom.",
 		"rarity": "Legendary",
@@ -1202,6 +1249,7 @@
 	{
 		"name": "Lixlime",
 		"imageName": "Lixlime.png",
+		"animationScale": 0.3,
 		"number": 48,
 		"description": "Legendary mid-evolution lizard that attacks from range.  Keep you distance from anything it infects.",
 		"rarity": "Legendary",
@@ -1227,6 +1275,7 @@
 	{
 		"name": "Ptearonox",
 		"imageName": "Ptearonox.png",
+		"animationScale": 0.3,
 		"number": 49,
 		"description": "Legendary Final evolution toxic/wind dragon-like creature that hits remakably hard.",
 		"rarity": "Legendary",
@@ -1250,6 +1299,7 @@
 	{
 		"name": "Infernemort",
 		"imageName": "Infernemort.png",
+		"animationScale": 0.3,
 		"number": 50,
 		"description": "Epic hard hitting final boss",
 		"rarity": "Epic",
@@ -1273,6 +1323,7 @@
 	{
 		"name": "Infernemis",
 		"imageName": "Infernemis.png",
+		"animationScale": 0.3,
 		"number": 51,
 		"description": "Epic well balanced",
 		"rarity": "Epic",
