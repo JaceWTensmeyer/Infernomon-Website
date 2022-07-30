@@ -2,6 +2,9 @@
 	{
 		"name": "Venonid",
 		"imageName": "Venonid.png",
+		"idleSprite": "spr_venonidIdle",
+		"moveSprite": "spr_venonidMove",
+		"attackSprite": "spr_venonidAttack",
 		"number": 1,
 		"description": "A Blight/Toxic type spider that is friendly and makes a great companion for new trainers.",
 		"rarity": "Rare",
