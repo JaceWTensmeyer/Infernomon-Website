@@ -464,6 +464,9 @@
 	{
 		"name": "Ashello",
 		"imageName": "Ashello.png",
+		"idleSprite": "spr_ashelloIdle",
+		"moveSprite": "spr_ashelloMove",
+		"attackSprite": "spr_ashelloAttack",
 		"animationScale": 0.3,
 		"number": 17,
 		"description": "A small tortoise that loves playing in blistering hot temperatures.  Evolves into # 18",
