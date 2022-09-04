@@ -408,6 +408,9 @@
 	{
 		"name": "Moukizap",
 		"imageName": "Moukizap.png",
+		"idleSprite": "spr_moukizapIdle",
+		"moveSprite": "spr_moukizapMove",
+		"attackSprite": "spr_moukizapAttack",
 		"animationScale": 0.3,
 		"number": 15,
 		"description": "A physically aggresive mouse with a fiece, electric bite and likes to be close to its trainer. Evolves into #16",
