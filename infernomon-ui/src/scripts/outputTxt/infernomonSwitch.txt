@@ -194,7 +194,7 @@ function GetGenericInfernomonData(_number){
 		case 10: return {
 			name: "Gobclaw",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.2,
 			maxExpPoints: 1000000,
 			baseHp: 55,
 			baseAttack: 85,
@@ -236,7 +236,7 @@ function GetGenericInfernomonData(_number){
 		case 12: return {
 			name: "Chickipek",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.2,
 			maxExpPoints: 1000000,
 			baseHp: 45,
 			baseAttack: 60,
@@ -257,7 +257,7 @@ function GetGenericInfernomonData(_number){
 		case 13: return {
 			name: "Cluckbeak",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 60,
 			baseAttack: 75,
@@ -278,7 +278,7 @@ function GetGenericInfernomonData(_number){
 		case 14: return {
 			name: "Raphook",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.45,
 			maxExpPoints: 1000000,
 			baseHp: 80,
 			baseAttack: 95,
@@ -320,7 +320,7 @@ function GetGenericInfernomonData(_number){
 		case 16: return {
 			name: "Razzolt",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 85,
 			baseAttack: 110,
@@ -362,7 +362,7 @@ function GetGenericInfernomonData(_number){
 		case 18: return {
 			name: "Turmog",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 75,
 			baseAttack: 95,
@@ -383,7 +383,7 @@ function GetGenericInfernomonData(_number){
 		case 19: return {
 			name: "Tankaino",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.45,
 			maxExpPoints: 1000000,
 			baseHp: 90,
 			baseAttack: 120,
