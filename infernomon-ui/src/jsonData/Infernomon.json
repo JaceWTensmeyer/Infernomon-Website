@@ -292,6 +292,9 @@
 	{
 		"name": "Gobelgash",
 		"imageName": "Gobelgash.png",
+		"idleSprite": "spr_gobelgashIdle",
+		"moveSprite": "spr_gobelgashMove",
+		"attackSprite": "spr_gobelgashAttack",
 		"animationScale": 0.3,
 		"number": 11,
 		"description": "A sneaky, goblin-like creature know for attacking unsuspecting victims with its large claws",
