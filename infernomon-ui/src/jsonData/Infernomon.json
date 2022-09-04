@@ -437,6 +437,9 @@
 	{
 		"name": "Razzolt",
 		"imageName": "Razzolt.png",
+		"idleSprite": "spr_razzoltIdle",
+		"moveSprite": "spr_razzoltMove",
+		"attackSprite": "spr_razzoltAttack",
 		"animationScale": 0.3,
 		"number": 16,
 		"description": "A fully evolved aggresive mouse that jumps between multiple enemies at the speed of light. Prefers to be independent.",
