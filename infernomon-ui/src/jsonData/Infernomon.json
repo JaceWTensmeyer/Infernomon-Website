@@ -493,6 +493,9 @@
 	{
 		"name": "Turmog",
 		"imageName": "Turmog.png",
+		"idleSprite": "spr_turmogIdle",
+		"moveSprite": "spr_turmogMove",
+		"attackSprite": "spr_turmogAttack",
 		"animationScale": 0.3,
 		"number": 18,
 		"description": "The 2nd evolution in the tortoise family.  It can take a beating but also dishes out some decent damage.  Evolves into #19.",
