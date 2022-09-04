@@ -263,6 +263,9 @@
 	{
 		"name": "Gobclaw",
 		"imageName": "Gobclaw.png",
+		"idleSprite": "spr_gobclawIdle",
+		"moveSprite": "spr_gobclawMove",
+		"attackSprite": "spr_gobclawAttack",
 		"animationScale": 0.3,
 		"number": 10,
 		"description": "Small, sneaky, goblin-like creature with sharp claws and evolves into #10",
