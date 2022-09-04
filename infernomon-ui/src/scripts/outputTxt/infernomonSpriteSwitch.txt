@@ -94,9 +94,9 @@ function GetSpritesForInfernomon(_number){
 			spriteInventoryImage = spr_InventoryImageNum13 
 		} break
 		case 14: {
-			spriteIdle = spr_InventoryImageNum14 
-			spriteMove = spr_InventoryImageNum14 
-			spriteAttack = spr_InventoryImageNum14 
+			spriteIdle = spr_raphookIdle 
+			spriteMove = spr_raphookMove 
+			spriteAttack = spr_raphookAttack 
 			spritePortrait = spr_InventoryImageNum14 			
 			spriteInventoryImage = spr_InventoryImageNum14 
 		} break
@@ -463,9 +463,9 @@ function GetSpritesForInfernomonStruct(_number){
 			spriteInventoryImage: spr_InventoryImageNum13 
 		} break
 		case 14: return {
-			spriteIdle: spr_InventoryImageNum14,
-			spriteMove: spr_InventoryImageNum14,
-			spriteAttack: spr_InventoryImageNum14,
+			spriteIdle: spr_raphookIdle,
+			spriteMove: spr_raphookMove,
+			spriteAttack: spr_raphookAttack,
 			spritePortrait: spr_InventoryImageNum14, 
 			spriteInventoryImage: spr_InventoryImageNum14 
 		} break

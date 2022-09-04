@@ -379,6 +379,9 @@
 	{
 		"name": "Raphook",
 		"imageName": "Raphook.png",
+		"idleSprite": "spr_raphookIdle",
+		"moveSprite": "spr_raphookMove",
+		"attackSprite": "spr_raphookAttack",
 		"animationScale": 0.3,
 		"number": 14,
 		"description": "A final-evolution ostrich that punishes enemies with percision using its extremely sharp talons.",
