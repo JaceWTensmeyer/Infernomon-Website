@@ -321,6 +321,9 @@
 	{
 		"name": "Chickipek",
 		"imageName": "Chickipek.png",
+		"idleSprite": "spr_chickipekIdle",
+		"moveSprite": "spr_chickipekMove",
+		"attackSprite": "spr_chickipekAttack",
 		"animationScale": 0.3,
 		"number": 12,
 		"description": "A small, cute ostrich that like to scratch things with it talons.  Evolves into #13",
