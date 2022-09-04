@@ -522,6 +522,9 @@
 	{
 		"name": "Tankaino",
 		"imageName": "Tankaino.png",
+		"idleSprite": "spr_tankainoIdle",
+		"moveSprite": "spr_tankainoMove",
+		"attackSprite": "spr_tankainoAttack",
 		"animationScale": 0.3,
 		"number": 19,
 		"description": "The final evolution in the fiery tortoise family.  It punishes enemies with its hard, reflective shell.",
