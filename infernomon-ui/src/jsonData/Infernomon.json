@@ -350,6 +350,9 @@
 	{
 		"name": "Cluckbeak",
 		"imageName": "Cluckbeak.png",
+		"idleSprite": "spr_cluckbeakIdle",
+		"moveSprite": "spr_cluckbeakMove",
+		"attackSprite": "spr_cluckbeakAttack",
 		"animationScale": 0.3,
 		"number": 13,
 		"description": "A growing ostrich that is beginning to use its talons for attacking.  Evolves into #14",
