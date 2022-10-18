@@ -404,7 +404,7 @@ function GetGenericInfernomonData(_number){
 		case 20: return {
 			name: "Incanimp",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.35,
 			maxExpPoints: 1000000,
 			baseHp: 45,
 			baseAttack: 40,
@@ -425,7 +425,7 @@ function GetGenericInfernomonData(_number){
 		case 21: return {
 			name: "Sorcerimp",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.45,
 			maxExpPoints: 1000000,
 			baseHp: 60,
 			baseAttack: 50,
@@ -446,7 +446,7 @@ function GetGenericInfernomonData(_number){
 		case 22: return {
 			name: "Arcanimp",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.5,
 			maxExpPoints: 1000000,
 			baseHp: 70,
 			baseAttack: 60,
@@ -467,7 +467,7 @@ function GetGenericInfernomonData(_number){
 		case 23: return {
 			name: "Hogrosh",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.37,
 			maxExpPoints: 1000000,
 			baseHp: 75,
 			baseAttack: 60,
@@ -488,7 +488,7 @@ function GetGenericInfernomonData(_number){
 		case 24: return {
 			name: "Boaroke",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.5,
 			maxExpPoints: 1000000,
 			baseHp: 110,
 			baseAttack: 75,
@@ -509,7 +509,7 @@ function GetGenericInfernomonData(_number){
 		case 25: return {
 			name: "Genashroom",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 75,
 			baseAttack: 40,
@@ -530,7 +530,7 @@ function GetGenericInfernomonData(_number){
 		case 26: return {
 			name: "Juvashroom",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 95,
 			baseAttack: 50,
@@ -551,7 +551,7 @@ function GetGenericInfernomonData(_number){
 		case 27: return {
 			name: "Anuband",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 70,
 			baseAttack: 40,
@@ -572,7 +572,7 @@ function GetGenericInfernomonData(_number){
 		case 28: return {
 			name: "Anujak",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.55,
 			maxExpPoints: 1000000,
 			baseHp: 90,
 			baseAttack: 50,
