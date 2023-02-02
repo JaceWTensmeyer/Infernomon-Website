@@ -14,7 +14,7 @@ infernomon.forEach((inf) => {
 			number: _number,
 			animationScale: ${inf.animationScale},
 			maxExpPoints: 1000000,
-			baseHp: ${inf.hp},
+			baseStamina: ${inf.stamina},
 			baseAttack: ${inf.attack},
 			baseDefense: ${inf.defense},
 			baseSpAttack: ${inf.spAttack},
