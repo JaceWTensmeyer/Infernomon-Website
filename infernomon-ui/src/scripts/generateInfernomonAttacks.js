@@ -21,8 +21,11 @@ attacks.forEach((atk) => {
 			type: "${atk.type}",
 			damage: ${atk.damage},
 			cooldown: ${atk.cooldown},
+			dotDamage: ${atk.dotDamage},
+			dotDuration: ${atk.dotDuration},
 			statusEffect: "${atk.statusEffect}",
-			statusEffectChance: ${atk.vstatusEffectChance},
+			statusEffectChance: ${atk.statusEffectChance},
+			statusReductionPercentage: "${atk.statusReductionPercentage}",
 			statusEffectDuration: ${atk.statusEffectDuration}
 		} break`;
 	i++;
