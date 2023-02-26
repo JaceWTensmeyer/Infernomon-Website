@@ -20,6 +20,7 @@ attacks.forEach((atk) => {
 			range: ${atk.range},
 			type: "${atk.type}",
 			damage: ${atk.damage},
+			radius: ${atk.radius},
 			cooldown: ${atk.cooldown},
 			dotDamage: ${atk.dotDamage},
 			dotDuration: ${atk.dotDuration},

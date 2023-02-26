@@ -14,26 +14,34 @@ function GetAttack(_id){
 			range: 2,
 			type: "Toxic",
 			damage: 8,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: 6,
+			dotDuration: 3,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 2: return {
 			id: 2,
 			attackCategory: "Auto",
 			damageCategory: "Special",
-			name: "Web Shot",
+			name: "Rotting Bite",
 			scriptName: AttackId2,
-			description: "Does instant damage slows target for a short time",
+			description: "Does instant damage plus additional 6 damage over 3 seconds",
 			castType: "Target",
 			castDuration: 0,
-			range: 8,
+			range: 2,
 			type: "Blight",
-			damage: 12,
+			damage: 8,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: 6,
+			dotDuration: 3,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 3: return {
@@ -42,16 +50,20 @@ function GetAttack(_id){
 			damageCategory: "Physical",
 			name: "Sticky Web",
 			scriptName: AttackId3,
-			description: "Aimed circular AOE that slows enemies and does damage ever second over 3 seconds.",
+			description: "Hits the target and near by enemies with a web that slows enemies on hit.",
 			castType: "Target AOE",
 			castDuration: 0,
 			range: 8,
 			type: "Blight",
-			damage: 30,
-			cooldown: 20,
-			statusEffect: "",
-			statusEffectChance: undefined,
-			statusEffectDuration: undefined
+			damage: 125,
+			radius: 2,
+			cooldown: 15,
+			dotDamage: undefined,
+			dotDuration: undefined,
+			statusEffect: "Slow",
+			statusEffectChance: 1,
+			statusReductionPercentage: "0.5",
+			statusEffectDuration: 5
 		} break
 		case 4: return {
 			id: 4,
@@ -64,27 +76,35 @@ function GetAttack(_id){
 			castDuration: 0,
 			range: 2,
 			type: "Toxic",
-			damage: 80,
+			damage: 30,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: 50,
+			dotDuration: 5,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 5: return {
 			id: 5,
 			attackCategory: "Natural",
 			damageCategory: "Special",
-			name: "Venom Shot",
+			name: "Web Whip",
 			scriptName: AttackId5,
 			description: "Single target attack.",
 			castType: "Target",
-			castDuration: 1,
+			castDuration: 0,
 			range: 8,
-			type: "Toxic",
-			damage: 90,
+			type: "Blight",
+			damage: 80,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 6: return {
@@ -99,9 +119,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Water",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 7: return {
@@ -116,9 +140,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Water",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 8: return {
@@ -133,9 +161,13 @@ function GetAttack(_id){
 			range: 0,
 			type: "Water",
 			damage: 0,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 9: return {
@@ -150,9 +182,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Water",
 			damage: 90,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Stun",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 3
 		} break
 		case 10: return {
@@ -167,9 +203,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Water",
 			damage: 90,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Stun",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 3
 		} break
 		case 11: return {
@@ -184,9 +224,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Fire",
 			damage: 16,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 12: return {
@@ -201,9 +245,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Fire",
 			damage: 16,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 13: return {
@@ -218,9 +266,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 30,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Burn",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.5,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 14: return {
@@ -235,9 +287,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Fire",
 			damage: 30,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Burn",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.5,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 15: return {
@@ -252,9 +308,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Fire",
 			damage: 70,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Burn",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.5,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 16: return {
@@ -269,9 +329,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Normal",
 			damage: 10,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 17: return {
@@ -286,9 +350,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 12,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Accuracy",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.05,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 18: return {
@@ -303,9 +371,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Normal",
 			damage: 70,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 19: return {
@@ -320,9 +392,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 45,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Accuracy",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 20: return {
@@ -337,9 +413,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 27,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 21: return {
@@ -354,9 +434,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Wind",
 			damage: 14,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 22: return {
@@ -371,9 +455,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 14,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 23: return {
@@ -388,9 +476,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Wind",
 			damage: 0,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 24: return {
@@ -405,9 +497,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Wind",
 			damage: 50,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 25: return {
@@ -422,9 +518,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 20,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 118: return {
@@ -439,9 +539,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Electric",
 			damage: 12,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 26: return {
@@ -456,9 +560,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 12,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 27: return {
@@ -473,9 +581,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Electric",
 			damage: 12,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 28: return {
@@ -490,9 +602,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 12,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 29: return {
@@ -507,9 +623,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 50,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 30: return {
@@ -524,9 +644,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Electric",
 			damage: 90,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Paralyze",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.5,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 31: return {
@@ -541,9 +665,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 90,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 32: return {
@@ -558,9 +686,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Earth",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 33: return {
@@ -575,9 +707,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Fire",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Burn",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.05,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 34: return {
@@ -592,9 +728,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Fire",
 			damage: 20,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 35: return {
@@ -609,9 +749,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Earth",
 			damage: 0,
+			radius: undefined,
 			cooldown: 22,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 36: return {
@@ -626,9 +770,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Fire",
 			damage: 25,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 37: return {
@@ -643,9 +791,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 18,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 38: return {
@@ -660,9 +812,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 18,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 39: return {
@@ -677,9 +833,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 45,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 40: return {
@@ -694,9 +854,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 140,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 41: return {
@@ -711,9 +875,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 130,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Silence",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 42: return {
@@ -728,9 +896,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Normal",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 43: return {
@@ -745,9 +917,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 22,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Fear",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 3
 		} break
 		case 44: return {
@@ -762,9 +938,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 80,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Stun",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 3
 		} break
 		case 45: return {
@@ -779,9 +959,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Normal",
 			damage: 25,
+			radius: undefined,
 			cooldown: 22,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 46: return {
@@ -796,9 +980,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Normal",
 			damage: 20,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 47: return {
@@ -813,9 +1001,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Blight",
 			damage: 6,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 48: return {
@@ -830,9 +1022,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Blight",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 49: return {
@@ -847,9 +1043,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Blight",
 			damage: 12,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 50: return {
@@ -864,9 +1064,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Blight",
 			damage: 0,
+			radius: undefined,
 			cooldown: 7,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 51: return {
@@ -881,9 +1085,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Blight",
 			damage: 32,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 52: return {
@@ -898,9 +1106,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Earth",
 			damage: 16,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 53: return {
@@ -915,9 +1127,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Earth",
 			damage: 16,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 54: return {
@@ -932,9 +1148,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Earth",
 			damage: 25,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 55: return {
@@ -949,9 +1169,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Earth",
 			damage: 60,
+			radius: undefined,
 			cooldown: 5,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 56: return {
@@ -966,9 +1190,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Earth",
 			damage: 36,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 57: return {
@@ -983,9 +1211,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Water",
 			damage: 26,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 58: return {
@@ -1000,9 +1232,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 26,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 59: return {
@@ -1017,9 +1253,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Electric",
 			damage: 80,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 60: return {
@@ -1034,9 +1274,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Water",
 			damage: 80,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 61: return {
@@ -1051,9 +1295,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Water",
 			damage: 20,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 62: return {
@@ -1068,9 +1316,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Toxic",
 			damage: 8,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 63: return {
@@ -1085,9 +1337,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Toxic",
 			damage: 26,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 64: return {
@@ -1102,9 +1358,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Toxic",
 			damage: 0,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 65: return {
@@ -1119,9 +1379,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Toxic",
 			damage: 0,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 66: return {
@@ -1136,9 +1400,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Toxic",
 			damage: 20,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 67: return {
@@ -1153,9 +1421,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Toxic",
 			damage: 11,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 69: return {
@@ -1170,9 +1442,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Toxic",
 			damage: 11,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 70: return {
@@ -1187,9 +1463,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Toxic",
 			damage: 70,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 71: return {
@@ -1204,9 +1484,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Toxic",
 			damage: 35,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Stun",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 1
 		} break
 		case 72: return {
@@ -1221,9 +1505,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Toxic",
 			damage: 100,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 73: return {
@@ -1238,9 +1526,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Earth",
 			damage: 6,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Accuracy",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 74: return {
@@ -1255,9 +1547,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Earth",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Accuracy",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 5
 		} break
 		case 75: return {
@@ -1272,9 +1568,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Earth",
 			damage: 30,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Accuracy",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 3
 		} break
 		case 76: return {
@@ -1289,9 +1589,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Earth",
 			damage: 40,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 77: return {
@@ -1306,9 +1610,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Earth",
 			damage: 80,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 78: return {
@@ -1323,9 +1631,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 4,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 79: return {
@@ -1340,9 +1652,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Electric",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 80: return {
@@ -1357,9 +1673,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 0,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 81: return {
@@ -1374,9 +1694,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 0,
+			radius: undefined,
 			cooldown: 25,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 82: return {
@@ -1391,9 +1715,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Electric",
 			damage: 27,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 83: return {
@@ -1408,9 +1736,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 4,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 84: return {
@@ -1425,9 +1757,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Wind",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 85: return {
@@ -1442,9 +1778,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 0,
+			radius: undefined,
 			cooldown: 50,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 86: return {
@@ -1459,9 +1799,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 0,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 87: return {
@@ -1476,9 +1820,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 27,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 88: return {
@@ -1493,9 +1841,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 12,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 89: return {
@@ -1510,9 +1862,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 12,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 90: return {
@@ -1527,9 +1883,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 0,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 91: return {
@@ -1544,9 +1904,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 27,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 0
 		} break
 		case 92: return {
@@ -1561,9 +1925,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 66,
+			radius: undefined,
 			cooldown: 22,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Stun",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: 3
 		} break
 		case 93: return {
@@ -1578,9 +1946,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Normal",
 			damage: 12,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 94: return {
@@ -1595,9 +1967,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 12,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 95: return {
@@ -1612,9 +1988,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Normal",
 			damage: 27,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 96: return {
@@ -1629,9 +2009,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Normal",
 			damage: 50,
+			radius: undefined,
 			cooldown: 5,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 97: return {
@@ -1646,9 +2030,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 50,
+			radius: undefined,
 			cooldown: 5,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 98: return {
@@ -1663,9 +2051,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Fire",
 			damage: 6,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 99: return {
@@ -1680,9 +2072,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Fire",
 			damage: 6,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 100: return {
@@ -1697,9 +2093,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Fire",
 			damage: 30,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Burn",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.5,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 101: return {
@@ -1714,9 +2114,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Fire",
 			damage: 80,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 102: return {
@@ -1731,9 +2135,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Fire",
 			damage: 80,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 103: return {
@@ -1748,9 +2156,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Water",
 			damage: 18,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Slow",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 104: return {
@@ -1765,9 +2177,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Water",
 			damage: 18,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Slow",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 105: return {
@@ -1782,9 +2198,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Water",
 			damage: 33,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Slow",
-			statusEffectChance: undefined,
+			statusEffectChance: 1,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 106: return {
@@ -1799,9 +2219,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Water",
 			damage: 90,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 107: return {
@@ -1816,9 +2240,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Water",
 			damage: 80,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 108: return {
@@ -1833,9 +2261,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Blight",
 			damage: 18,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 109: return {
@@ -1850,9 +2282,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Blight",
 			damage: 14,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 110: return {
@@ -1867,9 +2303,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Blight",
 			damage: 18,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 111: return {
@@ -1884,9 +2324,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Blight",
 			damage: 18,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 112: return {
@@ -1901,9 +2345,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Blight",
 			damage: 70,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 113: return {
@@ -1918,9 +2366,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 14,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 114: return {
@@ -1935,9 +2387,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Electric",
 			damage: 14,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 115: return {
@@ -1952,9 +2408,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 70,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 116: return {
@@ -1969,9 +2429,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Electric",
 			damage: 95,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 117: return {
@@ -1986,9 +2450,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Electric",
 			damage: 60,
+			radius: undefined,
 			cooldown: 20,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 119: return {
@@ -2003,9 +2471,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Earth",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 120: return {
@@ -2020,9 +2492,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Earth",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2.6,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 121: return {
@@ -2037,9 +2513,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Earth",
 			damage: 33,
+			radius: undefined,
 			cooldown: 10,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 122: return {
@@ -2054,9 +2534,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Earth",
 			damage: 70,
+			radius: undefined,
 			cooldown: 7,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 123: return {
@@ -2071,9 +2555,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Earth",
 			damage: 85,
+			radius: undefined,
 			cooldown: 7,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 124: return {
@@ -2088,9 +2576,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 125: return {
@@ -2105,9 +2597,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Wind",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 126: return {
@@ -2122,9 +2618,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 33,
+			radius: undefined,
 			cooldown: 12,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 127: return {
@@ -2139,9 +2639,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 85,
+			radius: undefined,
 			cooldown: 7,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 128: return {
@@ -2156,9 +2660,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Wind",
 			damage: 70,
+			radius: undefined,
 			cooldown: 7,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 129: return {
@@ -2173,9 +2681,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Toxic",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 130: return {
@@ -2190,9 +2702,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Normal",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 131: return {
@@ -2207,9 +2723,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Wind",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 132: return {
@@ -2224,9 +2744,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Normal",
 			damage: 70,
+			radius: undefined,
 			cooldown: 7,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 133: return {
@@ -2241,9 +2765,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Wind",
 			damage: 70,
+			radius: undefined,
 			cooldown: 7,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Burn",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.5,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 134: return {
@@ -2258,9 +2786,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Toxic",
 			damage: 30,
+			radius: undefined,
 			cooldown: 12,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "Poison",
-			statusEffectChance: undefined,
+			statusEffectChance: 0.5,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 135: return {
@@ -2275,9 +2807,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Toxic",
 			damage: 80,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 136: return {
@@ -2292,9 +2828,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Arcane",
 			damage: 13,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 137: return {
@@ -2309,9 +2849,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 13,
+			radius: undefined,
 			cooldown: 1.4,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 138: return {
@@ -2326,9 +2870,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 95,
+			radius: undefined,
 			cooldown: 10,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 139: return {
@@ -2343,9 +2891,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Arcane",
 			damage: 40,
+			radius: undefined,
 			cooldown: 12,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 140: return {
@@ -2360,9 +2912,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 95,
+			radius: undefined,
 			cooldown: 8,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 141: return {
@@ -2377,9 +2933,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 142: return {
@@ -2394,9 +2954,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Arcane",
 			damage: 20,
+			radius: undefined,
 			cooldown: 2,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 143: return {
@@ -2411,9 +2975,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 40,
+			radius: undefined,
 			cooldown: 10,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 144: return {
@@ -2428,9 +2996,13 @@ function GetAttack(_id){
 			range: 8,
 			type: "Arcane",
 			damage: 85,
+			radius: undefined,
 			cooldown: 7,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		case 145: return {
@@ -2445,9 +3017,13 @@ function GetAttack(_id){
 			range: 2,
 			type: "Arcane",
 			damage: 70,
+			radius: undefined,
 			cooldown: 7,
+			dotDamage: undefined,
+			dotDuration: undefined,
 			statusEffect: "",
-			statusEffectChance: undefined,
+			statusEffectChance: 0,
+			statusReductionPercentage: "undefined",
 			statusEffectDuration: undefined
 		} break
 		default: break

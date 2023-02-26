@@ -44,6 +44,7 @@
 		"range": 8,
 		"type": "Blight",
 		"damage": 125,
+		"radius": 2,
 		"cooldown": 15,
 		"statusEffect": "Slow",
 		"statusEffectChance": 1,
