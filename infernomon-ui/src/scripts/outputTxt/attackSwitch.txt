@@ -20,13 +20,13 @@ function GetAttack(_id){
 			dotDuration: 3,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 2: return {
 			id: 2,
 			attackCategory: "Auto",
-			damageCategory: "Special",
+			damageCategory: "Physical",
 			name: "Rotting Bite",
 			scriptName: AttackId2,
 			description: "Does instant damage plus additional 6 damage over 3 seconds",
@@ -41,7 +41,7 @@ function GetAttack(_id){
 			dotDuration: 3,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 3: return {
@@ -62,7 +62,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Slow",
 			statusEffectChance: 1,
-			statusReductionPercentage: "0.5",
+			statusReductionPercentage: 0.5,
 			statusEffectDuration: 5
 		} break
 		case 4: return {
@@ -83,13 +83,13 @@ function GetAttack(_id){
 			dotDuration: 5,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 5: return {
 			id: 5,
 			attackCategory: "Natural",
-			damageCategory: "Special",
+			damageCategory: "Physical",
 			name: "Web Whip",
 			scriptName: AttackId5,
 			description: "Single target attack.",
@@ -97,14 +97,14 @@ function GetAttack(_id){
 			castDuration: 0,
 			range: 8,
 			type: "Blight",
-			damage: 80,
+			damage: 40,
 			radius: undefined,
-			cooldown: 8,
+			cooldown: 4,
 			dotDamage: undefined,
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 6: return {
@@ -113,40 +113,40 @@ function GetAttack(_id){
 			damageCategory: "Physical",
 			name: "Aqua Daze",
 			scriptName: AttackId6,
-			description: "Stuns target for .25 seconds every 7th hit.",
+			description: "Damages the target and has a 25% chance to stun them for .25 seconds",
 			castType: "Target",
 			castDuration: 0,
 			range: 2,
 			type: "Water",
-			damage: 20,
+			damage: 16,
 			radius: undefined,
 			cooldown: 2.6,
 			dotDamage: undefined,
 			dotDuration: undefined,
-			statusEffect: "",
-			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusEffect: "Stun",
+			statusEffectChance: 0.25,
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 7: return {
 			id: 7,
 			attackCategory: "Auto",
-			damageCategory: "Special",
-			name: "Bubble Daze",
+			damageCategory: "Physical",
+			name: "Aqua Slap",
 			scriptName: AttackId7,
-			description: "Stuns target for .25 seconds every 7th hit.",
+			description: "Single target damage.",
 			castType: "Target",
 			castDuration: 0,
-			range: 8,
+			range: 2,
 			type: "Water",
-			damage: 20,
+			damage: 26,
 			radius: undefined,
 			cooldown: 2.6,
 			dotDamage: undefined,
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 8: return {
@@ -155,62 +155,62 @@ function GetAttack(_id){
 			damageCategory: "Physical",
 			name: "Bubble Shield",
 			scriptName: AttackId8,
-			description: "Gain a shield, absorbing 100 damage, stacking 1 time.",
+			description: "Gain a shield for 10 seconds, absorbing 100 damage.",
 			castType: "Self",
 			castDuration: 0,
 			range: 0,
 			type: "Water",
-			damage: 0,
+			damage: 100,
 			radius: undefined,
-			cooldown: 20,
+			cooldown: 10,
 			dotDamage: undefined,
 			dotDuration: undefined,
-			statusEffect: "",
-			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
-			statusEffectDuration: undefined
+			statusEffect: "Absorb",
+			statusEffectChance: 1,
+			statusReductionPercentage: undefined,
+			statusEffectDuration: 10
 		} break
 		case 9: return {
 			id: 9,
 			attackCategory: "Natural",
 			damageCategory: "Physical",
-			name: "Swamp Slap",
+			name: "Swamp Smack",
 			scriptName: AttackId9,
-			description: "Stun the target for a short time.",
+			description: "Damage the target and stun the target for 2 seconds",
 			castType: "Target",
 			castDuration: 0,
 			range: 2,
 			type: "Water",
-			damage: 90,
+			damage: 40,
 			radius: undefined,
-			cooldown: 25,
+			cooldown: 20,
 			dotDamage: undefined,
 			dotDuration: undefined,
 			statusEffect: "Stun",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
-			statusEffectDuration: 3
+			statusReductionPercentage: undefined,
+			statusEffectDuration: 2
 		} break
 		case 10: return {
 			id: 10,
 			attackCategory: "Natural",
-			damageCategory: "Special",
-			name: "Swamp Shot",
+			damageCategory: "Physical",
+			name: "Swamp Swing",
 			scriptName: AttackId10,
-			description: "Stun the target for a short time.",
-			castType: "Target",
+			description: "Damages all enemies in front of you.",
+			castType: "Frontal Cone",
 			castDuration: 0,
-			range: 8,
+			range: 2,
 			type: "Water",
-			damage: 90,
+			damage: 16,
 			radius: undefined,
-			cooldown: 25,
+			cooldown: 4,
 			dotDamage: undefined,
 			dotDuration: undefined,
-			statusEffect: "Stun",
-			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
-			statusEffectDuration: 3
+			statusEffect: "",
+			statusEffectChance: 0,
+			statusReductionPercentage: undefined,
+			statusEffectDuration: 0
 		} break
 		case 11: return {
 			id: 11,
@@ -230,7 +230,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 12: return {
@@ -251,7 +251,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 13: return {
@@ -272,7 +272,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Burn",
 			statusEffectChance: 0.5,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 14: return {
@@ -293,7 +293,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Burn",
 			statusEffectChance: 0.5,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 15: return {
@@ -314,7 +314,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Burn",
 			statusEffectChance: 0.5,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 16: return {
@@ -335,7 +335,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 17: return {
@@ -356,7 +356,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Accuracy",
 			statusEffectChance: 0.05,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 18: return {
@@ -377,7 +377,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 19: return {
@@ -398,7 +398,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Accuracy",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 20: return {
@@ -419,7 +419,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 21: return {
@@ -440,7 +440,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 22: return {
@@ -461,7 +461,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 23: return {
@@ -482,7 +482,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 24: return {
@@ -503,7 +503,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 25: return {
@@ -524,7 +524,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 118: return {
@@ -545,7 +545,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 26: return {
@@ -566,7 +566,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 27: return {
@@ -587,7 +587,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 28: return {
@@ -608,7 +608,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 29: return {
@@ -629,7 +629,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 30: return {
@@ -650,7 +650,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Paralyze",
 			statusEffectChance: 0.5,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 31: return {
@@ -671,7 +671,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 32: return {
@@ -692,7 +692,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 33: return {
@@ -713,7 +713,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Burn",
 			statusEffectChance: 0.05,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 34: return {
@@ -734,7 +734,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 35: return {
@@ -755,7 +755,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 36: return {
@@ -776,7 +776,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 37: return {
@@ -797,7 +797,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 38: return {
@@ -818,7 +818,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 39: return {
@@ -839,7 +839,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 40: return {
@@ -860,7 +860,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 41: return {
@@ -881,7 +881,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Silence",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 42: return {
@@ -902,7 +902,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 43: return {
@@ -923,7 +923,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Fear",
 			statusEffectChance: 0.1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 3
 		} break
 		case 44: return {
@@ -944,7 +944,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Stun",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 3
 		} break
 		case 45: return {
@@ -965,7 +965,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 46: return {
@@ -986,7 +986,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 47: return {
@@ -1007,7 +1007,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 48: return {
@@ -1028,7 +1028,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 49: return {
@@ -1049,7 +1049,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 50: return {
@@ -1070,7 +1070,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 51: return {
@@ -1091,7 +1091,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 52: return {
@@ -1112,7 +1112,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 53: return {
@@ -1133,7 +1133,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 54: return {
@@ -1154,7 +1154,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 55: return {
@@ -1175,7 +1175,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 56: return {
@@ -1196,7 +1196,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 57: return {
@@ -1217,7 +1217,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 58: return {
@@ -1238,7 +1238,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 59: return {
@@ -1259,7 +1259,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 60: return {
@@ -1280,7 +1280,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 61: return {
@@ -1301,7 +1301,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 62: return {
@@ -1322,7 +1322,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 63: return {
@@ -1343,7 +1343,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 64: return {
@@ -1364,7 +1364,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 65: return {
@@ -1385,7 +1385,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 66: return {
@@ -1406,7 +1406,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 67: return {
@@ -1427,7 +1427,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 69: return {
@@ -1448,7 +1448,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 70: return {
@@ -1469,7 +1469,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 71: return {
@@ -1490,7 +1490,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Stun",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 1
 		} break
 		case 72: return {
@@ -1511,7 +1511,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 73: return {
@@ -1532,7 +1532,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Accuracy",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 74: return {
@@ -1553,7 +1553,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Accuracy",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 5
 		} break
 		case 75: return {
@@ -1574,7 +1574,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Accuracy",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 3
 		} break
 		case 76: return {
@@ -1595,7 +1595,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 77: return {
@@ -1616,7 +1616,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 78: return {
@@ -1637,7 +1637,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 79: return {
@@ -1658,7 +1658,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 80: return {
@@ -1679,7 +1679,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 81: return {
@@ -1700,7 +1700,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 82: return {
@@ -1721,7 +1721,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 83: return {
@@ -1742,7 +1742,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 84: return {
@@ -1763,7 +1763,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 85: return {
@@ -1784,7 +1784,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 86: return {
@@ -1805,7 +1805,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 87: return {
@@ -1826,7 +1826,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 88: return {
@@ -1847,7 +1847,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 89: return {
@@ -1868,7 +1868,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 90: return {
@@ -1889,7 +1889,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 91: return {
@@ -1910,7 +1910,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 0
 		} break
 		case 92: return {
@@ -1931,7 +1931,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Stun",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: 3
 		} break
 		case 93: return {
@@ -1952,7 +1952,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 94: return {
@@ -1973,7 +1973,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 95: return {
@@ -1994,7 +1994,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 96: return {
@@ -2015,7 +2015,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 97: return {
@@ -2036,7 +2036,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 98: return {
@@ -2057,7 +2057,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 99: return {
@@ -2078,7 +2078,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 100: return {
@@ -2099,7 +2099,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Burn",
 			statusEffectChance: 0.5,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 101: return {
@@ -2120,7 +2120,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 102: return {
@@ -2141,7 +2141,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 103: return {
@@ -2162,7 +2162,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Slow",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 104: return {
@@ -2183,7 +2183,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Slow",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 105: return {
@@ -2204,7 +2204,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Slow",
 			statusEffectChance: 1,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 106: return {
@@ -2225,7 +2225,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 107: return {
@@ -2246,7 +2246,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 108: return {
@@ -2267,7 +2267,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 109: return {
@@ -2288,7 +2288,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 110: return {
@@ -2309,7 +2309,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 111: return {
@@ -2330,7 +2330,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 112: return {
@@ -2351,7 +2351,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 113: return {
@@ -2372,7 +2372,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 114: return {
@@ -2393,7 +2393,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 115: return {
@@ -2414,7 +2414,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 116: return {
@@ -2435,7 +2435,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 117: return {
@@ -2456,7 +2456,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 119: return {
@@ -2477,7 +2477,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 120: return {
@@ -2498,7 +2498,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 121: return {
@@ -2519,7 +2519,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 122: return {
@@ -2540,7 +2540,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 123: return {
@@ -2561,7 +2561,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 124: return {
@@ -2582,7 +2582,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 125: return {
@@ -2603,7 +2603,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 126: return {
@@ -2624,7 +2624,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 127: return {
@@ -2645,7 +2645,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 128: return {
@@ -2666,7 +2666,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 129: return {
@@ -2687,7 +2687,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 130: return {
@@ -2708,7 +2708,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 131: return {
@@ -2729,7 +2729,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 132: return {
@@ -2750,7 +2750,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 133: return {
@@ -2771,7 +2771,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Burn",
 			statusEffectChance: 0.5,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 134: return {
@@ -2792,7 +2792,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "Poison",
 			statusEffectChance: 0.5,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 135: return {
@@ -2813,7 +2813,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 136: return {
@@ -2834,7 +2834,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 137: return {
@@ -2855,7 +2855,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 138: return {
@@ -2876,7 +2876,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 139: return {
@@ -2897,7 +2897,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 140: return {
@@ -2918,7 +2918,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 141: return {
@@ -2939,7 +2939,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 142: return {
@@ -2960,7 +2960,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 143: return {
@@ -2981,7 +2981,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 144: return {
@@ -3002,7 +3002,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		case 145: return {
@@ -3023,7 +3023,7 @@ function GetAttack(_id){
 			dotDuration: undefined,
 			statusEffect: "",
 			statusEffectChance: 0,
-			statusReductionPercentage: "undefined",
+			statusReductionPercentage: undefined,
 			statusEffectDuration: undefined
 		} break
 		default: break
