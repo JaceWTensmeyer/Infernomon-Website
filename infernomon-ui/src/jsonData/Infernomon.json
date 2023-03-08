@@ -840,6 +840,9 @@
 	{
 		"name": "Gnawzer",
 		"imageName": "Gnawzer.png",
+		"idleSprite": "spr_gnawzerIdle",
+		"moveSprite": "spr_gnawzerMove",
+		"attackSprite": "spr_gnawzerAttack",
 		"animationScale": 0.3,
 		"number": 29,
 		"description": "A small alligator that looks cute and harmless but my catch you off guard with an electric bite.",
