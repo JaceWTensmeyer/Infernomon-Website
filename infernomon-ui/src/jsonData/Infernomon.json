@@ -870,7 +870,10 @@
 	{
 		"name": "Allizok",
 		"imageName": "Allizok.png",
-		"animationScale": 0.3,
+		"idleSprite": "spr_allizokIdle",
+		"moveSprite": "spr_allizokMove",
+		"attackSprite": "spr_allizokAttack",
+		"animationScale": 0.4,
 		"number": 30,
 		"description": "The 2nd evolution in the electric alligator family.  It likes to be up in the middle of a fight and has a balance fighting style.",
 		"rarity": "Common",
@@ -897,7 +900,10 @@
 	{
 		"name": "Crawzerk",
 		"imageName": "Crawzerk.png",
-		"animationScale": 0.3,
+		"idleSprite": "spr_crawzerkIdle",
+		"moveSprite": "spr_crawzerkMove",
+		"attackSprite": "spr_crawzerkAttack",
+		"animationScale": 0.45,
 		"number": 31,
 		"description": "The 3rd and final evolution in the electric alligator Bi-pedal Aligator.  It prefers to alternate between electric bites and water punches.",
 		"rarity": "Common",
