@@ -731,7 +731,7 @@ function GetGenericInfernomonData(_number){
 		case 34: return {
 			name: "Lankyank",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.5,
 			maxExpPoints: 1000000,
 			baseHp: 90,
 			baseAttack: 100,
@@ -753,7 +753,7 @@ function GetGenericInfernomonData(_number){
 		case 35: return {
 			name: "Slissirt",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.5,
 			maxExpPoints: 1000000,
 			baseHp: 100,
 			baseAttack: 70,
@@ -775,7 +775,7 @@ function GetGenericInfernomonData(_number){
 		case 36: return {
 			name: "Charjamp",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.5,
 			maxExpPoints: 1000000,
 			baseHp: 100,
 			baseAttack: 60,
