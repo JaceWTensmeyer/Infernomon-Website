@@ -220,16 +220,16 @@ function GetSpritesForInfernomon(_number){
 			spriteInventoryImage = spr_InventoryImageNum31 
 		} break
 		case 32: {
-			spriteIdle = spr_InventoryImageNum32 
-			spriteMove = spr_InventoryImageNum32 
-			spriteAttack = spr_InventoryImageNum32 
+			spriteIdle = spr_minoosmogIdle 
+			spriteMove = spr_minoosmogMove 
+			spriteAttack = spr_minoosmogAttack 
 			spritePortrait = spr_InventoryImageNum32 			
 			spriteInventoryImage = spr_InventoryImageNum32 
 		} break
 		case 33: {
-			spriteIdle = spr_InventoryImageNum33 
-			spriteMove = spr_InventoryImageNum33 
-			spriteAttack = spr_InventoryImageNum33 
+			spriteIdle = spr_aboomogIdle 
+			spriteMove = spr_aboomogMove 
+			spriteAttack = spr_aboomogAttack 
 			spritePortrait = spr_InventoryImageNum33 			
 			spriteInventoryImage = spr_InventoryImageNum33 
 		} break
@@ -589,16 +589,16 @@ function GetSpritesForInfernomonStruct(_number){
 			spriteInventoryImage: spr_InventoryImageNum31 
 		} break
 		case 32: return {
-			spriteIdle: spr_InventoryImageNum32,
-			spriteMove: spr_InventoryImageNum32,
-			spriteAttack: spr_InventoryImageNum32,
+			spriteIdle: spr_minoosmogIdle,
+			spriteMove: spr_minoosmogMove,
+			spriteAttack: spr_minoosmogAttack,
 			spritePortrait: spr_InventoryImageNum32, 
 			spriteInventoryImage: spr_InventoryImageNum32 
 		} break
 		case 33: return {
-			spriteIdle: spr_InventoryImageNum33,
-			spriteMove: spr_InventoryImageNum33,
-			spriteAttack: spr_InventoryImageNum33,
+			spriteIdle: spr_aboomogIdle,
+			spriteMove: spr_aboomogMove,
+			spriteAttack: spr_aboomogAttack,
 			spritePortrait: spr_InventoryImageNum33, 
 			spriteInventoryImage: spr_InventoryImageNum33 
 		} break

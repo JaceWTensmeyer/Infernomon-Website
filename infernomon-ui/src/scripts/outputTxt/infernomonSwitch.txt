@@ -709,7 +709,7 @@ function GetGenericInfernomonData(_number){
 		case 33: return {
 			name: "Aboomog",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.5,
 			maxExpPoints: 1000000,
 			baseHp: 105,
 			baseAttack: 40,
