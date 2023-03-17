@@ -797,7 +797,7 @@ function GetGenericInfernomonData(_number){
 		case 37: return {
 			name: "Strixlet",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.15,
 			maxExpPoints: 1000000,
 			baseHp: 60,
 			baseAttack: 40,
@@ -819,7 +819,7 @@ function GetGenericInfernomonData(_number){
 		case 38: return {
 			name: "Strixume",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.6,
 			maxExpPoints: 1000000,
 			baseHp: 100,
 			baseAttack: 70,
@@ -841,7 +841,7 @@ function GetGenericInfernomonData(_number){
 		case 39: return {
 			name: "Trolerag",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.45,
 			maxExpPoints: 1000000,
 			baseHp: 100,
 			baseAttack: 130,

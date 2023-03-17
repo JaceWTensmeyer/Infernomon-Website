@@ -255,23 +255,23 @@ function GetSpritesForInfernomon(_number){
 			spriteInventoryImage = spr_InventoryImageNum36 
 		} break
 		case 37: {
-			spriteIdle = spr_InventoryImageNum37 
-			spriteMove = spr_InventoryImageNum37 
-			spriteAttack = spr_InventoryImageNum37 
+			spriteIdle = spr_strixletIdle 
+			spriteMove = spr_strixletMove 
+			spriteAttack = spr_strixletAttack 
 			spritePortrait = spr_InventoryImageNum37 			
 			spriteInventoryImage = spr_InventoryImageNum37 
 		} break
 		case 38: {
-			spriteIdle = spr_InventoryImageNum38 
-			spriteMove = spr_InventoryImageNum38 
-			spriteAttack = spr_InventoryImageNum38 
+			spriteIdle = spr_strixumeIdle 
+			spriteMove = spr_strixumeMove 
+			spriteAttack = spr_strixumeAttack 
 			spritePortrait = spr_InventoryImageNum38 			
 			spriteInventoryImage = spr_InventoryImageNum38 
 		} break
 		case 39: {
-			spriteIdle = spr_InventoryImageNum39 
-			spriteMove = spr_InventoryImageNum39 
-			spriteAttack = spr_InventoryImageNum39 
+			spriteIdle = spr_troleragIdle 
+			spriteMove = spr_troleragMove 
+			spriteAttack = spr_troleragAttack 
 			spritePortrait = spr_InventoryImageNum39 			
 			spriteInventoryImage = spr_InventoryImageNum39 
 		} break
@@ -624,23 +624,23 @@ function GetSpritesForInfernomonStruct(_number){
 			spriteInventoryImage: spr_InventoryImageNum36 
 		} break
 		case 37: return {
-			spriteIdle: spr_InventoryImageNum37,
-			spriteMove: spr_InventoryImageNum37,
-			spriteAttack: spr_InventoryImageNum37,
+			spriteIdle: spr_strixletIdle,
+			spriteMove: spr_strixletMove,
+			spriteAttack: spr_strixletAttack,
 			spritePortrait: spr_InventoryImageNum37, 
 			spriteInventoryImage: spr_InventoryImageNum37 
 		} break
 		case 38: return {
-			spriteIdle: spr_InventoryImageNum38,
-			spriteMove: spr_InventoryImageNum38,
-			spriteAttack: spr_InventoryImageNum38,
+			spriteIdle: spr_strixumeIdle,
+			spriteMove: spr_strixumeMove,
+			spriteAttack: spr_strixumeAttack,
 			spritePortrait: spr_InventoryImageNum38, 
 			spriteInventoryImage: spr_InventoryImageNum38 
 		} break
 		case 39: return {
-			spriteIdle: spr_InventoryImageNum39,
-			spriteMove: spr_InventoryImageNum39,
-			spriteAttack: spr_InventoryImageNum39,
+			spriteIdle: spr_troleragIdle,
+			spriteMove: spr_troleragMove,
+			spriteAttack: spr_troleragAttack,
 			spritePortrait: spr_InventoryImageNum39, 
 			spriteInventoryImage: spr_InventoryImageNum39 
 		} break

@@ -126,7 +126,7 @@ function GetAttack(_id){
 			statusEffect: "Stun",
 			statusEffectChance: 0.25,
 			statusReductionPercentage: undefined,
-			statusEffectDuration: undefined
+			statusEffectDuration: 0.25
 		} break
 		case 7: return {
 			id: 7,
