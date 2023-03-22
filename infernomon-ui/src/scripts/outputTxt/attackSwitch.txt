@@ -155,10 +155,10 @@ function GetAttack(_id){
 			damageCategory: "Physical",
 			name: "Bubble Shield",
 			scriptName: AttackId8,
-			description: "Gain a shield for 10 seconds, absorbing 100 damage.",
-			castType: "Self",
+			description: "Gain a shield for 5 seconds, absorbing 100 damage modified by Hp stat.",
+			castType: "Buff",
 			castDuration: 0,
-			range: 0,
+			range: 8,
 			type: "Water",
 			damage: 100,
 			radius: undefined,
@@ -168,7 +168,7 @@ function GetAttack(_id){
 			statusEffect: "Absorb",
 			statusEffectChance: 1,
 			statusReductionPercentage: undefined,
-			statusEffectDuration: 10
+			statusEffectDuration: 5
 		} break
 		case 9: return {
 			id: 9,
@@ -202,9 +202,9 @@ function GetAttack(_id){
 			castDuration: 0,
 			range: 2,
 			type: "Water",
-			damage: 16,
-			radius: undefined,
-			cooldown: 4,
+			damage: 20,
+			radius: 2,
+			cooldown: 5,
 			dotDamage: undefined,
 			dotDuration: undefined,
 			statusEffect: "",
