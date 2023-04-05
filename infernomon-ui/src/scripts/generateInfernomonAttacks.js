@@ -22,6 +22,7 @@ attacks.forEach((atk) => {
 			damage: ${atk.damage},
 			radius: ${atk.radius},
 			width: ${atk.width},
+			pushDistance: ${atk.pushDistance},
 			cooldown: ${atk.cooldown},
 			dotDamage: ${atk.dotDamage},
 			dotDuration: ${atk.dotDuration},
