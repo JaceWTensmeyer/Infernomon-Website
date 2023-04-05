@@ -150,7 +150,7 @@
 		"damageCategory": "Physical",
 		"name": "Swamp Swing",
 		"description": "Damages all enemies in front of you.",
-		"castType": "Frontal Cone",
+		"castType": "Frontal Cleave",
 		"castDuration": 0,
 		"range": 2,
 		"radius": 2,
@@ -198,6 +198,8 @@
 		"name": "Hot Wind",
 		"description": "Push targets in front of you back and has a 30% chance to burn for 5 damage over 5 seconds.",
 		"castType": "Frontal Line",
+		"width": 2,
+		"pushDistance": 2,
 		"castDuration": 1,
 		"range": 8,
 		"type": "Wind",
@@ -206,7 +208,7 @@
 		"dotDamage": 5,
 		"dotDuration": 5,
 		"statusEffect": "Burn",
-		"statusEffectChance": 0.3,
+		"statusEffectChance": 0.5,
 		"statusEffectDuration": 5
 	},
 	{
@@ -224,7 +226,7 @@
 		"dotDamage": 5,
 		"dotDuration": 5,
 		"statusEffect": "Burn",
-		"statusEffectChance": 0.3,
+		"statusEffectChance": 0.5,
 		"statusEffectDuration": 5
 	},
 	{
@@ -242,7 +244,7 @@
 		"dotDamage": 10,
 		"dotDuration": 5,
 		"statusEffect": "Burn",
-		"statusEffectChance": 0.3,
+		"statusEffectChance": 0.5,
 		"statusEffectDuration": 5
 	},
 	{
