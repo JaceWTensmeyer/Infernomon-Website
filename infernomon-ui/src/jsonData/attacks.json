@@ -74,7 +74,7 @@
 		"description": "Single target attack.",
 		"castType": "Target",
 		"castDuration": 0,
-		"range": 8,
+		"range": 2,
 		"type": "Blight",
 		"damage": 40,
 		"cooldown": 4,
