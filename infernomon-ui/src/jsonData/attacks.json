@@ -185,7 +185,7 @@
 		"castType": "Target",
 		"castDuration": 0,
 		"range": 8,
-		"type": "Fire",
+		"type": "Wind",
 		"damage": 16,
 		"cooldown": 2,
 		"statusEffect": "",
