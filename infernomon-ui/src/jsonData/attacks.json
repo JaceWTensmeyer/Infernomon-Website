@@ -2235,5 +2235,35 @@
 		"cooldown": 7,
 		"statusEffect": "",
 		"statusEffectChance": 0
+	},
+	{
+		"id": 146,
+		"attackCategory": "Acquired",
+		"damageCategory": "Physical",
+		"name": "Tackle",
+		"description": "Close range single target attack.",
+		"castType": "Target",
+		"castDuration": 0,
+		"range": 2,
+		"type": "Normal",
+		"damage": 60,
+		"cooldown": 6,
+		"statusEffect": "",
+		"statusEffectChance": 0
+	},
+	{
+		"id": 147,
+		"attackCategory": "Acquired",
+		"damageCategory": "Physical",
+		"name": "Focus Bolt",
+		"description": "Long range single target attack.",
+		"castType": "Target",
+		"castDuration": 1.5,
+		"range": 8,
+		"type": "Normal",
+		"damage": 78,
+		"cooldown": 6,
+		"statusEffect": "",
+		"statusEffectChance": 0
 	}
 ]
