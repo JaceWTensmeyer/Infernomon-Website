@@ -2240,7 +2240,7 @@
 		"id": 146,
 		"attackCategory": "Acquired",
 		"damageCategory": "Physical",
-		"name": "Tackle",
+		"name": "Bash",
 		"description": "Close range single target attack.",
 		"castType": "Target",
 		"castDuration": 0,
