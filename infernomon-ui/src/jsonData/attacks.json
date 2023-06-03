@@ -2317,7 +2317,7 @@
 		"id": 151,
 		"attackCategory": "Acquired",
 		"damageCategory": "Special",
-		"name": "Blight Blade",
+		"name": "Blight Bolt",
 		"description": "Long range single target attack.",
 		"castType": "Target",
 		"castDuration": 1.5,
