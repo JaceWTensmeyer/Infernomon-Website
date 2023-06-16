@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Fresh Earth",
+		"type": "Earth",
+		"dungeonNumber": 1
+	},
+	{
+		"name": "Charged Particles",
+		"type": "Electric",
+		"dungeonNumber": 2
+	},
+	{
+		"name": "Bottled Breeze",
+		"type": "Wind",
+		"dungeonNumber": 3
+	},
+	{
+		"name": "Mysterious Runes",
+		"type": "Arcane",
+		"dungeonNumber": 4
+	},
+	{
+		"name": "Immaculate Dust",
+		"type": "Normal",
+		"dungeonNumber": 5
+	},
+	{
+		"name": "Warm Ashes",
+		"type": "Fire",
+		"dungeonNumber": 6
+	},
+	{
+		"name": "Clear Water",
+		"type": "Water",
+		"dungeonNumber": 6
+	},
+	{
+		"name": "Bright Blight",
+		"type": "Blight",
+		"dungeonNumber": 7
+	},
+	{
+		"name": "Concentrated Sludge",
+		"type": "Toxic",
+		"dungeonNumber": 8
+	}
+]
