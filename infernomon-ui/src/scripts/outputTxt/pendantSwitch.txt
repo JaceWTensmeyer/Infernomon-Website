@@ -1,0 +1,63 @@
+
+function GetPendentStruct(_dungeonNumber){
+	switch(_dungeonNumber) {
+		case 0: break
+		case 1: return {
+			name: "Reflective Shell",
+			description: "10% of damage recieved from attackers is reflected back",
+			effectPercentage: 0.1,
+			dungeonNumber: 1
+		} break
+	
+		case 2: return {
+			name: "Electric Chain",
+			description: "Auto attacks also hit the nearest enemy",
+			effectPercentage: undefined,
+			dungeonNumber: 2
+		} break
+	
+		case 3: return {
+			name: "Fast Feather",
+			description: "Attacks have a 20% reduced cooldown time",
+			effectPercentage: 0.2,
+			dungeonNumber: 3
+		} break
+	
+		case 4: return {
+			name: "Focus Gem",
+			description: "Increases critical strike damage by %25",
+			effectPercentage: 0.25,
+			dungeonNumber: 4
+		} break
+	
+		case 5: return {
+			name: "Balance Band",
+			description: "Increases all stats by %10",
+			effectPercentage: 0.1,
+			dungeonNumber: 5
+		} break
+	
+		case 6: return {
+			name: "Support Collar",
+			description: "Increases all healing recieved by 15%",
+			effectPercentage: 0.15,
+			dungeonNumber: 6
+		} break
+	
+		case 7: return {
+			name: "Nurturing Necklace",
+			description: "Increases healing done by the Support Role effect 50%",
+			effectPercentage: 0.5,
+			dungeonNumber: 7
+		} break
+	
+		case 8: return {
+			name: "Corrupted Ring",
+			description: "Increases all damage over time effects by 100%",
+			effectPercentage: 1,
+			dungeonNumber: 8
+		} break
+	
+		default: break
+	}
+}
