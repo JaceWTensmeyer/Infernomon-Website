@@ -1,0 +1,343 @@
+
+function GetInfernomonRecipe(_number){
+	switch(_number) {
+		case 1:
+		case 2:
+		case 3: return {
+			number: 1,
+			might: 60,
+			percision: 40,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 57,
+			intelligence: 43,
+			concentration: 42,
+			promptitude: 58,
+		}
+		case 4:
+		case 5:
+		case 6: return {
+			number: 4,
+			might: 40,
+			percision: 10,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 50,
+			power: 50,
+			intelligence: 50,
+			concentration: 59,
+			promptitude: 41,
+		}
+		case 7:
+		case 8:
+		case 9: return {
+			number: 7,
+			might: 40,
+			percision: 60,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 42,
+			intelligence: 58,
+			concentration: 42,
+			promptitude: 58,
+		}
+		case 10:
+		case 11: return {
+			number: 10,
+			might: 90,
+			percision: 10,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 68,
+			intelligence: 32,
+			concentration: 40,
+			promptitude: 60,
+		}
+		case 12:
+		case 13:
+		case 14: return {
+			number: 12,
+			might: 60,
+			percision: 40,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 61,
+			intelligence: 39,
+			concentration: 47,
+			promptitude: 53,
+		}
+		case 15:
+		case 16: return {
+			number: 15,
+			might: 80,
+			percision: 20,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 66,
+			intelligence: 34,
+			concentration: 44,
+			promptitude: 56,
+		}
+		case 17:
+		case 18:
+		case 19: return {
+			number: 17,
+			might: 45,
+			percision: 5,
+			fortitude: 50,
+			harmony: 0,
+			wisdom: 0,
+			power: 70,
+			intelligence: 30,
+			concentration: 75,
+			promptitude: 25,
+		}
+		case 20:
+		case 21:
+		case 22: return {
+			number: 20,
+			might: 5,
+			percision: 95,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 32,
+			intelligence: 68,
+			concentration: 36,
+			promptitude: 64,
+		}
+		case 23:
+		case 24: return {
+			number: 23,
+			might: 45,
+			percision: 5,
+			fortitude: 50,
+			harmony: 0,
+			wisdom: 0,
+			power: 63,
+			intelligence: 37,
+			concentration: 61,
+			promptitude: 39,
+		}
+		case 25:
+		case 26: return {
+			number: 25,
+			might: 10,
+			percision: 40,
+			fortitude: 0,
+			harmony: 50,
+			wisdom: 0,
+			power: 38,
+			intelligence: 62,
+			concentration: 57,
+			promptitude: 43,
+		}
+		case 27:
+		case 28: return {
+			number: 27,
+			might: 30,
+			percision: 70,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 34,
+			intelligence: 66,
+			concentration: 52,
+			promptitude: 48,
+		}
+		case 29:
+		case 30:
+		case 31: return {
+			number: 29,
+			might: 70,
+			percision: 30,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 60,
+			intelligence: 40,
+			concentration: 50,
+			promptitude: 50,
+		}
+		case 32:
+		case 33: return {
+			number: 32,
+			might: 40,
+			percision: 10,
+			fortitude: 50,
+			harmony: 0,
+			wisdom: 0,
+			power: 38,
+			intelligence: 62,
+			concentration: 72,
+			promptitude: 28,
+		}
+		case 34: return {
+			number: 34,
+			might: 40,
+			percision: 10,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 50,
+			power: 58,
+			intelligence: 42,
+			concentration: 54,
+			promptitude: 46,
+		}
+		case 35: return {
+			number: 35,
+			might: 25,
+			percision: 25,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 50,
+			power: 43,
+			intelligence: 57,
+			concentration: 57,
+			promptitude: 43,
+		}
+		case 36: return {
+			number: 36,
+			might: 10,
+			percision: 40,
+			fortitude: 0,
+			harmony: 50,
+			wisdom: 0,
+			power: 50,
+			intelligence: 50,
+			concentration: 62,
+			promptitude: 38,
+		}
+		case 37:
+		case 38: return {
+			number: 37,
+			might: 30,
+			percision: 20,
+			fortitude: 0,
+			harmony: 50,
+			wisdom: 0,
+			power: 42,
+			intelligence: 58,
+			concentration: 60,
+			promptitude: 40,
+		}
+		case 39: return {
+			number: 39,
+			might: 70,
+			percision: 30,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 66,
+			intelligence: 34,
+			concentration: 50,
+			promptitude: 50,
+		}
+		case 40:
+		case 41:
+		case 42: return {
+			number: 40,
+			might: 50,
+			percision: 50,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 72,
+			intelligence: 28,
+			concentration: 38,
+			promptitude: 62,
+		}
+		case 43: return {
+			number: 43,
+			might: 45,
+			percision: 5,
+			fortitude: 50,
+			harmony: 0,
+			wisdom: 0,
+			power: 57,
+			intelligence: 43,
+			concentration: 77,
+			promptitude: 23,
+		}
+		case 44: return {
+			number: 44,
+			might: 40,
+			percision: 60,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 41,
+			intelligence: 59,
+			concentration: 47,
+			promptitude: 53,
+		}
+		case 45: return {
+			number: 45,
+			might: 60,
+			percision: 40,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 51,
+			intelligence: 49,
+			concentration: 50,
+			promptitude: 50,
+		}
+		case 46: return {
+			number: 46,
+			might: 40,
+			percision: 60,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 55,
+			intelligence: 45,
+			concentration: 50,
+			promptitude: 50,
+		}
+		case 47:
+		case 48:
+		case 49: return {
+			number: 47,
+			might: 40,
+			percision: 60,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 40,
+			intelligence: 60,
+			concentration: 54,
+			promptitude: 46,
+		}
+		case 50: return {
+			number: 50,
+			might: 80,
+			percision: 20,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 0,
+			power: 56,
+			intelligence: 44,
+			concentration: 44,
+			promptitude: 56,
+		}
+		case 51: return {
+			number: 51,
+			might: 25,
+			percision: 25,
+			fortitude: 0,
+			harmony: 0,
+			wisdom: 50,
+			power: 50,
+			intelligence: 50,
+			concentration: 50,
+			promptitude: 50,
+		}
+		default: break
+	}
+}
