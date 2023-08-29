@@ -1169,6 +1169,9 @@
 	},
 	{
 		"name": "Heelound",
+		"idleSprite": "spr_heeloundIdle",
+		"moveSprite": "spr_heeloundMove",
+		"attackSprite": "spr_heeloundAttack",
 		"animationScale": 0.3,
 		"number": 40,
 		"imageName": "Heelound.png",
@@ -1196,6 +1199,9 @@
 	},
 	{
 		"name": "Magmound",
+		"idleSprite": "spr_magmoundIdle",
+		"moveSprite": "spr_magmoundMove",
+		"attackSprite": "spr_magmoundAttack",
 		"imageName": "Magmound.png",
 		"animationScale": 0.3,
 		"number": 41,
@@ -1223,6 +1229,9 @@
 	},
 	{
 		"name": "Mistound",
+		"idleSprite": "spr_mistoundIdle",
+		"moveSprite": "spr_mistoundMove",
+		"attackSprite": "spr_mistoundAttack",
 		"imageName": "Mistound.png",
 		"animationScale": 0.3,
 		"number": 42,
@@ -1250,6 +1259,9 @@
 	},
 	{
 		"name": "Orgrot",
+		"idleSprite": "spr_orgrotIdle",
+		"moveSprite": "spr_orgrotMove",
+		"attackSprite": "spr_orgrotAttack",
 		"imageName": "Orgrot.png",
 		"animationScale": 0.3,
 		"number": 43,
@@ -1277,6 +1289,9 @@
 	},
 	{
 		"name": "Elembolt",
+		"idleSprite": "spr_elemboltIdle",
+		"moveSprite": "spr_elemboltMove",
+		"attackSprite": "spr_elemboltAttack",
 		"imageName": "Elembolt.png",
 		"animationScale": 0.3,
 		"number": 44,
@@ -1304,6 +1319,9 @@
 	},
 	{
 		"name": "Elemquake",
+		"idleSprite": "spr_elemquakeIdle",
+		"moveSprite": "spr_elemquakeMove",
+		"attackSprite": "spr_elemquakeAttack",
 		"imageName": "Elemquake.png",
 		"animationScale": 0.3,
 		"number": 45,
@@ -1331,6 +1349,9 @@
 	},
 	{
 		"name": "Elemgale",
+		"idleSprite": "spr_elemgaleIdle",
+		"moveSprite": "spr_elemgaleMove",
+		"attackSprite": "spr_elemgaleAttack",
 		"imageName": "Elemgale.png",
 		"animationScale": 0.3,
 		"number": 46,
@@ -1358,6 +1379,9 @@
 	},
 	{
 		"name": "Serpatox",
+		"idleSprite": "spr_serpatoxIdle",
+		"moveSprite": "spr_serpatoxMove",
+		"attackSprite": "spr_serpatoxAttack",
 		"imageName": "Serpatox.png",
 		"animationScale": 0.3,
 		"number": 47,
@@ -1385,6 +1409,9 @@
 	},
 	{
 		"name": "Lixlime",
+		"idleSprite": "spr_lixlimeIdle",
+		"moveSprite": "spr_lixlimeMove",
+		"attackSprite": "spr_lixlimeAttack",
 		"imageName": "Lixlime.png",
 		"animationScale": 0.3,
 		"number": 48,
@@ -1412,6 +1439,9 @@
 	},
 	{
 		"name": "Ptearonox",
+		"idleSprite": "spr_ptearonoxIdle",
+		"moveSprite": "spr_ptearonoxMove",
+		"attackSprite": "spr_ptearonoxAttack",
 		"imageName": "Ptearonox.png",
 		"animationScale": 0.3,
 		"number": 49,
@@ -1437,6 +1467,9 @@
 	},
 	{
 		"name": "Infernemort",
+		"idleSprite": "spr_infernemortIdle",
+		"moveSprite": "spr_infernemortMove",
+		"attackSprite": "spr_infernemortAttack",
 		"imageName": "Infernemort.png",
 		"animationScale": 0.3,
 		"number": 50,
@@ -1462,6 +1495,9 @@
 	},
 	{
 		"name": "Infernemis",
+		"idleSprite": "spr_infernemisIdle",
+		"moveSprite": "spr_infernemisMove",
+		"attackSprite": "spr_infernemisAttack",
 		"imageName": "Infernemis.png",
 		"animationScale": 0.3,
 		"number": 51,
