@@ -863,7 +863,7 @@ function GetGenericInfernomonData(_number){
 		case 40: return {
 			name: "Heelound",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 50,
 			baseAttack: 80,
@@ -885,7 +885,7 @@ function GetGenericInfernomonData(_number){
 		case 41: return {
 			name: "Magmound",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.45,
 			maxExpPoints: 1000000,
 			baseHp: 65,
 			baseAttack: 130,
@@ -907,7 +907,7 @@ function GetGenericInfernomonData(_number){
 		case 42: return {
 			name: "Mistound",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 65,
 			baseAttack: 65,
@@ -929,7 +929,7 @@ function GetGenericInfernomonData(_number){
 		case 43: return {
 			name: "Orgrot",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.55,
 			maxExpPoints: 1000000,
 			baseHp: 140,
 			baseAttack: 110,
@@ -951,7 +951,7 @@ function GetGenericInfernomonData(_number){
 		case 44: return {
 			name: "Elembolt",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.7,
 			maxExpPoints: 1000000,
 			baseHp: 90,
 			baseAttack: 90,
@@ -973,7 +973,7 @@ function GetGenericInfernomonData(_number){
 		case 45: return {
 			name: "Elemquake",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.7,
 			maxExpPoints: 1000000,
 			baseHp: 90,
 			baseAttack: 90,
@@ -995,7 +995,7 @@ function GetGenericInfernomonData(_number){
 		case 46: return {
 			name: "Elemgale",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.7,
 			maxExpPoints: 1000000,
 			baseHp: 90,
 			baseAttack: 125,
@@ -1083,7 +1083,7 @@ function GetGenericInfernomonData(_number){
 		case 50: return {
 			name: "Infernemort",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 105,
 			baseAttack: 150,
