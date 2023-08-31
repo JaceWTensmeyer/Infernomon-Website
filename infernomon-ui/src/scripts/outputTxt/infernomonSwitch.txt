@@ -1039,7 +1039,7 @@ function GetGenericInfernomonData(_number){
 		case 48: return {
 			name: "Lixlime",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 70,
 			baseAttack: 60,
@@ -1061,7 +1061,7 @@ function GetGenericInfernomonData(_number){
 		case 49: return {
 			name: "Ptearonox",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.6,
 			maxExpPoints: 1000000,
 			baseHp: 100,
 			baseAttack: 90,
@@ -1105,7 +1105,7 @@ function GetGenericInfernomonData(_number){
 		case 51: return {
 			name: "Infernemis",
 			number: _number,
-			animationScale: 0.3,
+			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 100,
 			baseAttack: 100,
