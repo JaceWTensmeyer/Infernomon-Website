@@ -41,4 +41,16 @@
 .hamburgerMenuOpenIcon {
 	text-align: right;
 	padding: 5px;
+	cursor: pointer;
+}
+
+.hamburgerMenuItem {
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: 'Comic Sans MS';
+	cursor: pointer;
+}
+.hamburgerMenuItem:hover {
+	background-color: #16db93;
 }

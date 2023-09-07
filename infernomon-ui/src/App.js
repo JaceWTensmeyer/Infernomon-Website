@@ -10,7 +10,7 @@ import { Battling } from '../src/Components/Battling';
 import { Professions } from '../src/Components/Professions';
 import { AuctionHouse } from '../src/Components/AuctionHouse';
 import { Attacks } from '../src/Components/Attacks';
-import { Items } from '../src/Components/Items';
+import { Pendants } from './Components/Pendants';
 
 import './App.css';
 const hamburgerWidth = 900;
@@ -83,10 +83,10 @@ function App() {
 							Attacks
 						</div>
 						<div
-							className={activeTab === 'Items' ? 'tabSelected' : 'tab'}
-							onClick={() => setActiveTab('Items')}
+							className={activeTab === 'Pendants' ? 'tabSelected' : 'tab'}
+							onClick={() => setActiveTab('Pendants')}
 						>
-							Items
+							Pendants
 						</div>
 					</div>
 				</div>
@@ -99,6 +99,73 @@ function App() {
 							<MenuIcon onClick={() => setIsHamburgerMenuOpen(true)} />
 						)}
 					</div>
+					{isHamburgerMenuOpen && (
+						<div>
+							<div
+								className='hamburgerMenuItem'
+								onClick={() => {
+									setActiveTab('About');
+									setIsHamburgerMenuOpen(false);
+								}}
+							>
+								About
+							</div>
+							<div
+								className='hamburgerMenuItem'
+								onClick={() => {
+									setActiveTab('Infernomon');
+									setIsHamburgerMenuOpen(false);
+								}}
+							>
+								Infernomon
+							</div>
+							<div
+								className='hamburgerMenuItem'
+								onClick={() => {
+									setActiveTab('Dungeons');
+									setIsHamburgerMenuOpen(false);
+								}}
+							>
+								Dungeons
+							</div>
+							<div
+								className='hamburgerMenuItem'
+								onClick={() => {
+									setActiveTab('Battling');
+									setIsHamburgerMenuOpen(false);
+								}}
+							>
+								Battling
+							</div>
+							<div
+								className='hamburgerMenuItem'
+								onClick={() => {
+									setActiveTab('Professions');
+									setIsHamburgerMenuOpen(false);
+								}}
+							>
+								Professions
+							</div>
+							<div
+								className='hamburgerMenuItem'
+								onClick={() => {
+									setActiveTab('Attacks');
+									setIsHamburgerMenuOpen(false);
+								}}
+							>
+								Attacks
+							</div>
+							<div
+								className='hamburgerMenuItem'
+								onClick={() => {
+									setActiveTab('Pendants');
+									setIsHamburgerMenuOpen(false);
+								}}
+							>
+								Pendants
+							</div>
+						</div>
+					)}
 				</div>
 			)}
 			{activeTab === 'About' ? <About /> : <div></div>}
@@ -108,7 +175,7 @@ function App() {
 			{activeTab === 'Professions' ? <Professions /> : <div></div>}
 			{activeTab === 'AuctionHouse' ? <AuctionHouse /> : <div></div>}
 			{activeTab === 'Attacks' ? <Attacks /> : <div></div>}
-			{activeTab === 'Items' ? <Items /> : <div></div>}
+			{activeTab === 'Pendants' ? <Pendants /> : <div></div>}
 		</div>
 	);
 }
