@@ -55,7 +55,6 @@ const getRarityColor = (rarity) => {
 const InfernomonCard = ({ infernomon }) => {
 	return (
 		<div className='infernomonCardContainer'>
-			{console.log(infernomon)}
 			<div style={{ float: 'left', margin: '5px' }}>#{infernomon.number}</div>
 			<div className='name'>{infernomon.name}</div>
 			<img
