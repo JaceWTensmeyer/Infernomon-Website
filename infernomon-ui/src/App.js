@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+
 import { About } from '../src/Components/About';
 import { Infernomon } from '../src/Components/Infernomon';
 import { Dungeons } from '../src/Components/Dungeons';
@@ -14,6 +17,7 @@ const hamburgerWidth = 900;
 
 function App() {
 	const [activeTab, setActiveTab] = useState('About');
+	const [isHamburgerMenuOpen, setIsHamburgerMenuOpen] = useState(false);
 	const [windowSize, setWindowSize] = useState([
 		window.innerWidth,
 		window.innerHeight,
@@ -87,7 +91,15 @@ function App() {
 					</div>
 				</div>
 			) : (
-				<div>hamburer menu here</div>
+				<div className='hamburgerMenuBackground'>
+					<div className='hamburgerMenuOpenIcon'>
+						{isHamburgerMenuOpen ? (
+							<CloseIcon onClick={() => setIsHamburgerMenuOpen(false)} />
+						) : (
+							<MenuIcon onClick={() => setIsHamburgerMenuOpen(true)} />
+						)}
+					</div>
+				</div>
 			)}
 			{activeTab === 'About' ? <About /> : <div></div>}
 			{activeTab === 'Infernomon' ? <Infernomon /> : <div></div>}

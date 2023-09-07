@@ -1,7 +1,7 @@
 .App {
 	text-align: center;
 	height: 100vh;
-	background-color: #202342;
+	background-color: #54478c;
 	color: white;
 }
 
@@ -31,4 +31,14 @@
 .tabSelected {
 	border-bottom: 2px solid white;
 	background-color: #4f7bff;
+}
+
+.hamburgerMenuBackground {
+	width: 100%;
+	background-color: #0db39e;
+}
+
+.hamburgerMenuOpenIcon {
+	text-align: right;
+	padding: 5px;
 }
