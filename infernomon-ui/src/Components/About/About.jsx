@@ -14,7 +14,7 @@ function About() {
 					<img
 						className='titleImage'
 						src={require(`../../images/TitleArt.png`)}
-						height={500}
+						height={400}
 					></img>
 				</div>
 			</div>
@@ -22,6 +22,11 @@ function About() {
 				<div className='section'>
 					<div className='sectionHeader'>Infernomon</div>
 					<div className='sectionText'>{AboutText.infernomon}</div>
+					<img
+						className='titleImage'
+						src={require(`../../images/Starters.png`)}
+						height={300}
+					></img>
 				</div>
 			</div>
 			<div className='sectionContainer'></div>
