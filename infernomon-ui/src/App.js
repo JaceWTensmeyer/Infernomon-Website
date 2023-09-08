@@ -36,9 +36,9 @@ function App() {
 
 	return (
 		<div className='App'>
+			<div className='title'>Infernomon</div>
 			{windowSize[0] > hamburgerWidth ? (
 				<div>
-					<div className='title'>Infernomon</div>
 					<div className='tabContainer'>
 						<div
 							className={activeTab === 'About' ? 'tabSelected' : 'tab'}

@@ -1,7 +1,6 @@
 .App {
 	text-align: center;
 	height: 100vh;
-	background-color: #54478c;
 	color: white;
 }
 
@@ -10,10 +9,12 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: 'Comic Sans MS';
+	background-color: black;
 }
 
 .tabContainer {
 	text-align: center;
+	background-color: black;
 }
 
 .tab,
@@ -23,14 +24,15 @@
 	margin: 1px;
 	cursor: pointer;
 	display: inline-block;
-	background-color: #2d325a;
+	background-color: #0db39e;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	font-family: 'Comic Sans MS';
 }
 
 .tabSelected {
 	border-bottom: 2px solid white;
-	background-color: #4f7bff;
+	background-color: #16db93;
 }
 
 .hamburgerMenuBackground {
