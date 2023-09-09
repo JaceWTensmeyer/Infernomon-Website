@@ -33,6 +33,11 @@ function About() {
 			<div className='section'>
 				<div className='sectionHeader'>Dungeons</div>
 				<div className='sectionText'>{AboutText.dungeons}</div>
+				<img
+					className='titleImage'
+					src={require(`../../images/FireDungeonEntrance.png`)}
+					height={300}
+				></img>
 			</div>
 			<div className='sectionContainer'></div>
 			<div className='section'>
