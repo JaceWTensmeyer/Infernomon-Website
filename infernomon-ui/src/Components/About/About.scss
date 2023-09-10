@@ -24,6 +24,18 @@
 	padding: 10px;
 }
 
+.infernomonHereButton {
+	color: white;
+	cursor: pointer;
+	font-size: 30px;
+	background-color: #0db39e;
+	border-radius: 25px;
+}
+
+.infernomonHereButton:hover {
+	background-color: #16db93;
+}
+
 .sectionText {
 	min-width: 300px;
 	max-width: 800px;

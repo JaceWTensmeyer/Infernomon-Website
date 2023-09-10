@@ -4,13 +4,21 @@ import AboutText from '../../jsonData/aboutText.json';
 
 import './About.scss';
 
-function About() {
+const About = ({ setActiveTab }) => {
 	return (
 		<div className='container'>
 			<div className='sectionContainer'>
 				<div className='section'>
 					<div className='sectionHeader'>Overview</div>
-					<div className='sectionText'>{AboutText.introduction}</div>
+					<div className='sectionText'>
+						{AboutText.introduction}
+						<div
+							className='infernomonHereButton'
+							onClick={() => setActiveTab('Infernomon')}
+						>
+							Look at all the Infernomon here!
+						</div>
+					</div>
 					<img
 						className='titleImage'
 						src={require(`../../images/TitleArt.png`)}
@@ -66,6 +74,6 @@ function About() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default About;

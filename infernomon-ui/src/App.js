@@ -168,7 +168,11 @@ function App() {
 					)}
 				</div>
 			)}
-			{activeTab === 'About' ? <About /> : <div></div>}
+			{activeTab === 'About' ? (
+				<About setActiveTab={setActiveTab} />
+			) : (
+				<div></div>
+			)}
 			{activeTab === 'Infernomon' ? <Infernomon /> : <div></div>}
 			{activeTab === 'Dungeons' ? <Dungeons /> : <div></div>}
 			{activeTab === 'Battling' ? <Battling /> : <div></div>}
