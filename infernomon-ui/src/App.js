@@ -10,7 +10,7 @@ import { Battling } from '../src/Components/Battling';
 import { Professions } from '../src/Components/Professions';
 import { AuctionHouse } from '../src/Components/AuctionHouse';
 import { Attacks } from '../src/Components/Attacks';
-import { Pendants } from './Components/Pendants';
+import { Items } from './Components/Items';
 
 import './App.css';
 const hamburgerWidth = 900;
@@ -83,10 +83,10 @@ function App() {
 							Attacks
 						</div>
 						<div
-							className={activeTab === 'Pendants' ? 'tabSelected' : 'tab'}
-							onClick={() => setActiveTab('Pendants')}
+							className={activeTab === 'Items' ? 'tabSelected' : 'tab'}
+							onClick={() => setActiveTab('Items')}
 						>
-							Pendants
+							Items
 						</div>
 					</div>
 				</div>
@@ -158,11 +158,11 @@ function App() {
 							<div
 								className='hamburgerMenuItem'
 								onClick={() => {
-									setActiveTab('Pendants');
+									setActiveTab('Items');
 									setIsHamburgerMenuOpen(false);
 								}}
 							>
-								Pendants
+								Items
 							</div>
 						</div>
 					)}
@@ -179,7 +179,7 @@ function App() {
 			{activeTab === 'Professions' ? <Professions /> : <div></div>}
 			{activeTab === 'AuctionHouse' ? <AuctionHouse /> : <div></div>}
 			{activeTab === 'Attacks' ? <Attacks /> : <div></div>}
-			{activeTab === 'Pendants' ? <Pendants /> : <div></div>}
+			{activeTab === 'Items' ? <Items /> : <div></div>}
 		</div>
 	);
 }
