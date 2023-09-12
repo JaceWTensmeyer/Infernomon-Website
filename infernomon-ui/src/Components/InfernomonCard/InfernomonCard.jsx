@@ -13,19 +13,19 @@ const getStatColor = (stat) => {
 const getTypeColor = (type) => {
 	switch (type) {
 		case 'Fire':
-			return 'firebrick';
+			return '#b22222';
 		case 'Water':
-			return 'dodgerblue';
+			return '#1e90ff';
 		case 'Blight':
 			return 'green';
 		case 'Electric':
-			return 'gold';
+			return '#ffd700';
 		case 'Wind':
-			return 'cornflowerBlue';
+			return '#6494ed';
 		case 'Earth':
-			return 'goldenrod';
+			return '#daa520';
 		case 'Arcane':
-			return 'deeppink';
+			return '#ff1493';
 		case 'Toxic':
 			return 'purple';
 		case 'Normal':
@@ -62,16 +62,14 @@ const InfernomonCard = ({
 			{activeInfernomon === infernomon.name ? (
 				<div className='infernomonCardContainerOpen'>
 					<div style={{ float: 'left', margin: '5px' }}>
-						#{infernomon.number}
+						#{infernomon.number}-{infernomon.name}
 					</div>
-					<div className='name'>{infernomon.name}</div>
 					<img
-						className='infernomonImg'
+						className='infImgOpen'
 						src={require(`../../images/infernomon/${
 							infernomon.imageName ?? 'unknown.png'
 						}`)}
 						alt='Num 1'
-						height={100}
 					/>
 					<div className='type'>Type(s):</div>
 					<div
@@ -231,9 +229,8 @@ const InfernomonCard = ({
 			) : (
 				<div className='infernomonCardContainerClosed'>
 					<div style={{ float: 'left', margin: '5px' }}>
-						#{infernomon.number}
+						#{infernomon.number}-{infernomon.name}
 					</div>
-					<div style={{ margin: '5px' }}>{infernomon.name}</div>
 					<img
 						className='infImgClosed'
 						src={require(`../../images/infernomon/${

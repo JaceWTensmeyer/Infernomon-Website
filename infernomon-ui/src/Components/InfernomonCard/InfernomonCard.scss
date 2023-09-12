@@ -1,8 +1,8 @@
 .infernomonCardContainerOpen {
 	text-align: center;
 	margin: 10px;
-	background-color: #7133ff;
-	width: 370px;
+	background-color: #591fce;
+	width: 300px;
 	height: 600px;
 	float: left;
 	border-radius: 20px;
@@ -12,34 +12,30 @@
 .infernomonCardContainerClosed {
 	text-align: center;
 	margin: 10px;
-	background-color: #7133ff;
-	width: 170px;
-	height: 230px;
+	background-color: #591fce;
+	width: 140px;
+	height: 200px;
 	float: left;
 	border-radius: 20px;
+	font-size: 15px;
 	font-family: 'Comic Sans MS';
-}
-
-.name {
-	font-size: 30px;
-	margin: 5px;
 }
 
 .infernomonImg,
 .infImgOpen,
 .infImgClosed {
-	background-color: #0db39e;
+	background-color: #3dbdc2;
 	border-radius: 15px;
 	margin: 10px;
 }
 
 .infImgOpen {
-	height: 300px;
+	height: 280px;
 	float: left;
 }
 
 .infImgClosed {
-	height: 130px;
+	height: 100px;
 }
 
 .type {
@@ -67,7 +63,7 @@
 	color: white;
 	cursor: pointer;
 	font-size: 20px;
-	background-color: #0db39e;
+	background-color: #3dbdc2;
 	border-radius: 25px;
 }
 
