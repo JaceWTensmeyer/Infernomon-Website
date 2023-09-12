@@ -1,43 +1,76 @@
-.infernomonCardContainer {
-  text-align: center;
-  margin: 10px;
-  background-color: #1c4c4b;
-  width: 500px;
-  height: 600px;
-  float: left;
-  border-radius: 20px;
+.infernomonCardContainerOpen {
+	text-align: center;
+	margin: 10px;
+	background-color: #7133ff;
+	width: 370px;
+	height: 600px;
+	float: left;
+	border-radius: 20px;
+	font-family: 'Comic Sans MS';
+}
+
+.infernomonCardContainerClosed {
+	text-align: center;
+	margin: 10px;
+	background-color: #7133ff;
+	width: 170px;
+	height: 230px;
+	float: left;
+	border-radius: 20px;
+	font-family: 'Comic Sans MS';
 }
 
 .name {
-  font-size: 30px;
-  margin: 5px;
+	font-size: 30px;
+	margin: 5px;
 }
 
-.infernomonImg {
-  background-color: #1b313e;
-  border-radius: 15px;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+.infernomonImg,
+.infImgOpen,
+.infImgClosed {
+	background-color: #0db39e;
+	border-radius: 15px;
+	margin: 10px;
+}
+
+.infImgOpen {
+	height: 300px;
+	float: left;
+}
+
+.infImgClosed {
+	height: 130px;
 }
 
 .type {
-  width: 25%;
-  float: left;
-  text-align: left;
+	width: 25%;
+	float: left;
+	text-align: left;
 }
 
 .stats {
-  margin-top: 15px;
-  width: 25%;
-  float: left;
-  > div {
-    text-align: left;
-  }
+	margin-top: 15px;
+	width: 25%;
+	float: left;
+	> div {
+		text-align: left;
+	}
 }
 
 .statBars {
-  margin-top: 15px;
-  width: 25%;
-  float: left;
+	margin-top: 15px;
+	width: 25%;
+	float: left;
+}
+
+.detailsBtn {
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	background-color: #0db39e;
+	border-radius: 25px;
+}
+
+.detailsBtn:hover {
+	background-color: #16db93;
 }
