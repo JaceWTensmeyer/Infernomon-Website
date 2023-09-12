@@ -3,10 +3,10 @@ import React from 'react';
 import './InfernomonCard.scss';
 
 const getStatColor = (stat) => {
-	if (stat < 49) return 'crimson';
-	if (stat < 79) return 'orange';
-	if (stat < 109) return 'yellow';
-	if (stat < 139) return 'green';
+	if (stat < 69) return 'crimson';
+	if (stat < 94) return 'orange';
+	if (stat < 119) return 'yellow';
+	if (stat < 144) return 'green';
 	return 'teal';
 };
 
