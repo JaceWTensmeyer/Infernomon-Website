@@ -3,10 +3,10 @@ import React from 'react';
 import './InfernomonCard.scss';
 
 const getStatColor = (stat) => {
-	if (stat < 40) return 'crimson';
-	if (stat < 65) return 'orange';
-	if (stat < 90) return 'yellow';
-	if (stat < 115) return 'green';
+	if (stat < 49) return 'crimson';
+	if (stat < 79) return 'orange';
+	if (stat < 109) return 'yellow';
+	if (stat < 139) return 'green';
 	return 'teal';
 };
 
@@ -96,9 +96,11 @@ const InfernomonCard = ({
 					{/* Stats */}
 					<div className='stats'>
 						<div>HP: {infernomon.hp}</div>
-						<div>Attack: {infernomon.attack}</div>
+						{infernomon.attack > 0 && <div>Attack: {infernomon.attack}</div>}
 						<div>Defense: {infernomon.defense}</div>
-						<div>Sp Attack: {infernomon.spAttack}</div>
+						{infernomon.spAttack > 0 && (
+							<div>Sp Attack: {infernomon.spAttack}</div>
+						)}
 						<div>Sp Defense: {infernomon.spDefense}</div>
 						<div>Agility: {infernomon.agility}</div>
 						<div>
@@ -112,52 +114,55 @@ const InfernomonCard = ({
 						</div>
 					</div>
 					{/* Stat bars */}
-					<div className='statBars'>
+					<div className='statBarsContainer'>
 						<div
+							className='statBar'
 							style={{
 								backgroundColor: getStatColor(infernomon.hp),
-								height: '10px',
-								margin: '10px',
 								width: infernomon.hp / 1.5 + 'px',
 							}}
 						></div>
+						{infernomon.attack > 0 && (
+							<div
+								className='statBar'
+								style={{
+									backgroundColor: getStatColor(infernomon.attack),
+
+									width: infernomon.attack / 1.5 + 'px',
+								}}
+							></div>
+						)}
 						<div
-							style={{
-								backgroundColor: getStatColor(infernomon.attack),
-								height: '10px',
-								margin: '10px',
-								width: infernomon.attack / 1.5 + 'px',
-							}}
-						></div>
-						<div
+							className='statBar'
 							style={{
 								backgroundColor: getStatColor(infernomon.defense),
-								height: '10px',
-								margin: '10px',
+
 								width: infernomon.defense / 1.5 + 'px',
 							}}
 						></div>
+						{infernomon.spAttack > 0 && (
+							<div
+								className='statBar'
+								style={{
+									backgroundColor: getStatColor(infernomon.spAttack),
+
+									width: infernomon.spAttack / 1.5 + 'px',
+								}}
+							></div>
+						)}
 						<div
-							style={{
-								backgroundColor: getStatColor(infernomon.spAttack),
-								height: '10px',
-								margin: '10px',
-								width: infernomon.spAttack / 1.5 + 'px',
-							}}
-						></div>
-						<div
+							className='statBar'
 							style={{
 								backgroundColor: getStatColor(infernomon.spDefense),
-								height: '10px',
-								margin: '10px',
+
 								width: infernomon.spDefense / 1.5 + 'px',
 							}}
 						></div>
 						<div
+							className='statBar'
 							style={{
 								backgroundColor: getStatColor(infernomon.agility),
-								height: '10px',
-								margin: '10px',
+
 								width: infernomon.agility / 1.5 + 'px',
 							}}
 						></div>
