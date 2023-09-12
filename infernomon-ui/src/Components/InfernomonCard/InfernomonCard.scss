@@ -38,10 +38,16 @@
 	height: 100px;
 }
 
-.type {
-	width: 25%;
+.typesContainer {
 	float: left;
-	text-align: left;
+	.typeHeader {
+		width: 100px;
+		float: left;
+	}
+	.type {
+		width: 90px;
+		float: left;
+	}
 }
 
 .stats {

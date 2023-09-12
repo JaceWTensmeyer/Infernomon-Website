@@ -61,37 +61,38 @@ const InfernomonCard = ({
 		<div>
 			{activeInfernomon === infernomon.name ? (
 				<div className='infernomonCardContainerOpen'>
-					<div style={{ float: 'left', margin: '5px' }}>
-						#{infernomon.number}-{infernomon.name}
+					<div>
+						<div style={{ float: 'left', margin: '5px' }}>
+							#{infernomon.number}-{infernomon.name}
+						</div>
+						<img
+							className='infImgOpen'
+							src={require(`../../images/infernomon/${
+								infernomon.imageName ?? 'unknown.png'
+							}`)}
+							alt='Num 1'
+						/>
 					</div>
-					<img
-						className='infImgOpen'
-						src={require(`../../images/infernomon/${
-							infernomon.imageName ?? 'unknown.png'
-						}`)}
-						alt='Num 1'
-					/>
-					<div className='type'>Type(s):</div>
-					<div
-						style={{
-							backgroundColor: getTypeColor(infernomon.type1),
-							width: '12%',
-							float: 'left',
-							borderRadius: '5px',
-						}}
-					>
-						{infernomon.type1}
+					<div className='typesContainer'>
+						<div className='typeHeader'>Type(s):</div>
+						<div
+							className='type'
+							style={{
+								backgroundColor: getTypeColor(infernomon.type1),
+							}}
+						>
+							{infernomon.type1}
+						</div>
+						<div
+							className='type'
+							style={{
+								backgroundColor: getTypeColor(infernomon.type2),
+							}}
+						>
+							{infernomon.type2}
+						</div>
 					</div>
-					<div
-						style={{
-							backgroundColor: getTypeColor(infernomon.type2),
-							width: '12%',
-							float: 'left',
-							borderRadius: '5px',
-						}}
-					>
-						{infernomon.type2}
-					</div>
+
 					{/* Stats */}
 					<div className='stats'>
 						<div>HP: {infernomon.hp}</div>
