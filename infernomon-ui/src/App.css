@@ -8,12 +8,12 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: 'Comic Sans MS';
-	background-image: linear-gradient(to right, black, #591fce, black);
+	background-image: linear-gradient(to right, #0c9cee, #591fce, black);
 }
 
 .tabContainer {
 	text-align: center;
-	background-image: linear-gradient(to right, black, #591fce, black);
+	background-image: linear-gradient(to right, #0c9cee, #591fce, black);
 }
 
 .tab,

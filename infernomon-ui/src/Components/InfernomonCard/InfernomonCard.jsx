@@ -3,11 +3,11 @@ import React from 'react';
 import './InfernomonCard.scss';
 
 const getStatColor = (stat) => {
-	if (stat < 69) return 'crimson';
-	if (stat < 94) return 'orange';
-	if (stat < 119) return 'yellow';
-	if (stat < 144) return 'green';
-	return 'teal';
+	if (stat < 69) return 'gray';
+	if (stat < 94) return '#47f566';
+	if (stat < 119) return '#4ab1ff';
+	if (stat < 144) return '#ab32e6';
+	return '#f5ce4e';
 };
 
 const getTypeColor = (type) => {
@@ -78,7 +78,11 @@ const InfernomonCard = ({
 									infernomon.type2 !== ''
 										? getTypeColor(infernomon.type2)
 										: 'white'
-								},${getTypeColor(infernomon.type1)})`,
+								},${getTypeColor(infernomon.type1)},${
+									infernomon.type2 !== ''
+										? getTypeColor(infernomon.type2)
+										: 'white'
+								})`,
 							}}
 							className='infImgOpen'
 							src={require(`../../images/infernomon/${
@@ -132,7 +136,9 @@ const InfernomonCard = ({
 						<div
 							className='statBar'
 							style={{
-								backgroundColor: getStatColor(infernomon.hp),
+								backgroundImage: `linear-gradient(white, ${getStatColor(
+									infernomon.hp
+								)})`,
 								width: infernomon.hp / 1.5 + 'px',
 							}}
 						></div>
@@ -140,8 +146,9 @@ const InfernomonCard = ({
 							<div
 								className='statBar'
 								style={{
-									backgroundColor: getStatColor(infernomon.attack),
-
+									backgroundImage: `linear-gradient(white, ${getStatColor(
+										infernomon.attack
+									)})`,
 									width: infernomon.attack / 1.5 + 'px',
 								}}
 							></div>
@@ -149,8 +156,9 @@ const InfernomonCard = ({
 						<div
 							className='statBar'
 							style={{
-								backgroundColor: getStatColor(infernomon.defense),
-
+								backgroundImage: `linear-gradient(white, ${getStatColor(
+									infernomon.defense
+								)})`,
 								width: infernomon.defense / 1.5 + 'px',
 							}}
 						></div>
@@ -158,8 +166,9 @@ const InfernomonCard = ({
 							<div
 								className='statBar'
 								style={{
-									backgroundColor: getStatColor(infernomon.spAttack),
-
+									backgroundImage: `linear-gradient(white, ${getStatColor(
+										infernomon.spAttack
+									)})`,
 									width: infernomon.spAttack / 1.5 + 'px',
 								}}
 							></div>
@@ -167,16 +176,18 @@ const InfernomonCard = ({
 						<div
 							className='statBar'
 							style={{
-								backgroundColor: getStatColor(infernomon.spDefense),
-
+								backgroundImage: `linear-gradient(white, ${getStatColor(
+									infernomon.spDefense
+								)})`,
 								width: infernomon.spDefense / 1.5 + 'px',
 							}}
 						></div>
 						<div
 							className='statBar'
 							style={{
-								backgroundColor: getStatColor(infernomon.agility),
-
+								backgroundImage: `linear-gradient(white, ${getStatColor(
+									infernomon.agility
+								)})`,
 								width: infernomon.agility / 1.5 + 'px',
 							}}
 						></div>
@@ -246,7 +257,11 @@ const InfernomonCard = ({
 								infernomon.type2 !== ''
 									? getTypeColor(infernomon.type2)
 									: 'white'
-							},${getTypeColor(infernomon.type1)})`,
+							},${getTypeColor(infernomon.type1)},${
+								infernomon.type2 !== ''
+									? getTypeColor(infernomon.type2)
+									: 'white'
+							})`,
 						}}
 						className='infImgClosed'
 						src={require(`../../images/infernomon/${
