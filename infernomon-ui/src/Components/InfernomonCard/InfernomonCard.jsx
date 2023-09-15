@@ -60,12 +60,26 @@ const InfernomonCard = ({
 	return (
 		<div>
 			{activeInfernomon === infernomon.name ? (
-				<div className='infernomonCardContainerOpen'>
+				<div
+					// style={{
+					// 	backgroundImage: `linear-gradient(white,${getRarityColor(
+					// 		infernomon.rarity
+					// 	)})`,
+					// }}
+					className='infernomonCardContainerOpen'
+				>
 					<div>
 						<div style={{ float: 'left', margin: '5px', width: '100%' }}>
 							#{infernomon.number}-{infernomon.name}
 						</div>
 						<img
+							style={{
+								backgroundImage: `linear-gradient(to bottom right,${
+									infernomon.type2 !== ''
+										? getTypeColor(infernomon.type2)
+										: 'white'
+								},${getTypeColor(infernomon.type1)})`,
+							}}
 							className='infImgOpen'
 							src={require(`../../images/infernomon/${
 								infernomon.imageName ?? 'unknown.png'
@@ -215,11 +229,25 @@ const InfernomonCard = ({
 					</div>
 				</div>
 			) : (
-				<div className='infernomonCardContainerClosed'>
+				<div
+					// style={{
+					// 	backgroundImage: `linear-gradient(white,${getRarityColor(
+					// 		infernomon.rarity
+					// 	)})`,
+					// }}
+					className='infernomonCardContainerClosed'
+				>
 					<div style={{ float: 'left', margin: '5px' }}>
 						#{infernomon.number}-{infernomon.name}
 					</div>
 					<img
+						style={{
+							backgroundImage: `linear-gradient(to bottom right,${
+								infernomon.type2 !== ''
+									? getTypeColor(infernomon.type2)
+									: 'white'
+							},${getTypeColor(infernomon.type1)})`,
+						}}
 						className='infImgClosed'
 						src={require(`../../images/infernomon/${
 							infernomon.imageName ?? 'unknown.png'

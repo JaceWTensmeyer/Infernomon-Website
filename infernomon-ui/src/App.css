@@ -8,12 +8,12 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: 'Comic Sans MS';
-	background-color: black;
+	background-image: linear-gradient(to right, black, #591fce, black);
 }
 
 .tabContainer {
 	text-align: center;
-	background-color: black;
+	background-image: linear-gradient(to right, black, #591fce, black);
 }
 
 .tab,
@@ -23,7 +23,7 @@
 	margin: 1px;
 	cursor: pointer;
 	display: inline-block;
-	background-color: #3dbdc2;
+	background-image: linear-gradient(to bottom right, #3dbdc2, #16db93);
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	font-family: 'Comic Sans MS';
@@ -31,7 +31,7 @@
 
 .tabSelected {
 	border-bottom: 2px solid white;
-	background-color: #0c9cee;
+	background-image: linear-gradient(to bottom right, #16db93, #a1f480);
 }
 
 .hamburgerMenuBackground {

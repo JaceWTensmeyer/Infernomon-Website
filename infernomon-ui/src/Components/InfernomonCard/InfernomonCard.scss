@@ -1,7 +1,8 @@
 .infernomonCardContainerOpen {
 	text-align: center;
 	margin: 10px;
-	background-color: #591fce;
+	//background-color: #591fce;
+	background-image: linear-gradient(to bottom right, #591fce, black);
 	width: 300px;
 	height: 860px;
 	float: left;
@@ -12,7 +13,8 @@
 .infernomonCardContainerClosed {
 	text-align: center;
 	margin: 10px;
-	background-color: #591fce;
+	//background-color: #591fce;
+	background-image: linear-gradient(to bottom right, #591fce, black);
 	width: 140px;
 	height: 200px;
 	float: left;
@@ -24,7 +26,6 @@
 .infernomonImg,
 .infImgOpen,
 .infImgClosed {
-	background-color: #3dbdc2;
 	border-radius: 15px;
 	margin: 10px;
 }
@@ -83,7 +84,8 @@
 	color: white;
 	cursor: pointer;
 	font-size: 20px;
-	background-color: #3dbdc2;
+	background-image: linear-gradient(to bottom right, #3dbdc2, #16db93);
+	//background-color: #3dbdc2;
 	border-radius: 25px;
 	height: 30px;
 	float: bottom;
@@ -91,5 +93,6 @@
 }
 
 .detailsBtn:hover {
-	background-color: #16db93;
+	background-image: linear-gradient(to bottom right, #16db93, #a1f480);
+	//background-color: #16db93;
 }

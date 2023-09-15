@@ -18,7 +18,7 @@
 }
 
 .section {
-	background-color: #591fce;
+	background-image: linear-gradient(to bottom right, #591fce, black);
 	margin: 10px;
 	border-radius: 25px;
 	padding: 10px;
@@ -28,12 +28,12 @@
 	color: white;
 	cursor: pointer;
 	font-size: 30px;
-	background-color: #3dbdc2;
+	background-image: linear-gradient(to bottom right, #3dbdc2, #16db93);
 	border-radius: 25px;
 }
 
 .infernomonHereButton:hover {
-	background-color: #0c9cee;
+	background-image: linear-gradient(to bottom right, #16db93, #a1f480);
 }
 
 .sectionText {
