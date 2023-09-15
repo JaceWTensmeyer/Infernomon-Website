@@ -40,13 +40,13 @@ const getRarityColor = (rarity) => {
 		case 'Common':
 			return 'gray';
 		case 'Uncommon':
-			return 'green';
+			return '#47f566';
 		case 'Rare':
-			return 'navy';
+			return '#4ab1ff';
 		case 'Legendary':
-			return 'purple';
+			return '#ab32e6';
 		case 'Epic':
-			return 'orange';
+			return '#f5ce4e';
 		default:
 		// code block
 	}
@@ -62,7 +62,7 @@ const InfernomonCard = ({
 			{activeInfernomon === infernomon.name ? (
 				<div className='infernomonCardContainerOpen'>
 					<div>
-						<div style={{ float: 'left', margin: '5px' }}>
+						<div style={{ float: 'left', margin: '5px', width: '100%' }}>
 							#{infernomon.number}-{infernomon.name}
 						</div>
 						<img
@@ -207,29 +207,11 @@ const InfernomonCard = ({
 						<div style={{ float: 'left' }}>{infernomon.role}</div>
 					</div>
 					{/* Description */}
-					<div
-						style={{
-							float: 'left',
-							width: '100%',
-							marginTop: '10px',
-							height: '50px',
-						}}
-					>
-						<div
-							style={{
-								float: 'left',
-								paddingLeft: '10px',
-								textAlign: 'left',
-								width: '20%',
-								height: '70px',
-							}}
-						>
-							Description:{' '}
-						</div>
-						<div style={{ textAlign: 'left' }}>{infernomon.description}</div>
-						<div className='detailsBtn' onClick={() => setActiveInfernomon('')}>
-							Close
-						</div>
+					<div className='description'>
+						<div>{infernomon.description}</div>
+					</div>
+					<div className='detailsBtn' onClick={() => setActiveInfernomon('')}>
+						Close
 					</div>
 				</div>
 			) : (

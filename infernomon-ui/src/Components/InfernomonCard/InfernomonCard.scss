@@ -51,7 +51,7 @@
 }
 
 .stats {
-	margin-top: 15px;
+	padding-top: 15px;
 	margin-left: 10px;
 	width: 45%;
 	float: left;
@@ -71,12 +71,23 @@
 	margin-bottom: 7px;
 }
 
+.description {
+	margin: 10px;
+	width: 100%;
+	text-align: left;
+	height: 200px;
+	display: inline-block;
+}
+
 .detailsBtn {
 	color: white;
 	cursor: pointer;
 	font-size: 20px;
 	background-color: #3dbdc2;
 	border-radius: 25px;
+	height: 30px;
+	float: bottom;
+	width: 100%;
 }
 
 .detailsBtn:hover {
