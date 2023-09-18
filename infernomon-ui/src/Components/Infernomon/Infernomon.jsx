@@ -8,7 +8,7 @@ import './Infernomon.scss';
 const Infernomon = () => {
 	const [activeInfernomon, setActiveInfernomon] = useState('');
 	return (
-		<div>
+		<div style={{ height: '1143px', overflow: 'hidden', overflowY: 'scroll' }}>
 			<div
 				className={window.innerWidth > 1200 ? 'infernomonContainerMargins' : ''}
 			>

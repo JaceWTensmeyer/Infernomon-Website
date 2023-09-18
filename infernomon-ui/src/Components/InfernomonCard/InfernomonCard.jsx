@@ -60,14 +60,7 @@ const InfernomonCard = ({
 	return (
 		<div>
 			{activeInfernomon === infernomon.name ? (
-				<div
-					// style={{
-					// 	backgroundImage: `linear-gradient(white,${getRarityColor(
-					// 		infernomon.rarity
-					// 	)})`,
-					// }}
-					className='infernomonCardContainerOpen'
-				>
+				<div className='infernomonCardContainerOpen'>
 					<div>
 						<div style={{ float: 'left', margin: '5px', width: '100%' }}>
 							#{infernomon.number}-{infernomon.name}
