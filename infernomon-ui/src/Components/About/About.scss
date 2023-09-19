@@ -2,8 +2,10 @@
 	display: inline-block;
 	border-radius: 25px;
 	margin-top: 20px;
-	overflow: auto;
 	font-family: 'Comic Sans MS';
+	height: 1090px;
+	overflow: hidden;
+	overflow-y: scroll;
 }
 
 .sectionContainer {
