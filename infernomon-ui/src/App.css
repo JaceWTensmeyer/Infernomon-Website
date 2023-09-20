@@ -15,11 +15,14 @@
 	font-family: 'Comic Sans MS';
 	/* background-image: linear-gradient(to right, #0c9cee, #591fce, black); */
 	background-image: url('./images/_aiCastle10Big.png');
+	background-size: cover;
+	text-shadow: 1px 5px #591fce;
 }
 
 .tabContainer {
 	text-align: center;
 	/* background-image: linear-gradient(to right, #0c9cee, #591fce, black); */
+	text-shadow: none;
 }
 
 .tab,
@@ -58,6 +61,7 @@
 	padding-bottom: 10px;
 	font-family: 'Comic Sans MS';
 	cursor: pointer;
+	text-shadow: none;
 }
 .hamburgerMenuItem:hover {
 	background-color: #0c9cee;
