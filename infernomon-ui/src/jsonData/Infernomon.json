@@ -1473,7 +1473,7 @@
 		"imageName": "Infernemort.png",
 		"animationScale": 0.4,
 		"number": 50,
-		"description": "This epic demon builds infernal stacks with its attacks.  Once enough stacks have been generated, a demonic aura is generated, greately increasing attack damage.",
+		"description": "This epic demon builds infernal stacks with its attacks.  Once enough stacks have been generated, it surrounds itselft in a demonic aura, greately increasing attack damage.",
 		"rarity": "Epic",
 		"role": "Melee Assassin",
 		"type1": "Arcane",
