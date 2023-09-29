@@ -35,6 +35,8 @@ infernomon.forEach((inf) => {
 					: undefined
 			},
 			rarity: "${inf.rarity}",
+			role: "${inf.role}",
+			attackStyle: "${inf.attackStyle}",
 			evolvesToNumber: [${inf.evolvesToNumber}]
 		} break`;
 	i++;
