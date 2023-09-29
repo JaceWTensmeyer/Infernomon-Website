@@ -23,7 +23,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 4,
 			naturalAttack3Id: 5,
 			recipe: [60,40,0,0,0,57,43,42,58],
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [2]
 		} break
 		case 2: return {
 			name: "Decaynid",
@@ -46,7 +47,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 4,
 			naturalAttack3Id: 5,
 			recipe: undefined,
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [3]
 		} break
 		case 3: return {
 			name: "Festernid",
@@ -69,7 +71,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 4,
 			naturalAttack3Id: 5,
 			recipe: undefined,
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [0]
 		} break
 		case 4: return {
 			name: "Tadliq",
@@ -92,7 +95,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 9,
 			naturalAttack3Id: 10,
 			recipe: [40,10,0,0,50,50,50,59,41],
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [5]
 		} break
 		case 5: return {
 			name: "Croakanoc",
@@ -115,7 +119,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 9,
 			naturalAttack3Id: 10,
 			recipe: undefined,
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [6]
 		} break
 		case 6: return {
 			name: "Polliwallop",
@@ -138,7 +143,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 9,
 			naturalAttack3Id: 10,
 			recipe: undefined,
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [0]
 		} break
 		case 7: return {
 			name: "Kyropter",
@@ -161,7 +167,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 14,
 			naturalAttack3Id: 15,
 			recipe: [40,60,0,0,0,42,58,42,58],
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [8]
 		} break
 		case 8: return {
 			name: "Kyropturn",
@@ -184,7 +191,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 14,
 			naturalAttack3Id: 15,
 			recipe: undefined,
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [9]
 		} break
 		case 9: return {
 			name: "Kyroptorch",
@@ -207,7 +215,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 14,
 			naturalAttack3Id: 15,
 			recipe: undefined,
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [0]
 		} break
 		case 10: return {
 			name: "Gobclaw",
@@ -230,7 +239,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 19,
 			naturalAttack3Id: 20,
 			recipe: [90,10,0,0,0,68,32,40,60],
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [11]
 		} break
 		case 11: return {
 			name: "Gobelgash",
@@ -253,7 +263,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 19,
 			naturalAttack3Id: 20,
 			recipe: undefined,
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [0]
 		} break
 		case 12: return {
 			name: "Chickipek",
@@ -276,7 +287,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 24,
 			naturalAttack3Id: 25,
 			recipe: [60,40,0,0,0,61,39,47,53],
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [13]
 		} break
 		case 13: return {
 			name: "Cluckbeak",
@@ -299,7 +311,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 24,
 			naturalAttack3Id: 25,
 			recipe: undefined,
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [14]
 		} break
 		case 14: return {
 			name: "Raphook",
@@ -322,7 +335,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 24,
 			naturalAttack3Id: 25,
 			recipe: undefined,
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [0]
 		} break
 		case 15: return {
 			name: "Moukizap",
@@ -345,7 +359,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 30,
 			naturalAttack3Id: 31,
 			recipe: [80,20,0,0,0,66,34,44,56],
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [16]
 		} break
 		case 16: return {
 			name: "Razzolt",
@@ -368,7 +383,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 30,
 			naturalAttack3Id: 31,
 			recipe: undefined,
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [0]
 		} break
 		case 17: return {
 			name: "Ashello",
@@ -391,7 +407,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 35,
 			naturalAttack3Id: 36,
 			recipe: [45,5,50,0,0,70,30,75,25],
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [18]
 		} break
 		case 18: return {
 			name: "Turmog",
@@ -414,7 +431,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 35,
 			naturalAttack3Id: 36,
 			recipe: undefined,
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [19]
 		} break
 		case 19: return {
 			name: "Tankaino",
@@ -437,7 +455,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 35,
 			naturalAttack3Id: 36,
 			recipe: undefined,
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [0]
 		} break
 		case 20: return {
 			name: "Incanimp",
@@ -460,7 +479,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 40,
 			naturalAttack3Id: 41,
 			recipe: [5,95,0,0,0,32,68,36,64],
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [21]
 		} break
 		case 21: return {
 			name: "Sorcerimp",
@@ -483,7 +503,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 40,
 			naturalAttack3Id: 41,
 			recipe: undefined,
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [22]
 		} break
 		case 22: return {
 			name: "Arcanimp",
@@ -506,7 +527,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 40,
 			naturalAttack3Id: 41,
 			recipe: undefined,
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [0]
 		} break
 		case 23: return {
 			name: "Hogrosh",
@@ -529,7 +551,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 45,
 			naturalAttack3Id: 46,
 			recipe: [45,5,50,0,0,63,37,61,39],
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [24]
 		} break
 		case 24: return {
 			name: "Boaroke",
@@ -552,7 +575,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 45,
 			naturalAttack3Id: 46,
 			recipe: undefined,
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [0]
 		} break
 		case 25: return {
 			name: "Genashroom",
@@ -575,7 +599,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 50,
 			naturalAttack3Id: 51,
 			recipe: [10,40,0,50,0,38,62,57,43],
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [26]
 		} break
 		case 26: return {
 			name: "Juvashroom",
@@ -598,7 +623,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 50,
 			naturalAttack3Id: 51,
 			recipe: undefined,
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [0]
 		} break
 		case 27: return {
 			name: "Anuband",
@@ -621,7 +647,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 55,
 			naturalAttack3Id: 56,
 			recipe: [30,70,0,0,0,34,66,52,48],
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [28]
 		} break
 		case 28: return {
 			name: "Anujak",
@@ -644,7 +671,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 55,
 			naturalAttack3Id: 56,
 			recipe: undefined,
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [0]
 		} break
 		case 29: return {
 			name: "Gnawzer",
@@ -667,7 +695,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 60,
 			naturalAttack3Id: 61,
 			recipe: [70,30,0,0,0,60,40,50,50],
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [30]
 		} break
 		case 30: return {
 			name: "Allizok",
@@ -690,7 +719,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 60,
 			naturalAttack3Id: 61,
 			recipe: undefined,
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [31]
 		} break
 		case 31: return {
 			name: "Crawzerk",
@@ -713,7 +743,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 60,
 			naturalAttack3Id: 61,
 			recipe: undefined,
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [0]
 		} break
 		case 32: return {
 			name: "Minoosmog",
@@ -736,7 +767,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 65,
 			naturalAttack3Id: 66,
 			recipe: [40,10,50,0,0,38,62,72,28],
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [33]
 		} break
 		case 33: return {
 			name: "Aboomog",
@@ -759,7 +791,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 65,
 			naturalAttack3Id: 66,
 			recipe: undefined,
-			rarity: "Common"
+			rarity: "Common",
+			evolvesToNumber: [0]
 		} break
 		case 34: return {
 			name: "Lankyank",
@@ -782,7 +815,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 71,
 			naturalAttack3Id: 72,
 			recipe: [40,10,0,0,50,58,42,54,46],
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [0]
 		} break
 		case 35: return {
 			name: "Slissirt",
@@ -805,7 +839,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 76,
 			naturalAttack3Id: 77,
 			recipe: [25,25,0,0,50,43,57,57,43],
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [0]
 		} break
 		case 36: return {
 			name: "Charjamp",
@@ -828,7 +863,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 81,
 			naturalAttack3Id: 82,
 			recipe: [10,40,0,50,0,50,50,62,38],
-			rarity: "Uncommon"
+			rarity: "Uncommon",
+			evolvesToNumber: [0]
 		} break
 		case 37: return {
 			name: "Strixlet",
@@ -851,7 +887,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 86,
 			naturalAttack3Id: 87,
 			recipe: [30,20,0,50,0,42,58,60,40],
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [38]
 		} break
 		case 38: return {
 			name: "Strixume",
@@ -874,7 +911,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 86,
 			naturalAttack3Id: 87,
 			recipe: undefined,
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [0]
 		} break
 		case 39: return {
 			name: "Trolerag",
@@ -897,7 +935,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 91,
 			naturalAttack3Id: 92,
 			recipe: [70,30,0,0,0,66,34,50,50],
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [0]
 		} break
 		case 40: return {
 			name: "Heelound",
@@ -920,7 +959,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 96,
 			naturalAttack3Id: 97,
 			recipe: [50,50,0,0,0,72,28,38,62],
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [41,42]
 		} break
 		case 41: return {
 			name: "Magmound",
@@ -943,7 +983,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 101,
 			naturalAttack3Id: 102,
 			recipe: undefined,
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [0]
 		} break
 		case 42: return {
 			name: "Mistound",
@@ -966,7 +1007,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 106,
 			naturalAttack3Id: 107,
 			recipe: undefined,
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [0]
 		} break
 		case 43: return {
 			name: "Orgrot",
@@ -989,7 +1031,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 111,
 			naturalAttack3Id: 112,
 			recipe: [45,5,50,0,0,57,43,77,23],
-			rarity: "Rare"
+			rarity: "Rare",
+			evolvesToNumber: [0]
 		} break
 		case 44: return {
 			name: "Elembolt",
@@ -1012,7 +1055,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 116,
 			naturalAttack3Id: 117,
 			recipe: [40,60,0,0,0,41,59,47,53],
-			rarity: "Legendary"
+			rarity: "Legendary",
+			evolvesToNumber: [0]
 		} break
 		case 45: return {
 			name: "Elemquake",
@@ -1035,7 +1079,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 122,
 			naturalAttack3Id: 123,
 			recipe: [60,40,0,0,0,51,49,50,50],
-			rarity: "Legendary"
+			rarity: "Legendary",
+			evolvesToNumber: [0]
 		} break
 		case 46: return {
 			name: "Elemgale",
@@ -1058,7 +1103,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 127,
 			naturalAttack3Id: 128,
 			recipe: [40,60,0,0,0,55,45,50,50],
-			rarity: "Legendary"
+			rarity: "Legendary",
+			evolvesToNumber: [0]
 		} break
 		case 47: return {
 			name: "Serpatox",
@@ -1081,7 +1127,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 133,
 			naturalAttack3Id: 135,
 			recipe: [40,60,0,0,0,40,60,54,46],
-			rarity: "Legendary"
+			rarity: "Legendary",
+			evolvesToNumber: [48]
 		} break
 		case 48: return {
 			name: "Lixlime",
@@ -1104,7 +1151,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 133,
 			naturalAttack3Id: 135,
 			recipe: undefined,
-			rarity: "Legendary"
+			rarity: "Legendary",
+			evolvesToNumber: [49]
 		} break
 		case 49: return {
 			name: "Ptearonox",
@@ -1127,7 +1175,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 133,
 			naturalAttack3Id: 135,
 			recipe: undefined,
-			rarity: "Legendary"
+			rarity: "Legendary",
+			evolvesToNumber: [0]
 		} break
 		case 50: return {
 			name: "Infernemort",
@@ -1150,7 +1199,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 139,
 			naturalAttack3Id: 140,
 			recipe: [80,20,0,0,0,56,44,44,56],
-			rarity: "Epic"
+			rarity: "Epic",
+			evolvesToNumber: [0]
 		} break
 		case 51: return {
 			name: "Infernemis",
@@ -1173,7 +1223,8 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 144,
 			naturalAttack3Id: 145,
 			recipe: [25,25,0,0,50,50,50,50,50],
-			rarity: "Epic"
+			rarity: "Epic",
+			evolvesToNumber: [0]
 		} break
 		default: break
 	}

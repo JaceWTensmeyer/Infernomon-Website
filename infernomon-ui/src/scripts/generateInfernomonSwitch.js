@@ -34,7 +34,8 @@ infernomon.forEach((inf) => {
 					? '[' + recipes.find((x) => x.number === i).recipe + ']'
 					: undefined
 			},
-			rarity: "${inf.rarity}"
+			rarity: "${inf.rarity}",
+			evolvesToNumber: [${inf.evolvesToNumber}]
 		} break`;
 	i++;
 });
