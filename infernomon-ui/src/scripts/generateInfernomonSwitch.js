@@ -12,6 +12,7 @@ infernomon.forEach((inf) => {
 		case ${i}: return {
 			name: "${inf.name}",
 			number: _number,
+			description: "${inf.description}",
 			animationScale: ${inf.animationScale},
 			maxExpPoints: 1000000,
 			baseHp: ${inf.hp},
