@@ -1123,7 +1123,7 @@ function GetGenericInfernomonData(_number){
 		case 44: return {
 			name: "Elembolt",
 			number: _number,
-			description: "This Elemental Legendary produces elemental orbs when dealing damage.  Picking up an orb will grant the user a damage buff.",
+			description: "This Elemental produces elemental orbs when dealing damage.  Picking up an orb will grant the user a damage buff.",
 			animationScale: 0.7,
 			maxExpPoints: 1000000,
 			baseHp: 100,
@@ -1141,7 +1141,7 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 116,
 			naturalAttack3Id: 117,
 			recipe: [40,60,0,0,0,41,59,47,53],
-			rarity: "Legendary",
+			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
 			evolvesToNumber: [0]
@@ -1149,7 +1149,7 @@ function GetGenericInfernomonData(_number){
 		case 45: return {
 			name: "Elemquake",
 			number: _number,
-			description: "This Elemental Legendary produces elemental orbs when dealing damage.  Picking up an orb will grant the user a damage buff.",
+			description: "This Elemental produces elemental orbs when dealing damage.  Picking up an orb will grant the user a damage buff.",
 			animationScale: 0.7,
 			maxExpPoints: 1000000,
 			baseHp: 130,
@@ -1167,7 +1167,7 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 122,
 			naturalAttack3Id: 123,
 			recipe: [60,40,0,0,0,51,49,50,50],
-			rarity: "Legendary",
+			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Melee",
 			evolvesToNumber: [0]
@@ -1175,7 +1175,7 @@ function GetGenericInfernomonData(_number){
 		case 46: return {
 			name: "Elemgale",
 			number: _number,
-			description: "This Elemental Legendary produces elemental orbs when dealing damage.  Picking up an orb will grant the user a damage buff.",
+			description: "This Elemental produces elemental orbs when dealing damage.  Picking up an orb will grant the user a damage buff.",
 			animationScale: 0.7,
 			maxExpPoints: 1000000,
 			baseHp: 100,
@@ -1193,7 +1193,7 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 127,
 			naturalAttack3Id: 128,
 			recipe: [40,60,0,0,0,55,45,50,50],
-			rarity: "Legendary",
+			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
 			evolvesToNumber: [0]
@@ -1201,7 +1201,7 @@ function GetGenericInfernomonData(_number){
 		case 47: return {
 			name: "Serpatox",
 			number: _number,
-			description: "This legendary reptile evolution family drenches its enemies in a flamable venom and the burns them with its extremely hot breath.",
+			description: "This reptile evolution family drenches its enemies in a flamable venom and the burns them with its extremely hot breath.",
 			animationScale: 0.3,
 			maxExpPoints: 1000000,
 			baseHp: 65,
@@ -1219,7 +1219,7 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 133,
 			naturalAttack3Id: 135,
 			recipe: [40,60,0,0,0,40,60,54,46],
-			rarity: "Legendary",
+			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
 			evolvesToNumber: [48]
@@ -1227,7 +1227,7 @@ function GetGenericInfernomonData(_number){
 		case 48: return {
 			name: "Lixlime",
 			number: _number,
-			description: "This legendary reptile evolution family drenches its enemies in a flamable venom and the burns them with its extremely hot breath.",
+			description: "This reptile evolution family drenches its enemies in a flamable venom and the burns them with its extremely hot breath.",
 			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 80,
@@ -1245,7 +1245,7 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 133,
 			naturalAttack3Id: 135,
 			recipe: undefined,
-			rarity: "Legendary",
+			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
 			evolvesToNumber: [49]
@@ -1253,7 +1253,7 @@ function GetGenericInfernomonData(_number){
 		case 49: return {
 			name: "Ptearonox",
 			number: _number,
-			description: "This legendary reptile evolution family drenches its enemies in a flamable venom and the burns them with its extremely hot breath.",
+			description: "This reptile evolution family drenches its enemies in a flamable venom and the burns them with its extremely hot breath.",
 			animationScale: 0.6,
 			maxExpPoints: 1000000,
 			baseHp: 115,
@@ -1271,7 +1271,7 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 133,
 			naturalAttack3Id: 135,
 			recipe: undefined,
-			rarity: "Legendary",
+			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
 			evolvesToNumber: [0]
@@ -1279,7 +1279,7 @@ function GetGenericInfernomonData(_number){
 		case 50: return {
 			name: "Infernemort",
 			number: _number,
-			description: "This epic demon builds infernal stacks with its attacks.  Once enough stacks have been generated, it surrounds itselft in a demonic aura, greately increasing attack damage.",
+			description: "This legendary demon builds infernal stacks with its attacks.  Once enough stacks have been generated, it surrounds itselft in a demonic aura, greately increasing attack damage.",
 			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 125,
@@ -1297,7 +1297,7 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 139,
 			naturalAttack3Id: 140,
 			recipe: [80,20,0,0,0,56,44,44,56],
-			rarity: "Epic",
+			rarity: "Legendary",
 			role: "Assassin",
 			attackStyle: "Melee",
 			evolvesToNumber: [0]
@@ -1305,7 +1305,7 @@ function GetGenericInfernomonData(_number){
 		case 51: return {
 			name: "Infernemis",
 			number: _number,
-			description: "This epic friendly monster adapts to any situation, giving its attacks the same elemental typing as its acquired attack.",
+			description: "This legendary friendly monster adapts to any situation, giving its attacks the same elemental typing as its acquired attack.",
 			animationScale: 0.4,
 			maxExpPoints: 1000000,
 			baseHp: 120,
@@ -1323,7 +1323,7 @@ function GetGenericInfernomonData(_number){
 			naturalAttack2Id: 144,
 			naturalAttack3Id: 145,
 			recipe: [25,25,0,0,50,50,50,50,50],
-			rarity: "Epic",
+			rarity: "Legendary",
 			role: "Utility",
 			attackStyle: "Range",
 			evolvesToNumber: [0]

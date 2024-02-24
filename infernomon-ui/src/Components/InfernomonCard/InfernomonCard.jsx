@@ -43,9 +43,9 @@ const getRarityColor = (rarity) => {
 			return '#47f566';
 		case 'Rare':
 			return '#4ab1ff';
-		case 'Legendary':
-			return '#ab32e6';
 		case 'Epic':
+			return '#ab32e6';
+		case 'Legendary':
 			return '#f5ce4e';
 		default:
 		// code block
