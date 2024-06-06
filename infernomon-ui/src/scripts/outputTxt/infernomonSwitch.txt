@@ -26,7 +26,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [2]
+			evolvesToNumber: [2],
+			evolutionLevel: 18
 		} break
 		case 2: return {
 			name: "Decaynid",
@@ -52,7 +53,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [3]
+			evolvesToNumber: [3],
+			evolutionLevel: 32
 		} break
 		case 3: return {
 			name: "Festernid",
@@ -78,7 +80,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 4: return {
 			name: "Tadliq",
@@ -104,7 +107,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Utility",
 			attackStyle: "Melee",
-			evolvesToNumber: [5]
+			evolvesToNumber: [5],
+			evolutionLevel: 16
 		} break
 		case 5: return {
 			name: "Croakanoc",
@@ -130,7 +134,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Utility",
 			attackStyle: "Melee",
-			evolvesToNumber: [6]
+			evolvesToNumber: [6],
+			evolutionLevel: 34
 		} break
 		case 6: return {
 			name: "Polliwallop",
@@ -156,7 +161,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Utility",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 7: return {
 			name: "Kyropter",
@@ -182,7 +188,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [8]
+			evolvesToNumber: [8],
+			evolutionLevel: 14
 		} break
 		case 8: return {
 			name: "Kyropturn",
@@ -208,7 +215,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [9]
+			evolvesToNumber: [9],
+			evolutionLevel: 36
 		} break
 		case 9: return {
 			name: "Kyroptorch",
@@ -234,7 +242,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 10: return {
 			name: "Gobclaw",
@@ -260,7 +269,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [11]
+			evolvesToNumber: [11],
+			evolutionLevel: 20
 		} break
 		case 11: return {
 			name: "Gobelgash",
@@ -286,7 +296,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 12: return {
 			name: "Chickipek",
@@ -312,7 +323,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [13]
+			evolvesToNumber: [13],
+			evolutionLevel: 14
 		} break
 		case 13: return {
 			name: "Cluckbeak",
@@ -338,7 +350,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [14]
+			evolvesToNumber: [14],
+			evolutionLevel: 28
 		} break
 		case 14: return {
 			name: "Raphook",
@@ -364,7 +377,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 15: return {
 			name: "Moukizap",
@@ -390,7 +404,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [16]
+			evolvesToNumber: [16],
+			evolutionLevel: 22
 		} break
 		case 16: return {
 			name: "Razzolt",
@@ -416,7 +431,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 17: return {
 			name: "Ashello",
@@ -442,7 +458,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Tank",
 			attackStyle: "Melee",
-			evolvesToNumber: [18]
+			evolvesToNumber: [18],
+			evolutionLevel: 15
 		} break
 		case 18: return {
 			name: "Turmog",
@@ -468,7 +485,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Tank",
 			attackStyle: "Melee",
-			evolvesToNumber: [19]
+			evolvesToNumber: [19],
+			evolutionLevel: 30
 		} break
 		case 19: return {
 			name: "Tankaino",
@@ -494,7 +512,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Tank",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 20: return {
 			name: "Incanimp",
@@ -520,7 +539,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [21]
+			evolvesToNumber: [21],
+			evolutionLevel: 16
 		} break
 		case 21: return {
 			name: "Sorcerimp",
@@ -546,7 +566,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [22]
+			evolvesToNumber: [22],
+			evolutionLevel: 32
 		} break
 		case 22: return {
 			name: "Arcanimp",
@@ -572,7 +593,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 23: return {
 			name: "Hogrosh",
@@ -598,7 +620,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Tank",
 			attackStyle: "Melee",
-			evolvesToNumber: [24]
+			evolvesToNumber: [24],
+			evolutionLevel: 24
 		} break
 		case 24: return {
 			name: "Boaroke",
@@ -624,7 +647,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Tank",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 25: return {
 			name: "Genashroom",
@@ -650,7 +674,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Support",
 			attackStyle: "Range",
-			evolvesToNumber: [26]
+			evolvesToNumber: [26],
+			evolutionLevel: 22
 		} break
 		case 26: return {
 			name: "Juvashroom",
@@ -676,7 +701,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Support",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 27: return {
 			name: "Anuband",
@@ -702,7 +728,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [28]
+			evolvesToNumber: [28],
+			evolutionLevel: 18
 		} break
 		case 28: return {
 			name: "Anujak",
@@ -728,7 +755,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 29: return {
 			name: "Gnawzer",
@@ -754,7 +782,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [30]
+			evolvesToNumber: [30],
+			evolutionLevel: 14
 		} break
 		case 30: return {
 			name: "Allizok",
@@ -780,7 +809,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [31]
+			evolvesToNumber: [31],
+			evolutionLevel: 28
 		} break
 		case 31: return {
 			name: "Crawzerk",
@@ -806,7 +836,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 32: return {
 			name: "Minoosmog",
@@ -832,7 +863,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Tank",
 			attackStyle: "Melee",
-			evolvesToNumber: [33]
+			evolvesToNumber: [33],
+			evolutionLevel: 22
 		} break
 		case 33: return {
 			name: "Aboomog",
@@ -858,7 +890,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Common",
 			role: "Tank",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 34: return {
 			name: "Lankyank",
@@ -884,7 +917,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Utility",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 35: return {
 			name: "Slissirt",
@@ -910,7 +944,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Utility",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 36: return {
 			name: "Charjamp",
@@ -936,7 +971,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Uncommon",
 			role: "Support",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 37: return {
 			name: "Strixlet",
@@ -962,7 +998,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Support",
 			attackStyle: "Range",
-			evolvesToNumber: [38]
+			evolvesToNumber: [38],
+			evolutionLevel: 40
 		} break
 		case 38: return {
 			name: "Strixume",
@@ -988,7 +1025,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Support",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 39: return {
 			name: "Trolerag",
@@ -1014,7 +1052,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 40: return {
 			name: "Heelound",
@@ -1040,7 +1079,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [41,42]
+			evolvesToNumber: [41,42],
+			evolutionLevel: 0
 		} break
 		case 41: return {
 			name: "Magmound",
@@ -1066,7 +1106,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 42: return {
 			name: "Mistound",
@@ -1092,7 +1133,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 43: return {
 			name: "Orgrot",
@@ -1118,7 +1160,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Rare",
 			role: "Tank",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 44: return {
 			name: "Elembolt",
@@ -1144,7 +1187,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 45: return {
 			name: "Elemquake",
@@ -1170,7 +1214,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 46: return {
 			name: "Elemgale",
@@ -1196,7 +1241,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 47: return {
 			name: "Serpatox",
@@ -1222,7 +1268,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [48]
+			evolvesToNumber: [48],
+			evolutionLevel: 30
 		} break
 		case 48: return {
 			name: "Lixlime",
@@ -1248,7 +1295,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [49]
+			evolvesToNumber: [49],
+			evolutionLevel: 55
 		} break
 		case 49: return {
 			name: "Ptearonox",
@@ -1274,7 +1322,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Epic",
 			role: "Assassin",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 50: return {
 			name: "Infernemort",
@@ -1300,7 +1349,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Legendary",
 			role: "Assassin",
 			attackStyle: "Melee",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		case 51: return {
 			name: "Infernemis",
@@ -1326,7 +1376,8 @@ function GetGenericInfernomonData(_number){
 			rarity: "Legendary",
 			role: "Utility",
 			attackStyle: "Range",
-			evolvesToNumber: [0]
+			evolvesToNumber: [0],
+			evolutionLevel: 0
 		} break
 		default: break
 	}
