@@ -1043,7 +1043,7 @@
 	{
 		"id": 66,
 		"attackCategory": "Natural",
-		"damageCategory": "Physical",
+		"damageCategory": "Special",
 		"name": "Gas Slam",
 		"description": "Slam all targets surrounding you and generate threat.",
 		"castType": "Circle",
