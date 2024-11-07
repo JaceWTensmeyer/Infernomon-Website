@@ -528,7 +528,7 @@
 		"description": "Chance to burn target",
 		"castType": "Target",
 		"castDuration": 0,
-		"range": 8,
+		"range": 2,
 		"type": "Fire",
 		"damage": 20,
 		"cooldown": 2.6,
