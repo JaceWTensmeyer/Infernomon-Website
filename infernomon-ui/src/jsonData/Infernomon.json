@@ -1226,7 +1226,7 @@
 		"naturalAttack1Id": 95,
 		"naturalAttack2Id": 96,
 		"naturalAttack3Id": 97,
-		"evolutionLevel": 0,
+		"evolutionLevel": 25,
 		"evolvesToNumber": [41, 42],
 		"hp": 55,
 		"attack": 85,
